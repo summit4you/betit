@@ -13,7 +13,7 @@ betit
 	*	[通知列表接口](#通知列表接口)
 	*	[私信列表接口](#私信列表接口)
 	*	[私信详情](#私信详情)
-	*	[好友排行榜接口]
+	*	[好友排行榜接口](#好友排行榜接口)
 	*	[热门打赌排行榜接口]
 	*	[我的个人信息]
 	*	[打赌详情]
@@ -234,6 +234,47 @@ capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&m_auth=55dalDuJytwH
 #### 样例
 	{"code":0,"data":{"pms":[{"pmid":"3","msgfrom":"aifaxian","msgfromid":"1","msgtoid":"12","folder":"inbox","new":"1","subject":"你好啊","dateline":"03-09 18:04",
 	"message":"你好啊","delstatus":"0","related":"1","fromappid":"1","daterange":5}],"count":1},"msg":"数据获取成功","action":"rest_success"}
+
+<h2>好友排行榜接口</h2>
+capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj
+#### 请求参数
+	* 当前用户id -- uid
+	* API密钥 -- m_auth, 由登录后返回
+
+#### 返回字段
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[friends]，好友列表， 条目字段如下(类似于[登录](#登录)返回的空间信息
+			* groupid -- 所在用户组（级别）
+			* credit -- 金币
+			* experience -- 经验
+			* username -- 用户名
+			* name -- 实名
+			* namestatus -- 是否实名
+			* videostatus -- 是否视频认证
+			* friendnum -- 好友数
+			* viewnum -- 浏览次数
+			* notenum -- 通知数
+			* addfriendnum -- 关注数
+			* doingnum -- 心情数
+			* lastpost -- 最新提交时间
+			* lastlogin -- 最新登录时间
+			* attachsize -- 空间大小
+			* flag -- 是否被禁
+			* newpm -- 是否有新通知
+			* avatar -- 个人头像
+			* quiznum -- 发布的打赌数
+			* winnum -- 赢的次数
+			* lostnum -- 输的次数
+			* voternum -- 参加打赌的次数
+		* data[count], 返回列表条目数, 便用遍历
+
+#### 样例
+	{"code":0,"data":{"friends":{"7":{"uid":"7","groupid":"11","credit":"1800","experience":"2000","username":"test2","name":"","namestatus":"0","videostatus":"0",
+	"domain":"","friendnum":"1","viewnum":"4","notenum":"6","addfriendnum":"0","mtaginvitenum":"0","eventinvitenum":"0","myinvitenum":"0","pokenum":"0",
+	"doingnum":"0","blognum":"0","albumnum":"0","threadnum":"0","pollnum":"0","eventnum":"0","sharenum":"0","dateline":"1343973929","updatetime":"1343974426",
+	"lastsearch":"0","lastpost":"1343974426","lastlogin":"1343974880","lastsend":"0","attachsize":"0","addsize":"0","addfriend":"0","flag":"0","newpm":"0",
+	"avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0","quiznum":"1","winnum":"0","lostnum":"0","voternum":"1","resideprovince":"","residecity":"",
+	"note":"","spacenote":"","sex":"0","gid":"0","num":"6","p":"","c":"","group":"其他","isfriend":1}},"count":1},"msg":"数据获取成功","action":"rest_success"}
 
 <h2>登录</h2>
 capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
