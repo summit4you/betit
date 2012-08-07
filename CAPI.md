@@ -11,7 +11,7 @@ betit
 	*	[好友动态列表接口](#好友动态列表接口)
 	*	[全部打赌列表接口](#全站动态列表接口)
 	*	[通知列表接口](#通知列表接口)
-	*	[私信列表接口]
+	*	[私信列表接口](#私信列表接口)
 	*	[私信详情]
 	*	[好友排行榜接口]
 	*	[热门打赌排行榜接口]
@@ -152,13 +152,48 @@ betit
 			* dateline -- 时间
 		* data[count], 返回列表条目数, 便用遍历
 #### 样例
-{"code":0,"data":{"notice":[{"id":"124","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit","note":"恭喜你在 
-<a href=\"space.php?uid=5&do=quiz&id=53\" target=\"_blank\">《234444444444444444》<\/a>的悬赏打赌中得胜，获得金币20。","dateline":"1344236803","isfriend":1,
-"style":""},{"id":"122","uid":"5","type":"quizlost","new":"0","authorid":"5","author":"summit","note":"很不幸你在 <a href=\"space.php?uid=5&do=quiz&id=52\" 
-target=\"_blank\">《测试优惠券》<\/a>的悬赏打赌中没有获胜，输了打赌20，请继续努力o~下次得奖的就是你！","dateline":"1344236757","isfriend":1,"style":""},
-{"id":"120","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit","note":"恭喜你在 <a href=\"space.php?uid=5&do=quiz&id=51\" target=\"_blank\">
-《34》<\/a>的悬赏打赌中得胜，获得金币20。","dateline":"1344236043","isfriend":1,"style":""},{"id":"118","uid":"5","type":"quizwin","new":"0","authorid":"5",
-"author":"summit","note":"恭喜你在 <a href=\"space.php?uid=5&do=quiz&id=50\" target=\"_blank\">《123》<\/a>的悬赏打赌中得胜，获得金币20。","dateline":"1344235975",
-"isfriend":1,"style":""},{"id":"116","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit",
-"note":"恭喜你在 <a href=\"space.php?uid=5&do=quiz&id=49\" target=\"_blank\">《测试优惠券》<\/a>的悬赏打赌中得胜，获得金币40。","dateline":"1344235733","isfriend":1,
-"style":""}],"count":5},"msg":"数据获取成功","action":"rest_success"}
+	{"code":0,"data":{"notice":[{"id":"124","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit","note":"恭喜你在 
+	<a href=\"space.php?uid=5&do=quiz&id=53\" target=\"_blank\">《234444444444444444》<\/a>的悬赏打赌中得胜，获得金币20。","dateline":"1344236803","isfriend":1,
+	"style":""},{"id":"122","uid":"5","type":"quizlost","new":"0","authorid":"5","author":"summit","note":"很不幸你在 <a href=\"space.php?uid=5&do=quiz&id=52\" 
+	target=\"_blank\">《测试优惠券》<\/a>的悬赏打赌中没有获胜，输了打赌20，请继续努力o~下次得奖的就是你！","dateline":"1344236757","isfriend":1,"style":""},
+	{"id":"120","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit","note":"恭喜你在 <a href=\"space.php?uid=5&do=quiz&id=51\" target=\"_blank\">
+	《34》<\/a>的悬赏打赌中得胜，获得金币20。","dateline":"1344236043","isfriend":1,"style":""},{"id":"118","uid":"5","type":"quizwin","new":"0","authorid":"5",
+	"author":"summit","note":"恭喜你在 <a href=\"space.php?uid=5&do=quiz&id=50\" target=\"_blank\">《123》<\/a>的悬赏打赌中得胜，获得金币20。","dateline":"1344235975",
+	"isfriend":1,"style":""},{"id":"116","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit",
+	"note":"恭喜你在 <a href=\"space.php?uid=5&do=quiz&id=49\" target=\"_blank\">《测试优惠券》<\/a>的悬赏打赌中得胜，获得金币40。","dateline":"1344235733","isfriend":1,
+	"style":""}],"count":5},"msg":"数据获取成功","action":"rest_success"}
+
+<h2>私信列表接口</h2>
+capi/space.php?do=pm&start=0&prepage=2&uid=1&filter=newpm
+#### 请求参数
+	* 当前用户id -- uid
+	* 第几页 -- start
+	* 每页显示数量  -- perpage
+	* 私信类型 -- filter
+		* newpm -- 未读私信
+		* privatepm -- 私人消息
+		* systempm -- 系统消息
+		* announcepm -- 公共消息
+		* 空 -- 私人消息
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[pms]，私信列表， 条目字段如下
+			* pmid -- 私信id
+			* msgfrom -- 消息发送人
+			* msgfromid -- 消息发送人id
+			* msgtoid -- 消息接收人id
+			* authorid -- 发送通知的用户
+			* new -- 是否未读
+			* subject -- 私信标题
+			* message -- 私信内容
+			* delstatus -- 删除状态
+			* fromappid -- 应用程序ID，可以忽略
+			* dateline -- 时间
+			* daterange -- 消息相隔的天数，1代表1天内，2代表两天内，3代表3天内
+		* data[count], 返回列表条目数, 便用遍历
+#### 样例
+	{"code":0,"data":{"pms":[{"pmid":"7","msgfrom":"admin","msgfromid":"1","msgtoid":"5","new":"1","subject":"你好summit","dateline":"08-07 07:33","message":"你好summit",
+	"delstatus":"0","related":"0","fromappid":"1","daterange":1,"touid":"1"}],"count":1},"msg":"数据获取成功","action":"rest_success"}
