@@ -12,7 +12,7 @@ betit
 	*	[全部打赌列表接口](#全站动态列表接口)
 	*	[通知列表接口](#通知列表接口)
 	*	[私信列表接口](#私信列表接口)
-	*	[私信详情]
+	*	[私信详情](#私信详情)
 	*	[好友排行榜接口]
 	*	[热门打赌排行榜接口]
 	*	[我的个人信息]
@@ -24,7 +24,7 @@ betit
 
 * 上行接口
 	*	[注册]
-	*	[登录]
+	*	[登录](#登录)
 	*	[发布打赌]
 	*	[参与打赌]
 	*	[撰写评论]
@@ -37,12 +37,13 @@ betit
 --------
 
 <h2>好友动态列表接口</h2>
-/capi/space.php?do=feed&uid=1&start=0&perpage=10&view=we
+/capi/space.php?do=feed&uid=1&start=0&perpage=10&view=we&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- start
 	* 每页显示数量  -- perpage
 	* 查询参数 -- view, 值为we代表好友动态列表
+	* API密钥 -- m_auth, 由登录后返回
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
@@ -79,12 +80,13 @@ betit
 	"msg":"数据获取成功","action":"rest_success"}
 
 <h2>全站动态列表接口</h2>
-/capi/space.php?do=feed&uid=1&start=0&perpage=10&view=all
+/capi/space.php?do=feed&uid=1&start=0&perpage=10&view=all&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- start
 	* 每页显示数量  -- perpage
 	* 查询参数 -- view, 值为all代表全站动态列表
+	* API密钥 -- m_auth, 由登录后返回
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
@@ -121,7 +123,7 @@ betit
 	"msg":"数据获取成功","action":"rest_success"}
 
 <h2>通知列表接口</h2>
-/capi/space.php?do=notice&start=0&prepage=2&uid=1&type=quizinvalid
+/capi/space.php?do=notice&start=0&prepage=2&uid=1&type=quizinvalid&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- start
@@ -136,6 +138,7 @@ betit
 		* quizinvalid -- 打赌流失
 		* credit -- 金币
 		* 空 -- 代表全部通知
+	* API密钥 -- m_auth, 由登录后返回
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
@@ -164,7 +167,7 @@ betit
 	"style":""}],"count":5},"msg":"数据获取成功","action":"rest_success"}
 
 <h2>私信列表接口</h2>
-capi/space.php?do=pm&start=0&prepage=2&uid=1&filter=newpm
+capi/space.php?do=pm&start=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- start
@@ -175,6 +178,7 @@ capi/space.php?do=pm&start=0&prepage=2&uid=1&filter=newpm
 		* systempm -- 系统消息
 		* announcepm -- 公共消息
 		* 空 -- 私人消息
+	* API密钥 -- m_auth, 由登录后返回
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
@@ -197,3 +201,79 @@ capi/space.php?do=pm&start=0&prepage=2&uid=1&filter=newpm
 #### 样例
 	{"code":0,"data":{"pms":[{"pmid":"7","msgfrom":"admin","msgfromid":"1","msgtoid":"5","new":"1","subject":"你好summit","dateline":"08-07 07:33","message":"你好summit",
 	"delstatus":"0","related":"0","fromappid":"1","daterange":1,"touid":"1"}],"count":1},"msg":"数据获取成功","action":"rest_success"}
+
+<h2>私信详情</h2>
+capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+#### 请求参数
+	* 消息送至的用户id -- touid
+	* 检索消息的区间（几天之内的） -- daterange
+	* 消息id -- pmid
+	* 操作参数 -- subop, 必须为view
+	* API密钥 -- m_auth, 由登录后返回
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[pms]，私信列表， 条目字段如下
+			* pmid -- 私信id
+			* msgfrom -- 消息发送人
+			* msgfromid -- 消息发送人id
+			* msgtoid -- 消息接收人id
+			* authorid -- 发送通知的用户
+			* new -- 是否未读
+			* subject -- 私信标题
+			* message -- 私信内容
+			* delstatus -- 删除状态
+			* fromappid -- 应用程序ID，可以忽略
+			* dateline -- 时间
+			* daterange -- 消息相隔的天数，1代表1天内，2代表两天内，3代表3天内
+		* data[count], 返回列表条目数, 便用遍历
+
+#### 样例
+	{"code":0,"data":{"pms":[{"pmid":"3","msgfrom":"aifaxian","msgfromid":"1","msgtoid":"12","folder":"inbox","new":"1","subject":"你好啊","dateline":"03-09 18:04",
+	"message":"你好啊","delstatus":"0","related":"1","fromappid":"1","daterange":5}],"count":1},"msg":"数据获取成功","action":"rest_success"}
+
+<h2>登录</h2>
+capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
+#### 请求参数
+	* 用户名 -- username
+	* 密码 -- password
+	* 提交类型 -- loginsubmit， 必须为true
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+	* 用户空间信息 -- space
+		* groupid -- 所在用户组（级别）
+		* credit -- 金币
+		* experience -- 经验
+		* username -- 用户名
+		* name -- 实名
+		* namestatus -- 是否实名
+		* videostatus -- 是否视频认证
+		* friendnum -- 好友数
+		* viewnum -- 浏览次数
+		* notenum -- 通知数
+		* addfriendnum -- 关注数
+		* doingnum -- 心情数
+		* lastpost -- 最新提交时间
+		* lastlogin -- 最新登录时间
+		* attachsize -- 空间大小
+		* flag -- 是否被禁
+		* newpm -- 是否有新通知
+		* avatar -- 个人头像
+		* quiznum -- 发布的打赌数
+		* winnum -- 赢的次数
+		* lostnum -- 输的次数
+		* voternum -- 参加打赌的次数
+#### 样例
+	{"code":{"space":{"uid":"1","groupid":"11","credit":"2030","experience":"2030","username":"admin","name":"","namestatus":"0","videostatus":"0","domain":"",
+	"friendnum":"0","viewnum":"3","notenum":"0","addfriendnum":"0","doingnum":"0",
+	"blognum":"3","albumnum":"0","threadnum":"0","pollnum":"0","eventnum":"0","sharenum":"0","dateline":"1343725030","updatetime":"1343966557","lastsearch":"0",
+	"lastpost":"1344324792","lastlogin":"1344328793","attachsize":"774822","addsize":"0","addfriend":"0","flag":"0","newpm":"0","avatar":"0",
+	"mood":"0","quiznum":"27","winnum":"2","lostnum":"0","voternum":"10"},
+	"m_auth":"55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0"},"data":[],
+	"msg":"登录成功了，现在引导您进入登录前页面 \\1","action":"login_success"}
