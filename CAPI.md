@@ -14,7 +14,7 @@ betit
 	*	[私信列表接口](#私信列表接口)
 	*	[私信详情](#私信详情)
 	*	[好友排行榜接口](#好友排行榜接口)
-	*	[热门打赌排行榜接口]
+	*	[热门打赌排行榜接口](#热门打赌排行榜接口)
 	*	[我的个人信息]
 	*	[打赌详情]
 	*	[评论列表]
@@ -275,6 +275,49 @@ capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upU
 	"lastsearch":"0","lastpost":"1343974426","lastlogin":"1343974880","lastsend":"0","attachsize":"0","addsize":"0","addfriend":"0","flag":"0","newpm":"0",
 	"avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0","quiznum":"1","winnum":"0","lostnum":"0","voternum":"1","resideprovince":"","residecity":"",
 	"note":"","spacenote":"","sex":"0","gid":"0","num":"6","p":"","c":"","group":"其他","isfriend":1}},"count":1},"msg":"数据获取成功","action":"rest_success"}
+
+<h2>热门打赌排行榜接口</h2>
+capi/space.php?uid=5&do=quiz&start=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
+#### 请求参数
+	* 用户id -- uid
+	* 第几页 -- start
+	* 每页显示数量  -- perpage
+	* 查询参数 -- view, 必须为hot
+	* API密钥 -- m_auth, 由登录后返回
+
+#### 返回字段
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[quizs]，打赌列表， 条目字段如下
+			* 打赌id : quizid
+			* 发布打赌的用户id : uid
+			* 发布打赌的用户名 : username
+			* 打赌标题: subject
+			* 浏览次数: viewnum
+			* 回复次数：replynum
+			* 热度: hot
+			* 时间: dateline
+			* 参与所需金币: joincost
+			* 允许最大投注次数: portion
+			* 截止时间: endtime
+			* 预计公布结果时间: resulttime
+			* 最近一次投票时间: lastvote
+			* 参与打赌的人数: voternum
+			* 答案id: keyoid
+			* 答案: keyoption
+			* 奖金池: totalcost
+		* data[count], 返回列表条目数, 便用遍历
+#### 样例
+	{"code":0,"data":{"quizs":[{"quizid":"48","topicid":"0","uid":"7","username":"test2","subject":"23123","classid":"0","viewnum":"2","replynum":"0","hot":"2",
+	"dateline":"1343974426","pic":"","picflag":"0","noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0",
+	"joincost":"100","portion":"3","endtime":"1344579220","resulttime":"1344582820","lastvote":"1343974888","voternum":"3","maxchoice":"0","sex":"0","keyoid":"0",
+	"keyoption":"","totalcost":"400","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"",
+	"hotuser":"1,5","magiccolor":"0","magicpaper":"0","magiccall":"0","option":["1221","123123"],"invite":"","optioncount":["3","1"]},{"quizid":"49","topicid":"0",
+	"uid":"5","username":"summit","subject":"测试优惠券","classid":"0","viewnum":"1","replynum":"0","hot":"1","dateline":"1344235585","pic":"","picflag":"0",
+	"noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3",
+	"endtime":"1344235733","resulttime":"1344843977","lastvote":"1344235654","voternum":"2","maxchoice":"0","sex":"0","keyoid":"95","keyoption":"23",
+	"totalcost":"120","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"1",
+	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":["23","2"],"invite":"","optioncount":["4","2"]}],"count":2},"msg":"数据获取成功",
+	"action":"rest_success"}
 
 <h2>登录</h2>
 capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
