@@ -16,7 +16,7 @@ betit
 	*	[好友排行榜接口](#好友排行榜接口)
 	*	[热门打赌排行榜接口](#热门打赌排行榜接口)
 	*	[我的个人信息](#我的个人信息)
-	*	[打赌详情]
+	*	[打赌详情](#打赌详情)
 	*	[评论列表]
 	*	[搜索打赌]
 	*	[搜索好友]
@@ -380,6 +380,53 @@ capi/cp.php?ac=profile&m_auth=65e8JkX8RscU2y2pYZEVdcZrja2YOr2QXuhbPBCHzLAw
 	"addfriendnum":"0","doingnum":"0","sharenum":"0","dateline":"1343789930","updatetime":"1344237052","lastsearch":"0","lastpost":"1344324259","lastlogin":"1344395688",
 	"lastsend":"0","attachsize":"0","addsize":"0","addfriend":"0","flag":"0","newpm":"0","avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0",
 	"quiznum":"8","winnum":"4","lostnum":"1","voternum":"7","self":1,"friends":["7"],"allnotenum":0}},"msg":"数据获取成功","action":"rest_success"}
+
+<h2>打赌详情</h2>
+capi/space.php?do=quiz&id=54&uid=5&m_auth=af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2ibMM1tNHXaHYweU%2B8hsBHobKzgHFJs
+
+#### 请求参数
+	* 打赌id -- id
+	* 发布此打赌的用户id -- uid
+	* API密钥 -- m_auth, 由登录后返回
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回一个数据
+		* data[quiz], 打赌详情，具体内容如下
+			* 打赌id -- quizid
+			* 发布打赌用户id -- uid
+			* 最热用户 -- hotuser
+			* 发布时间 -- dateline
+			* 投一注所需金币 -- joincost
+			* 用户最大投注数 -- portion
+			* 截止投注时间 -- endtime
+			* 预计公布结果时间 -- resulttime
+			* 最近一次投注时间 -- lastvote
+			* 当前累计投注 -- voternum
+			* 奖金池 -- totalcost
+			* 是否已经提醒过 -- hasremind
+			* 是否已经超期 -- hasexceed
+			* 答案选项id -- keyoid
+			* 答案 -- keyoption
+			* 选项数组 -- options，具体内容如下：
+				* 选项id -- oid
+				* 所属竞猜 -- quizid
+				* 用户id -- uid
+				* 选项 -- option, 文本描述
+				* 相片id -- picid
+				* 相片路径 -- pic
+				* 投注人数 -- votenum
+				* 投注占总投注百分比 -- percent
+
+#### 样例
+	{"code":0,"data":{"quiz":{"quizid":"54","uid":"5","hotuser":"","option":"a:2:{i:0;s:2:\"12\";i:1;s:1:\"3\";}","invite":"","topicid":"0","username":"summit",
+	"subject":"测试优惠券","classid":"0","viewnum":"0","replynum":"0","hot":"0","dateline":"1344237052","pic":"","picflag":"0","noreply":"0",
+	"friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3","endtime":"1344237071",
+	"resulttime":"1344845443","lastvote":"1344237066","voternum":"1","maxchoice":"0","sex":"0","keyoid":"106","keyoption":"3","totalcost":"60","hasremind":"0",
+	"hasexceed":"0","options":[{"oid":"105","quizid":"54","uid":"5","option":"12","relatedtime":"1344237052","picid":"0","votenum":"2","percent":67,"width":107},
+	{"oid":"106","quizid":"54","uid":"5","option":"3","relatedtime":"1344237052","picid":"0","votenum":"1","percent":33,"width":53}]}},
 
 <h2>登录</h2>
 capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
