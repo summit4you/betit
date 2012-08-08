@@ -15,7 +15,7 @@ betit
 	*	[私信详情](#私信详情)
 	*	[好友排行榜接口](#好友排行榜接口)
 	*	[热门打赌排行榜接口](#热门打赌排行榜接口)
-	*	[我的个人信息]
+	*	[我的个人信息](#我的个人信息)
 	*	[打赌详情]
 	*	[评论列表]
 	*	[搜索打赌]
@@ -242,6 +242,9 @@ capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upU
 	* API密钥 -- m_auth, 由登录后返回
 
 #### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
 	* 结果 -- data, json数组, 本操作返回两个数据
 		* data[friends]，好友列表， 条目字段如下(类似于[登录](#登录)返回的空间信息
 			* groupid -- 所在用户组（级别）
@@ -286,6 +289,9 @@ capi/space.php?uid=5&do=quiz&start=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWo
 	* API密钥 -- m_auth, 由登录后返回
 
 #### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
 	* 结果 -- data, json数组, 本操作返回两个数据
 		* data[quizs]，打赌列表， 条目字段如下
 			* 打赌id : quizid
@@ -318,6 +324,62 @@ capi/space.php?uid=5&do=quiz&start=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWo
 	"totalcost":"120","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"1",
 	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":["23","2"],"invite":"","optioncount":["4","2"]}],"count":2},"msg":"数据获取成功",
 	"action":"rest_success"}
+
+<h2>我的个人信息</h2>
+capi/cp.php?ac=profile&m_auth=65e8JkX8RscU2y2pYZEVdcZrja2YOr2QXuhbPBCHzLAw
+#### 请求参数
+	* API密钥 -- m_auth, 由登录后返回
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回一个数据
+		* data[space], 当前登录用户的信息，具体内容如下
+			* 用户id -- uid
+			* 性别 -- sex, 男取值0， 女取值1
+			* 用户邮箱 -- email
+			* 手机 -- mobile
+			* qq帐号 -- qq
+			* msn帐号 -- msn
+			* weibo帐号 -- weibo
+			* 隐私数组 -- privacy, 由类型区分0代表全站可见
+			* 动态数组 -- feed, 由类型区分
+			* 好友数 -- friend
+			* 动态好友数 -- feedfriend
+			* 金币 -- credit
+			* 信用 -- experience
+			* 用户名 -- username
+			* 实名 -- name
+			* 是否实名 -- namestatus, 1是, 0否
+			* 心情数 -- doingnum
+			* 分享数 -- sharenum
+			* 最近活跃时间 -- dateline
+			* 最近更新时间 -- updatetime
+			* 最近一次搜索时间 -- lastsearch
+			* 最近一次发布时间 -- lastpost
+			* 最近一次登录时间 -- lastlogin
+			* 最近一次发送消息时间 -- lastsend
+			* 是否禁用 -- flag
+			* 是否有新通知 -- newpm
+			* 头像 -- avatar
+			* 登录的ip -- ip
+			* 附件大小 -- attachsize
+			* 发布的打赌数 -- quiznum
+			* 赢的次数 -- winnum
+			* 输的次数 -- lostnum
+			* 参与打赌数 -- voternum
+			* 好友列表id -- friends
+
+			
+#### 样例
+	{"code":0,"data":{"space":{"uid":"5","sex":"0","email":"summit_mail@qq.com","newemail":"","emailcheck":"0","mobile":"","qq":"","msn":"","msnrobot":"",
+	"msncstatus":"0","videopic":"","birthyear":"0","birthmonth":"0","birthday":"0","blood":"","note":"","spacenote":"","authstr":"","theme":"","nocss":"0","menunum":"0","css":"","privacy":{"view":{"index":"0","friend":"0","wall":"0",
+	"feed":"0","doing":"0","quiz":"0","share":"0"},"feed":{"doing":1,"quiz":1,"joinquiz":1,"share":1,"post":1,"join":1,"friend":1,"comment":1,"credit":1,"spaceopen":1,"invite":1,
+	"task":1,"profile":1,"click":1}},"friend":"7","feedfriend":"7","sendmail":"","magicstar":"0","magicexpire":"0","timeoffset":"","weibo":"","groupid":"11",
+	"credit":"2007","experience":"2047","username":"summit","name":"","namestatus":"0","videostatus":"0","domain":"","friendnum":"1","viewnum":"5","notenum":"0",
+	"addfriendnum":"0","doingnum":"0","sharenum":"0","dateline":"1343789930","updatetime":"1344237052","lastsearch":"0","lastpost":"1344324259","lastlogin":"1344395688",
+	"lastsend":"0","attachsize":"0","addsize":"0","addfriend":"0","flag":"0","newpm":"0","avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0",
+	"quiznum":"8","winnum":"4","lostnum":"1","voternum":"7","self":1,"friends":["7"],"allnotenum":0}},"msg":"数据获取成功","action":"rest_success"}
 
 <h2>登录</h2>
 capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
