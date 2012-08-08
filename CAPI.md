@@ -30,7 +30,7 @@ betit
 	*	[发布打赌](#发布打赌)
 	*	[参与打赌](#参与打赌)
 	*	[撰写评论](#撰写评论)
-	*	[发布私信]
+	*	[发布私信](#发布私信)
 	*	[更改头像]
 	*	[更改昵称]
 	*	[编写心情]
@@ -886,3 +886,20 @@ capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=qu
 
 #### 样例
 {"code":0,"data":"do_success","msg":"数据获取成功","action":"rest_success"}
+
+<h2>发布私信</h2>
+capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=你好!summit&pmsubmit=true&m_auth=af9cCEMpQlfFTifZltugadwh
+
+#### 请求参数
+	* 操作类型(固定搭配) -- op: send, touid: 0, pmid: 0, pmsubmit: true,
+	* 接收方的用户名 -- username
+	* 私信内容 -- message
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+
+#### 返回参数
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+
+#### 样例
+{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
