@@ -23,7 +23,8 @@ betit
 	*	[推荐打赌列表](#推荐打赌列表)
 
 * 上行接口
-	*	[注册]
+	*	[获取注册验证码](#获取注册验证码)
+	*	[注册](#注册)
 	*	[登录](#登录)
 	*	[发布打赌]
 	*	[参与打赌]
@@ -565,7 +566,7 @@ capi/cp.php?ac=friend&op=search&page=0&perpage=1&searchkey=admin&searchsubmit=tr
 	"lostnum":"0","voternum":"10","isfriend":1}},"count":1},"msg":"数据获取成功","action":"rest_success"}
 
 <h2>推荐打赌列表</h2>
-#### 注意：[热门打赌排行榜接口](#热门打赌排行榜接口)
+#### 注意：同 [热门打赌排行榜接口](#热门打赌排行榜接口)
 capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
 #### 请求参数
 	* 用户id -- uid
@@ -611,6 +612,83 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWom
 	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":["23","2"],"invite":"","optioncount":["4","2"]}],"count":2},"msg":"数据获取成功",
 	"action":"rest_success"}
 
+******************************
+<h2>获取注册验证码</h2>
+capi/do.php?ac=register&op=seccode
+#### 请求参数
+	* 操作类型 -- op, 必须为seccode
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[seccode_auth] -- 返回的验证码key，在注册时需要传入
+		* data[seccode] -- 验证码
+
+#### 样例
+	{"code":0,"data":{"seccode_auth":"1a6431MIvgvhZZzUPUmCUML%2FtL4rlXrN2R8nL5G3qvta","seccode":"CQ7T"},
+	"msg":"数据获取成功","action":"rest_success"}
+
+<h2>注册</h2>
+/capi/do.php?ac=register&registersubmit=true&username=test4&password=123&password2=123&seccode=cQ7T&m_auth=1a6431MIvgvhZZzUPUmCUML%2FtL4rlXrN2R8nL5G3qvta
+#### 请求参数
+	* 操作参数 -- registersubmit, 必须为true
+	* 用户名 -- username
+	* 用户输入的第一次密码 -- password
+	* 用户输入的确认密码 -- password2
+	* 用户输入的验证码 -- seccode
+	* 生成验证码返回的key -- m_auth
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+	* 用户空间信息 -- space
+		* groupid -- 所在用户组（级别）
+		* credit -- 金币(这里代表注册增加的金币)
+		* experience -- 经验(这里代表注册增加的经验)
+		* username -- 用户名
+		* name -- 实名
+		* namestatus -- 是否实名
+		* videostatus -- 是否视频认证
+		* friendnum -- 好友数
+		* viewnum -- 浏览次数
+		* notenum -- 通知数
+		* addfriendnum -- 关注数
+		* doingnum -- 心情数
+		* lastpost -- 最新提交时间
+		* lastlogin -- 最新登录时间
+		* attachsize -- 空间大小
+		* flag -- 是否被禁
+		* newpm -- 是否有新通知
+		* avatar -- 个人头像
+		* quiznum -- 发布的打赌数
+		* winnum -- 赢的次数
+		* lostnum -- 输的次数
+		* voternum -- 参加打赌的次数
+
+#### 样例
+	{"code":0,"data":{"space":{"uid":"11","sex":"0","email":"test6@betit.cn","newemail":"","emailcheck":"0",
+	"mobile":"","qq":"","msn":"","msnrobot":"","msncstatus":"0","videopic":"","birthyear":"0","birthmonth":"0",
+	"birthday":"0","blood":"","marry":"0","birthprovince":"","birthcity":"","resideprovince":"","residecity":"",
+	"note":"","spacenote":"","authstr":"","theme":"","nocss":"0","menunum":"0","css":"",
+	"privacy":{"view":{"index":"0","friend":"0","wall":"0","feed":"0","mtag":"0","event":"0","doing":"0",
+	"blog":"0","quiz":"0","album":"0","share":"0","poll":"0"},"feed":{"doing":1,"blog":1,"quiz":1,"joinquiz":1,
+	"upload":1,"share":1,"poll":1,"joinpoll":1,"thread":1,"post":1,"mtag":1,"event":1,"join":1,"friend":1,
+	"comment":1,"show":1,"credit":1,"spaceopen":1,"invite":1,"task":1,"profile":1,"click":1}},"friend":"",
+	"feedfriend":"","sendmail":"","magicstar":"0","magicexpire":"0","timeoffset":"","weibo":"","groupid":"0",
+	"credit":"25","experience":"15","username":"test6","name":"","namestatus":"0","videostatus":"0","domain":"",
+	"friendnum":"0","viewnum":"0","notenum":"0","addfriendnum":"0","mtaginvitenum":"0","eventinvitenum":"0",
+	"myinvitenum":"0","pokenum":"0","doingnum":"0","blognum":"0","albumnum":"0","threadnum":"0","pollnum":"0",
+	"eventnum":"0","sharenum":"0","dateline":"1344414070","updatetime":"0","lastsearch":"0","lastpost":"0",
+	"lastlogin":"1344414070","lastsend":"0","attachsize":"0","addsize":"0","addfriend":"0","flag":"0","newpm":"0",
+	"avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0","quiznum":"0","winnum":"0","lostnum":"0",
+	"voternum":"0","self":1,"friends":[],"allnotenum":0},
+	"m_auth":"cf7chDvDIcnUVeupGp4utLftIQEP%2B1rP8eGrGWydH3ITmly6DURpvHCvByCJlE0hEus%2F5Ji%2FqVUrfnd3dHn6%2BA"},
+	"msg":"注册成功了，进入个人空间","action":"registered"}
+	
 <h2>登录</h2>
 capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
 #### 请求参数
