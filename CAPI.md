@@ -29,7 +29,7 @@ betit
 	*	[上传图片](#上传图片)
 	*	[发布打赌](#发布打赌)
 	*	[参与打赌](#参与打赌)
-	*	[撰写评论]
+	*	[撰写评论](#撰写评论)
 	*	[发布私信]
 	*	[更改头像]
 	*	[更改昵称]
@@ -868,3 +868,21 @@ capi/cp.php?ac=quiz&op=vote&votesubmit=true&quizid=55&option[]=108&m_auth=af9cCE
 	"options":[{"oid":"107","quizid":"55","uid":"1","option":"A赢","relatedtime":"1344417374","picid":"81","votenum":"0","pic":
 	"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg"},{"oid":"108","quizid":"55","uid":"1","option":"B输","relatedtime":"1344417374","picid":"79",
 	"votenum":"0","pic":"attachment\/201208\/1\/1_1343816747cmwS.png"}]}},"msg":"进行的操作完成了","action":"do_success"}
+
+<h2>撰写评论</h2>
+capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=quizid&id=55&m_auth=af9cCEMpQlfFT
+
+#### 请求参数
+	* 操作类型(固定搭配) -- commentsubmit: true
+	* 指示id代表的类型 -- idtype, quizid代表打赌，uid代表空间, sid代表分享
+	* 评论关联的id -- id
+	* 评论内容 -- message
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+
+#### 返回参数
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+
+#### 样例
+{"code":0,"data":"do_success","msg":"数据获取成功","action":"rest_success"}
