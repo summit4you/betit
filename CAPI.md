@@ -31,7 +31,7 @@ betit
 	*	[参与打赌](#参与打赌)
 	*	[撰写评论](#撰写评论)
 	*	[发布私信](#发布私信)
-	*	[更改头像]
+	*	[更改头像](#更改头像)
 	*	[更改昵称](#更改昵称)
 	*	[编写心情](#编写心情)
 
@@ -903,6 +903,44 @@ capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=你好!summit&pmsu
 
 #### 样例
 {"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
+
+<h2>更改头像</h2>
+#### 注意:采用POST上传
+#### POST样例：
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>上传头像</title></head><body>
+<form action="capi/cp.php?ac=avatar" method="post" enctype="multipart/form-data">
+<input type="file" name="Filedata"/><input type="submit"  name="submit"  value="提交"/>
+<input type="hidden" name="m_auth" value="af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2ibMM1tNHXaHYweU%2B8hsBHobKzgHFJs" />
+<input type="hidden" name="ac" value="avatar" />
+<input type="hidden" name="avatarsubmit" id="avatarsubmit" value="true" />
+</form></body>
+
+#### 请求参数
+	* 上传头像 -- Filedata
+	* 操作类型(固定搭配) -- ac:avatar, avatarsubmit:true
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+	
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回三个数据
+		* data[url], 返回头像的链接
+			* big -- 大头像URL
+			* middle -- 中头像URL
+			* small -- 小头像URL
+		* data[reward], 返回操作增加的金币和信用
+			* credit -- 增加的金币量
+			* experience -- 增加的信用
+		* date[dateline]: 操作更新的时间
+
+#### 样例
+	{"code":0,"data":{"url":{"big":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/00_avatar_big.jpg","middle":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/00_avatar_middle.jpg","small":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/00_avatar_small.jpg"},"msg":"",
+	"reward":{"credit":0,"experience":0},"dateline":"1344421976"},"msg":"\u8fdb\u884c\u7684\u64cd\u4f5c\u5b8c\u6210\u4e86","action":"do_success"}
 
 <h2>更改昵称</h2>
 cp.php?ac=profile&op=name&name=summit&m_auth=af9cCEMpQlfFTifZltu
