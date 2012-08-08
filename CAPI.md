@@ -26,7 +26,8 @@ betit
 	*	[获取注册验证码](#获取注册验证码)
 	*	[注册](#注册)
 	*	[登录](#登录)
-	*	[发布打赌]
+	*	[上传图片](#上传图片)
+	*	[发布打赌](#发布打赌)
 	*	[参与打赌]
 	*	[撰写评论]
 	*	[发布私信]
@@ -744,7 +745,7 @@ capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
 	<input type="file" name="attach"/><input type="hidden" name="op" value="uploadphoto2" />
 	<input type="hidden" name="uid" value="1" />
 	<input type="hidden" name="uploadsubmit2"  value="true" />
-	<input type="hidden" name="m_auth"  value="af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2ibMM1tNHXaHYweU%2B8hsBHobKzgHFJs" />
+	<input type="hidden" name="m_auth"  value="af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2i" />
 	<input type="hidden" name="topicid"  value="0" />
 	<input type="hidden" name="ac"  value="upload" />
 	<input type="hidden" name="albumid" value="0" />
@@ -754,7 +755,7 @@ capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
 	</html>
 #### 请求参数
 	* 上传文件 -- attach
-	* 操作类型 -- op: uploadphoto2, uploadsubmit2:true, topicid:0. albumid:0, ac:upload
+	* 操作类型(固定搭配) -- op: uploadphoto2, uploadsubmit2:true, topicid:0. albumid:0, ac:upload
 	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
 	* 上传用户id -- uid
 #### 返回字段
@@ -778,4 +779,42 @@ capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
 #### 样例
 	{"code":0,"data":{"pic":{"albumid":0,"uid":"1","username":"test6","dateline":"1344415852","filename":"qq提醒.png","postip":"127.0.0.1","title":"",
 	"type":"image\/png","size":165056,"filepath":"1_1344415852h77H.png","thumb":1,"remote":0,"topicid":0,"picid":80,"pic":"attachment\/1_1344415852h77H.png.thumb.jpg"}},
+	"msg":"进行的操作完成了","action":"do_success"}
+
+<h2>发布打赌</h2>
+capi/cp.php?ac=quiz&quizsubmit=true&subject=我的打赌&options[1]=A赢&options[2]=B输&pics[1]=81&pics[2]=79&joincost=20&portion=3
+&endtime=2012-08-15 17:12:12&resulttime=2012-08-16 17:12:12&friend=0&m_auth=af9cCEMpQlfFT
+
+#### 请求参数
+	* 操作类型(固定搭配) -- quizsubmit: true
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+	* 打赌的标题 -- subject
+	* A选项的描述 -- options[1]
+	* B选项的描述 -- options[2]
+	* A选项的图片id -- pics[1]
+	* B选项的图片id -- pics[2]
+	* 每一份投注需要的金币数 -- joincost
+	* 每个用户可允许的最大投注次数 -- portion
+	* 打赌投注截止时间 -- endtime(传送时要urlencode)
+	* 打赌预计公布答案时间 -- resulttime(传送时要urlencode)
+	* 是否全站公开 -- frined , 默认0全站公开
+
+#### 返回参数
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回一个数据
+		* data[quiz] -- 发布成功的打赌，具体条目如下:
+			* 打赌的标题 -- subject
+			* 是否全站公开 -- frined , 默认0全站公开
+			* 每一份投注需要的金币数 -- joincost
+			* 每个用户可允许的最大投注次数 -- portion
+			* 打赌投注截止时间 -- endtime
+			* 打赌预计公布答案时间 -- resulttime
+			* 打赌id --  quizid
+			* 发布的用户id -- uid
+			* 发布的用户名 -- username
+#### 样例
+	{"code":0,"data":{"quiz":{"subject":"我的打赌","classid":0,"friend":0,"password":null,"noreply":0,"joincost":20,"portion":3,
+	"endtime":null,"resulttime":null,"picflag":0,"pic":"","hot":0,"topicid":0,"uid":1,"username":"admin","dateline":"1344417374","quizid":55}},
 	"msg":"进行的操作完成了","action":"do_success"}
