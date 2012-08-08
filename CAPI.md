@@ -17,7 +17,7 @@ betit
 	*	[热门打赌排行榜接口](#热门打赌排行榜接口)
 	*	[我的个人信息](#我的个人信息)
 	*	[打赌详情](#打赌详情)
-	*	[评论列表]
+	*	[评论列表](#评论列表)
 	*	[搜索打赌]
 	*	[搜索好友]
 	*	[推荐打赌列表]
@@ -37,10 +37,10 @@ betit
 --------
 
 <h2>好友动态列表接口</h2>
-/capi/space.php?do=feed&uid=1&start=0&perpage=10&view=we&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=we&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
-	* 第几页 -- start
+	* 第几页 -- page
 	* 每页显示数量  -- perpage
 	* 查询参数 -- view, 值为we代表好友动态列表
 	* API密钥 -- m_auth, 由登录后返回
@@ -80,10 +80,10 @@ betit
 	"msg":"数据获取成功","action":"rest_success"}
 
 <h2>全站动态列表接口</h2>
-/capi/space.php?do=feed&uid=1&start=0&perpage=10&view=all&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=all&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
-	* 第几页 -- start
+	* 第几页 -- page
 	* 每页显示数量  -- perpage
 	* 查询参数 -- view, 值为all代表全站动态列表
 	* API密钥 -- m_auth, 由登录后返回
@@ -123,10 +123,10 @@ betit
 	"msg":"数据获取成功","action":"rest_success"}
 
 <h2>通知列表接口</h2>
-/capi/space.php?do=notice&start=0&prepage=2&uid=1&type=quizinvalid&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+/capi/space.php?do=notice&page=0&prepage=2&uid=1&type=quizinvalid&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
-	* 第几页 -- start
+	* 第几页 -- page
 	* 每页显示数量  -- perpage
 	* 通知类型 -- type
 		* quiz -- 打赌
@@ -167,10 +167,10 @@ betit
 	"style":""}],"count":5},"msg":"数据获取成功","action":"rest_success"}
 
 <h2>私信列表接口</h2>
-capi/space.php?do=pm&start=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+capi/space.php?do=pm&page=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
-	* 第几页 -- start
+	* 第几页 -- page
 	* 每页显示数量  -- perpage
 	* 私信类型 -- filter
 		* newpm -- 未读私信
@@ -280,10 +280,10 @@ capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upU
 	"note":"","spacenote":"","sex":"0","gid":"0","num":"6","p":"","c":"","group":"其他","isfriend":1}},"count":1},"msg":"数据获取成功","action":"rest_success"}
 
 <h2>热门打赌排行榜接口</h2>
-capi/space.php?uid=5&do=quiz&start=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
+capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
 #### 请求参数
 	* 用户id -- uid
-	* 第几页 -- start
+	* 第几页 -- page
 	* 每页显示数量  -- perpage
 	* 查询参数 -- view, 必须为hot
 	* API密钥 -- m_auth, 由登录后返回
@@ -427,6 +427,38 @@ capi/space.php?do=quiz&id=54&uid=5&m_auth=af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor
 	"resulttime":"1344845443","lastvote":"1344237066","voternum":"1","maxchoice":"0","sex":"0","keyoid":"106","keyoption":"3","totalcost":"60","hasremind":"0",
 	"hasexceed":"0","options":[{"oid":"105","quizid":"54","uid":"5","option":"12","relatedtime":"1344237052","picid":"0","votenum":"2","percent":67,"width":107},
 	{"oid":"106","quizid":"54","uid":"5","option":"3","relatedtime":"1344237052","picid":"0","votenum":"1","percent":33,"width":53}]}},
+
+<h2>评论列表</h2>
+capi/do.php?ac=ajax&op=getcomment&id=24&idtype=quizid&page=0&prepage=1&m_auth=af9cCEMpQlfFTifZltugadwhG
+
+#### 请求参数
+	* 操作类型 -- op, 必须为getcomment
+	* 查询评论关联的id -- id, 若为打赌，则为打赌id值，若为空间则为用户id值，若为分享则为分享id值
+	* 指示id代表的类型 -- idtype, quizid代表打赌，uid代表空间, sid代表分享
+	* 第几页 -- page
+	* 每页显示数量  -- perpage
+	* API密钥 -- m_auth, 由登录后返回
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[comments],评论列表，具体内容如下
+			* 评论id -- cid
+			* 评论对象，用户id -- uid
+			* 评论关联的id -- id
+			* 评论类型 -- idtype
+			* 发表评论的用户id -- authorid
+			* 发表评论的用户名 -- author
+			* 发表的时间 -- dateline
+			* 发表的ip -- ip
+			* 评论的内容 -- message
+		* data[count], 返回列表条目数, 便用遍历
+
+#### 样例
+	{"code":0,"data":{"comments":[{"cid":"31","uid":"1","id":"24","idtype":"quizid","authorid":"1","author":"admin","ip":"127.0.0.1","dateline":"1344407149",
+	"message":"234234"}],"count":1},"msg":"数据获取成功","action":"rest_success"}
 
 <h2>登录</h2>
 capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
