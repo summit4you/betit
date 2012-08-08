@@ -731,3 +731,51 @@ capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
 	"mood":"0","quiznum":"27","winnum":"2","lostnum":"0","voternum":"10"},
 	"m_auth":"55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0"},"data":[],
 	"msg":"登录成功了，现在引导您进入登录前页面 \\1","action":"login_success"}
+
+<h2>上传图片</h2>
+#### 注意:采用POST上传
+#### POST样例：
+	<!DOCTYPE HTML>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<title>上传图片</title></head><body>
+	<form action="capi/cp.php?ac=upload" method="post" enctype="multipart/form-data">
+	<input type="file" name="attach"/><input type="hidden" name="op" value="uploadphoto2" />
+	<input type="hidden" name="uid" value="1" />
+	<input type="hidden" name="uploadsubmit2"  value="true" />
+	<input type="hidden" name="m_auth"  value="af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2ibMM1tNHXaHYweU%2B8hsBHobKzgHFJs" />
+	<input type="hidden" name="topicid"  value="0" />
+	<input type="hidden" name="ac"  value="upload" />
+	<input type="hidden" name="albumid" value="0" />
+	<input type="submit"  name="submit"  value="提交"/>
+	</form>
+	</body>
+	</html>
+#### 请求参数
+	* 上传文件 -- attach
+	* 操作类型 -- op: uploadphoto2, uploadsubmit2:true, topicid:0. albumid:0, ac:upload
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+	* 上传用户id -- uid
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回一个数据
+		* data[pic] -- 上传成功的图片内容，具体条目如下:
+			* 上传的用户id -- uid
+			* 上传的用户名 -- username
+			* 上传时间 -- dateline
+			* 上传文件名 -- filename
+			* 图片标题 -- title, 默认为空
+			* 图片类型 -- type
+			* 图片大小 -- size
+			* 图片服务端文件名 -- filepath
+			* 是否生成了缩略图 -- thumb, 1代表生成了，0代表没有
+			* 是否放在远端图像服务器 -- remote
+			* 图片id -- picid, <em>重要</em>，当发布打赌时需要关联
+			* 图片服务端路径 -- pic
+#### 样例
+	{"code":0,"data":{"pic":{"albumid":0,"uid":"1","username":"test6","dateline":"1344415852","filename":"qq提醒.png","postip":"127.0.0.1","title":"",
+	"type":"image\/png","size":165056,"filepath":"1_1344415852h77H.png","thumb":1,"remote":0,"topicid":0,"picid":80,"pic":"attachment\/1_1344415852h77H.png.thumb.jpg"}},
+	"msg":"进行的操作完成了","action":"do_success"}
