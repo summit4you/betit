@@ -32,7 +32,7 @@ betit
 	*	[撰写评论](#撰写评论)
 	*	[发布私信](#发布私信)
 	*	[更改头像]
-	*	[更改昵称]
+	*	[更改昵称](#更改昵称)
 	*	[编写心情](#编写心情)
 
 接口说明
@@ -894,6 +894,22 @@ capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=你好!summit&pmsu
 	* 操作类型(固定搭配) -- op: send, touid: 0, pmid: 0, pmsubmit: true
 	* 接收方的用户名 -- username
 	* 私信内容 -- message
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+
+#### 返回参数
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+
+#### 样例
+{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
+
+<h2>更改昵称</h2>
+cp.php?ac=profile&op=name&name=summit&m_auth=af9cCEMpQlfFTifZltu
+
+#### 请求参数
+	* 操作类型(固定搭配) -- op: name
+	* 昵称 -- name
 	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
 
 #### 返回参数
