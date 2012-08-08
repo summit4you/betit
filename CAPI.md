@@ -19,7 +19,7 @@ betit
 	*	[打赌详情](#打赌详情)
 	*	[评论列表](#评论列表)
 	*	[搜索打赌](#搜索打赌)
-	*	[搜索好友]
+	*	[搜索好友](#搜索好友)
 	*	[推荐打赌列表]
 
 * 上行接口
@@ -514,6 +514,55 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=测试&m_auth=af9
 	"magicpaper":"0","magiccall":"0","option":["能","不能"],"invite":"","optioncount":["1","0"]}],"count":2,
 	"reward":{"credit":1,"experience":0}},"msg":"数据获取成功","action":"rest_success"}
 
+<h2>搜索好友</h2>
+capi/cp.php?ac=friend&op=search&page=0&perpage=1&searchkey=admin&searchsubmit=true&searchmode=1&m_auth=af9cCEMpQ
+#### 请求参数
+	* 用户id -- uid
+	* 第几页 -- page
+	* 每页显示数量  -- perpage
+	* 查询参数 -- searchsubmit必须为true, searchmode必须为1
+	* 查询内容 -- searchkey
+	* API密钥 -- m_auth, 由登录后返回
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[friend]，打赌列表， 条目字段如下
+			* 用户id -- uid
+			* 金币 -- credit
+			* 信用 -- experience
+			* 用户名 -- username
+			* 实名 -- name
+			* 是否实名 -- namestatus, 1是, 0否
+			* 心情数 -- doingnum
+			* 分享数 -- sharenum
+			* 最近活跃时间 -- dateline
+			* 最近更新时间 -- updatetime
+			* 最近一次搜索时间 -- lastsearch
+			* 最近一次发布时间 -- lastpost
+			* 最近一次登录时间 -- lastlogin
+			* 最近一次发送消息时间 -- lastsend
+			* 是否禁用 -- flag
+			* 是否有新通知 -- newpm
+			* 头像 -- avatar
+			* 登录的ip -- ip
+			* 附件大小 -- attachsize
+			* 发布的打赌数 -- quiznum
+			* 赢的次数 -- winnum
+			* 输的次数 -- lostnum
+			* 参与打赌数 -- voternum
+			* 是否好友-- isfriend, 0否，1是
+		* data[count], 返回列表条目数, 便用遍历
+
+#### 样例
+	{"code":0,"data":{"friends":{"1":{"uid":"1","groupid":"11","credit":"2042","experience":"2045",
+	"username":"admin","name":"","namestatus":"0","videostatus":"0","domain":"","friendnum":"0","viewnum":"3",
+	"notenum":"0","doingnum":"0","sharenum":"0","dateline":"1343725030","updatetime":"1343966557","lastsearch":"1344408548","lastpost":"1344324792",
+	"lastlogin":"1344399107","lastsend":"0","attachsize":"774822","addsize":"0","addfriend":"0","flag":"0",
+	"newpm":"0","avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0","quiznum":"27","winnum":"2",
+	"lostnum":"0","voternum":"10","isfriend":1}},"count":1},"msg":"数据获取成功","action":"rest_success"}
 
 <h2>登录</h2>
 capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
