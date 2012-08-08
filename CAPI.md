@@ -885,7 +885,7 @@ capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=qu
 	* 错误信息 -- msg, 详细参见附录
 
 #### 样例
-{"code":0,"data":"do_success","msg":"数据获取成功","action":"rest_success"}
+	{"code":0,"data":"do_success","msg":"数据获取成功","action":"rest_success"}
 
 <h2>发布私信</h2>
 capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=你好!summit&pmsubmit=true&m_auth=af9cCEMpQlfFTifZltugadwh
@@ -902,7 +902,7 @@ capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=你好!summit&pmsu
 	* 错误信息 -- msg, 详细参见附录
 
 #### 样例
-{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
+	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
 
 <h2>更改头像</h2>
 #### 注意:采用POST上传
@@ -956,7 +956,7 @@ cp.php?ac=profile&op=name&name=summit&m_auth=af9cCEMpQlfFTifZltu
 	* 错误信息 -- msg, 详细参见附录
 
 #### 样例
-{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
+	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
 
 <h2>编写心情</h2>
 capi/cp.php?ac=doing&addsubmit=true&spacenote=true&message=你好!summit&m_auth=af9cCEMpQlfFTifZ
@@ -972,4 +972,4 @@ capi/cp.php?ac=doing&addsubmit=true&spacenote=true&message=你好!summit&m_auth=af
 	* 错误信息 -- msg, 详细参见附录
 
 #### 样例
-{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
+	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
