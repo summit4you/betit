@@ -67,6 +67,8 @@ betit
 				* quizid -- 打赌
 				* doid -- 心情
 				* picid -- 图片
+			* comments: 若是打赌动态，则会返回两条最新评论
+			* commentnum: 若是打赌动态，则会返回打赌当前的评论总数
 		* data[count], 返回列表条目数, 便用遍历
 #### 样例
 	{"code":0,"data":{"feeds":{"38527753d7ee50e50c95d6427110b925":{"feedid":"83","appid":"1","icon":"quiz","uid":"5","username":"summit","dateline":"08-06 07:11",
@@ -84,12 +86,12 @@ betit
 	"msg":"数据获取成功","action":"rest_success"}
 
 <h2>全站动态列表接口</h2>
-/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=all&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=quiz&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- page
 	* 每页显示数量  -- perpage
-	* 查询参数 -- view, 值为all代表全站动态列表
+	* 查询参数 -- view, 值为quiz代表全站打赌动态列表
 	* API密钥 -- m_auth, 由登录后返回
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
@@ -110,21 +112,18 @@ betit
 				* quizid -- 打赌
 				* doid -- 心情
 				* picid -- 图片
+			* comments: 若是打赌动态，则会返回两条最新评论
+			* commentnum: 若是打赌动态，则会返回打赌当前的评论总数
 		* data[count], 返回列表条目数, 便用遍历
 #### 样例
-	{"code":0,"data":{"feeds":{"38527753d7ee50e50c95d6427110b925":{"feedid":"83","appid":"1","icon":"quiz","uid":"5","username":"summit","dateline":"08-06 07:11",
-	"friend":"0","hash_template":"d054367a46e659022b40f4334dec2c56","hash_data":"38527753d7ee50e50c95d6427110b925",
-	"title_template":"summit 公布了打赌 <a target=\"_blank\"   href=\"space.php?uid=5&do=quiz&id=54\"  target=\"_blank\">测试优惠券<\/a>的答案，答案是3",
-	"title_data":{"url":"space.php?uid=5&do=quiz&id=54","subject":"测试优惠券","key":"3"},"body_template":"<br>参与人数1人,很不幸本期没有人获胜，大家要加油哟！",
-	"body_data":{"attend":"1"},"body_general":"","image_1":"","image_1_link":"","image_2":"","image_2_link":"","image_3":"","image_3_link":"","image_4":"",
-	"image_4_link":"","target_ids":"","id":"0","idtype":"","hot":"0","magic_class":"","icon_image":"image\/icon\/quiz.gif","target":" target=\"_blank\"",
-	"style":" onclick=\"readfeed(this, 83);\"","thisapp":1},"c6a4a0d241035ff650c7d2f841f387c8":{"feedid":"82","appid":"1","icon":"quiz","uid":"5","username":"summit",
-	"dateline":"08-06 07:10","friend":"0","hash_template":"d6269a47b34e39569585a1d028651f60","hash_data":"c6a4a0d241035ff650c7d2f841f387c8",
-	"title_template":"summit 发表了新打赌","title_data":[],"body_template":"<b><a target=\"_blank\"   href=\"space.php?uid=5&do=quiz&id=54\" >测试优惠券<\/a><\/b><br>
-	<br>12:2人投注<br>3:1人投注<br\/>奖池：60金币","body_data":{"subject":"<a href=\"space.php?uid=5&do=quiz&id=54\">测试优惠券<\/a>",
-	"option":"<br>12:2人投注<br>3:1人投注","totalcost":"<br\/>奖池：60金币"},"body_general":"","image_1":"","image_1_link":"","image_2":"","image_2_link":"",
-	"image_3":"","image_3_link":"","image_4":"","image_4_link":"","target_ids":"","id":"54","idtype":"quizid","hot":"0","magic_class":"","icon_image":"image\/icon\/quiz.gif","target":" target=\"_blank\"","style":"","thisapp":1}},"count":2},
-	"msg":"数据获取成功","action":"rest_success"}
+	{"code":0,"data":{"feeds":{"fbb39498c050c2f975e9a7a3f8fbe48a":{"feedid":"88","appid":"1","icon":"quiz","uid":"1","username":"admin","dateline":"08-08 09:16",
+	"friend":"0","hash_template":"d6269a47b34e39569585a1d028651f60","hash_data":"fbb39498c050c2f975e9a7a3f8fbe48a","title_template":"admin 发表了新打赌",
+	"title_data":[],"body_template":"<b><a target=\"_blank\"   href=\"space.php?uid=1&do=quiz&id=55\" >我的打赌<\/a><\/b><br><br>A赢:0人投注<br>B输:1人投注<br\/>
+	奖池：20金币","body_data":{"subject":"<a href=\"space.php?uid=1&do=quiz&id=55\">我的打赌<\/a>","option":"<br>A赢:0人投注<br>B输:1人投注","totalcost":"<br\/>
+	奖池：20金币"},"body_general":"","image_1":"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg","image_1_link":"space.php?uid=1&do=quiz&id=55",
+	"image_2":"attachment\/201208\/1\/1_1343816747cmwS.png","image_2_link":"space.php?uid=1&do=quiz&id=55","image_3":"","image_3_link":"","image_4":"",
+	"image_4_link":"","target_ids":"","id":"55","idtype":"quizid","hot":"0","magic_class":"","icon_image":"image\/icon\/quiz.gif","target":" target=\"_blank\"",
+	"style":"","thisapp":1}},"count":1},"msg":"数据获取成功","action":"rest_success"}
 
 <h2>通知列表接口</h2>
 /capi/space.php?do=notice&page=0&prepage=2&uid=1&type=quizinvalid&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
