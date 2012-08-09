@@ -86,7 +86,7 @@ betit
 	"option":"<br>12:2人投注<br>3:1人投注","totalcost":"<br\/>奖池：60金币"},"body_general":"","image_1":"","image_1_link":"","image_2":"","image_2_link":"",
 	"image_3":"","image_3_link":"","image_4":"","image_4_link":"","target_ids":"","id":"54","idtype":"quizid","hot":"0","magic_class":"","icon_image":"image\/icon\/quiz.gif","target":" target=\"_blank\"","style":"","thisapp":1}},"count":2},
 	"msg":"数据获取成功","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>全站动态列表接口</h2>
 /capi/space.php?do=feed&uid=1&page=0&perpage=10&view=quiz&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
@@ -127,7 +127,7 @@ betit
 	"image_2":"attachment\/201208\/1\/1_1343816747cmwS.png","image_2_link":"space.php?uid=1&do=quiz&id=55","image_3":"","image_3_link":"","image_4":"",
 	"image_4_link":"","target_ids":"","id":"55","idtype":"quizid","hot":"0","magic_class":"","icon_image":"image\/icon\/quiz.gif","target":" target=\"_blank\"",
 	"style":"","thisapp":1}},"count":1},"msg":"数据获取成功","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>通知列表接口</h2>
 /capi/space.php?do=notice&page=0&prepage=2&uid=1&type=quizinvalid&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
@@ -172,7 +172,7 @@ betit
 	"isfriend":1,"style":""},{"id":"116","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit",
 	"note":"恭喜你在 <a href=\"space.php?uid=5&do=quiz&id=49\" target=\"_blank\">《测试优惠券》<\/a>的悬赏打赌中得胜，获得金币40。","dateline":"1344235733","isfriend":1,
 	"style":""}],"count":5},"msg":"数据获取成功","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>私信列表接口</h2>
 capi/space.php?do=pm&page=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
@@ -209,7 +209,7 @@ capi/space.php?do=pm&page=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6
 #### 样例
 	{"code":0,"data":{"pms":[{"pmid":"7","msgfrom":"admin","msgfromid":"1","msgtoid":"5","new":"1","subject":"你好summit","dateline":"08-07 07:33","message":"你好summit",
 	"delstatus":"0","related":"0","fromappid":"1","daterange":1,"touid":"1"}],"count":1},"msg":"数据获取成功","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>私信详情</h2>
 capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
@@ -243,7 +243,7 @@ capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&m_auth=55dalDuJytwH
 #### 样例
 	{"code":0,"data":{"pms":[{"pmid":"3","msgfrom":"aifaxian","msgfromid":"1","msgtoid":"12","folder":"inbox","new":"1","subject":"你好啊","dateline":"03-09 18:04",
 	"message":"你好啊","delstatus":"0","related":"1","fromappid":"1","daterange":5}],"count":1},"msg":"数据获取成功","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>好友排行榜接口</h2>
 capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj
@@ -288,7 +288,7 @@ capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upU
 	"lastsearch":"0","lastpost":"1343974426","lastlogin":"1343974880","lastsend":"0","attachsize":"0","addsize":"0","addfriend":"0","flag":"0","newpm":"0",
 	"avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0","quiznum":"1","winnum":"0","lostnum":"0","voternum":"1","resideprovince":"","residecity":"",
 	"note":"","spacenote":"","sex":"0","gid":"0","num":"6","p":"","c":"","group":"其他","isfriend":1}},"count":1},"msg":"数据获取成功","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>热门打赌排行榜接口</h2>
 capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
@@ -335,7 +335,7 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWom
 	"totalcost":"120","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"1",
 	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":["23","2"],"invite":"","optioncount":["4","2"]}],"count":2},"msg":"数据获取成功",
 	"action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>我的个人信息</h2>
 capi/cp.php?ac=profile&m_auth=65e8JkX8RscU2y2pYZEVdcZrja2YOr2QXuhbPBCHzLAw
@@ -392,7 +392,7 @@ capi/cp.php?ac=profile&m_auth=65e8JkX8RscU2y2pYZEVdcZrja2YOr2QXuhbPBCHzLAw
 	"addfriendnum":"0","doingnum":"0","sharenum":"0","dateline":"1343789930","updatetime":"1344237052","lastsearch":"0","lastpost":"1344324259","lastlogin":"1344395688",
 	"lastsend":"0","attachsize":"0","addsize":"0","addfriend":"0","flag":"0","newpm":"0","avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0",
 	"quiznum":"8","winnum":"4","lostnum":"1","voternum":"7","self":1,"friends":["7"],"allnotenum":0}},"msg":"数据获取成功","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>打赌详情</h2>
 capi/space.php?do=quiz&id=54&uid=5&m_auth=af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2ibMM1tNHXaHYweU%2B8hsBHobKzgHFJs
@@ -440,7 +440,7 @@ capi/space.php?do=quiz&id=54&uid=5&m_auth=af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor
 	"resulttime":"1344845443","lastvote":"1344237066","voternum":"1","maxchoice":"0","sex":"0","keyoid":"106","keyoption":"3","totalcost":"60","hasremind":"0",
 	"hasexceed":"0","options":[{"oid":"105","quizid":"54","uid":"5","option":"12","relatedtime":"1344237052","picid":"0","votenum":"2","percent":67,"width":107},
 	{"oid":"106","quizid":"54","uid":"5","option":"3","relatedtime":"1344237052","picid":"0","votenum":"1","percent":33,"width":53}]}},
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>获取投注好友</h2>
 capi/do.php?ac=ajax&op=getjoinuser&oid=33&page=0&prepage=10&m_auth=7c44hpLskh17xPRklyu
@@ -471,7 +471,7 @@ capi/do.php?ac=ajax&op=getjoinuser&oid=33&page=0&prepage=10&m_auth=7c44hpLskh17x
 	"avatar":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/04_avatar_middle.jpg"},{"jid":"34","uid":"5","username":"summit","quizid":"18",
 	"option":"\"\u80fd\"","dateline":"1343792803","oid":"33","joinnum":"1","avatar":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/05_avatar_middle.jpg"}],
 	"count":2},"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>评论列表</h2>
 capi/do.php?ac=ajax&op=getcomment&id=24&idtype=quizid&page=0&prepage=1&m_auth=af9cCEMpQlfFTifZltugadwhG
@@ -514,7 +514,7 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=测试&m_auth=af9
 	* 查询参数 -- view, 必须为new
 	* 查询内容 -- searchkey
 	* API密钥 -- m_auth, 由登录后返回
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
@@ -559,7 +559,7 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=测试&m_auth=af9
 	"postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"","magiccolor":"0",
 	"magicpaper":"0","magiccall":"0","option":["能","不能"],"invite":"","optioncount":["1","0"]}],"count":2,
 	"reward":{"credit":1,"experience":0}},"msg":"数据获取成功","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>搜索好友</h2>
 capi/cp.php?ac=friend&op=search&page=0&perpage=1&searchkey=admin&searchsubmit=true&searchmode=1&m_auth=af9cCEMpQ
@@ -610,7 +610,7 @@ capi/cp.php?ac=friend&op=search&page=0&perpage=1&searchkey=admin&searchsubmit=tr
 	"lastlogin":"1344399107","lastsend":"0","attachsize":"774822","addsize":"0","addfriend":"0","flag":"0",
 	"newpm":"0","avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0","quiznum":"27","winnum":"2",
 	"lostnum":"0","voternum":"10","isfriend":1}},"count":1},"msg":"数据获取成功","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>推荐打赌列表</h2>
 #### 注意：同 [热门打赌排行榜接口](#热门打赌排行榜接口)
@@ -658,7 +658,7 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWom
 	"totalcost":"120","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"1",
 	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":["23","2"],"invite":"","optioncount":["4","2"]}],"count":2},"msg":"数据获取成功",
 	"action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 ******************************
 <h2>获取注册验证码</h2>
@@ -677,7 +677,7 @@ capi/do.php?ac=register&op=seccode
 #### 样例
 	{"code":0,"data":{"seccode_auth":"1a6431MIvgvhZZzUPUmCUML%2FtL4rlXrN2R8nL5G3qvta","seccode":"CQ7T"},
 	"msg":"数据获取成功","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>注册</h2>
 /capi/do.php?ac=register&registersubmit=true&username=test4&password=123&password2=123&seccode=cQ7T&m_auth=1a6431MIvgvhZZzUPUmCUML%2FtL4rlXrN2R8nL5G3qvta
@@ -737,7 +737,7 @@ capi/do.php?ac=register&op=seccode
 	"voternum":"0","self":1,"friends":[],"allnotenum":0},
 	"m_auth":"cf7chDvDIcnUVeupGp4utLftIQEP%2B1rP8eGrGWydH3ITmly6DURpvHCvByCJlE0hEus%2F5Ji%2FqVUrfnd3dHn6%2BA"},
 	"msg":"注册成功了，进入个人空间","action":"registered"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 	
 <h2>登录</h2>
 capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
@@ -781,7 +781,7 @@ capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
 	"mood":"0","quiznum":"27","winnum":"2","lostnum":"0","voternum":"10"},
 	"m_auth":"55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0"},"data":[],
 	"msg":"登录成功了，现在引导您进入登录前页面 \\1","action":"login_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>上传图片</h2>
 #### 注意:采用POST上传
@@ -830,7 +830,7 @@ capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
 	{"code":0,"data":{"pic":{"albumid":0,"uid":"1","username":"test6","dateline":"1344415852","filename":"qq提醒.png","postip":"127.0.0.1","title":"",
 	"type":"image\/png","size":165056,"filepath":"1_1344415852h77H.png","thumb":1,"remote":0,"topicid":0,"picid":80,"pic":"attachment\/1_1344415852h77H.png.thumb.jpg"}},
 	"msg":"进行的操作完成了","action":"do_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>发布打赌</h2>
 capi/cp.php?ac=quiz&quizsubmit=true&subject=我的打赌&options[1]=A赢&options[2]=B输&pics[1]=81&pics[2]=79&joincost=20&portion=3
@@ -870,7 +870,7 @@ capi/cp.php?ac=quiz&quizsubmit=true&subject=我的打赌&options[1]=A赢&options[2]=B
 	{"code":0,"data":{"quiz":{"subject":"我的打赌","classid":0,"friend":0,"password":null,"noreply":0,"joincost":20,"portion":3,
 	"endtime":null,"resulttime":null,"picflag":0,"pic":"","hot":0,"topicid":0,"uid":1,"username":"admin","dateline":"1344417374","quizid":55}},
 	"msg":"进行的操作完成了","action":"do_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 
 <h2>参与打赌</h2>
@@ -920,7 +920,7 @@ capi/cp.php?ac=quiz&op=vote&votesubmit=true&quizid=55&option[]=108&m_auth=af9cCE
 	"options":[{"oid":"107","quizid":"55","uid":"1","option":"A赢","relatedtime":"1344417374","picid":"81","votenum":"0","pic":
 	"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg"},{"oid":"108","quizid":"55","uid":"1","option":"B输","relatedtime":"1344417374","picid":"79",
 	"votenum":"0","pic":"attachment\/201208\/1\/1_1343816747cmwS.png"}]}},"msg":"进行的操作完成了","action":"do_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>公布答案</h2>
 capi/cp.php?ac=quiz&op=publickey&quizid=55&keysubmit=true&keyid=107&m_auth=7c44hpLskh17xPRklyuRE%2FK0fAcYbTThZ
@@ -970,7 +970,7 @@ capi/cp.php?ac=quiz&op=publickey&quizid=55&keysubmit=true&keyid=107&m_auth=7c44h
 	"options":[{"oid":"107","quizid":"55","uid":"1","option":"A赢","relatedtime":"1344417374","picid":"81","votenum":"0",
 	"pic":"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg"},{"oid":"108","quizid":"55","uid":"1","option":"B输","relatedtime":"1344417374","picid":"79",
 	"votenum":"1","pic":"attachment\/201208\/1\/1_1343816747cmwS.png"}]}},"msg":"进行的操作完成了","action":"do_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>分享打赌</h2>
 capi/cp.php?ac=share&type=quiz&id=54&sharesubmit=true&general=好打赌&m_auth=7c44hpLskh17xPRklyuRE%2FK0fAcYbT
@@ -986,7 +986,7 @@ capi/cp.php?ac=share&type=quiz&id=54&sharesubmit=true&general=好打赌&m_auth=7c44
 	* 错误信息 -- msg, 详细参见附录
 #### 样例
 	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>撰写评论</h2>
 capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=quizid&id=55&m_auth=af9cCEMpQlfFT
@@ -1005,7 +1005,7 @@ capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=qu
 
 #### 样例
 	{"code":0,"data":"do_success","msg":"数据获取成功","action":"rest_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>发布私信</h2>
 capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=你好!summit&pmsubmit=true&m_auth=af9cCEMpQlfFTifZltugadwh
@@ -1023,7 +1023,7 @@ capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=你好!summit&pmsu
 
 #### 样例
 	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>更改头像</h2>
 #### 注意:采用POST上传
@@ -1062,7 +1062,7 @@ capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=你好!summit&pmsu
 #### 样例
 	{"code":0,"data":{"url":{"big":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/00_avatar_big.jpg","middle":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/00_avatar_middle.jpg","small":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/00_avatar_small.jpg"},"msg":"",
 	"reward":{"credit":0,"experience":0},"dateline":"1344421976"},"msg":"\u8fdb\u884c\u7684\u64cd\u4f5c\u5b8c\u6210\u4e86","action":"do_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>更改昵称</h2>
 cp.php?ac=profile&op=name&name=summit&m_auth=af9cCEMpQlfFTifZltu
@@ -1079,7 +1079,7 @@ cp.php?ac=profile&op=name&name=summit&m_auth=af9cCEMpQlfFTifZltu
 
 #### 样例
 	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>编写心情</h2>
 capi/cp.php?ac=doing&addsubmit=true&spacenote=true&message=你好!summit&m_auth=af9cCEMpQlfFTifZ
@@ -1096,7 +1096,7 @@ capi/cp.php?ac=doing&addsubmit=true&spacenote=true&message=你好!summit&m_auth=af
 
 #### 样例
 	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
 
 <h2>邀请好友</h2>
 capi/cp.php?ac=invite&emailinvite=true&email=summit_mail@qq.com&saymsg=来betit包赚没赔&m_auth=7c44hpLskh17xPRklyu
@@ -1114,4 +1114,4 @@ capi/cp.php?ac=invite&emailinvite=true&email=summit_mail@qq.com&saymsg=来betit包
 
 #### 样例
 	{"code":0,"data":[],"msg":"邮件已经送出，您的好友可能需要几分钟后才能收到邮件","action":"send_result_1"}
-[↑返回顶部](#索引)
+[↑返回顶部](#betit)
