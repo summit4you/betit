@@ -30,7 +30,7 @@ betit
 	*	[发布打赌](#发布打赌)
 	*	[参与打赌](#参与打赌)
 	*	[公布答案](#公布答案)
-	*	[详情分享](#详情分享)
+	*	[分享打赌](#分享打赌)
 	*	[撰写评论](#撰写评论)
 	*	[发布私信](#发布私信)
 	*	[更改头像](#更改头像)
@@ -920,6 +920,20 @@ capi/cp.php?ac=quiz&op=publickey&quizid=55&keysubmit=true&keyid=107&m_auth=7c44h
 	"pic":"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg"},{"oid":"108","quizid":"55","uid":"1","option":"B输","relatedtime":"1344417374","picid":"79",
 	"votenum":"1","pic":"attachment\/201208\/1\/1_1343816747cmwS.png"}]}},"msg":"进行的操作完成了","action":"do_success"}
 
+<h2>分享打赌</h2>
+capi/cp.php?ac=share&type=quiz&id=54&sharesubmit=true&general=好打赌&m_auth=7c44hpLskh17xPRklyuRE%2FK0fAcYbT
+#### 请求参数
+	* 操作类型(固定搭配) -- type:quiz, sharesubmit: true
+	* 打赌id --  id
+	* 分享说明 -- general
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+
+#### 返回参数
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+#### 样例
+	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
 
 <h2>撰写评论</h2>
 capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=quizid&id=55&m_auth=af9cCEMpQlfFT
