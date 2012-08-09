@@ -1071,7 +1071,7 @@ capi/cp.php?ac=doing&addsubmit=true&spacenote=true&message=你好!summit&m_auth=af
 #### 样例
 	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
 
-<h2>邀请好友</h2>[返回顶部](#betit)
+<h2>邀请好友</h2>
 capi/cp.php?ac=invite&emailinvite=true&email=summit_mail@qq.com&saymsg=来betit包赚没赔&m_auth=7c44hpLskh17xPRklyu
 
 #### 请求参数
@@ -1087,3 +1087,4 @@ capi/cp.php?ac=invite&emailinvite=true&email=summit_mail@qq.com&saymsg=来betit包
 
 #### 样例
 	{"code":0,"data":[],"msg":"邮件已经送出，您的好友可能需要几分钟后才能收到邮件","action":"send_result_1"}
+[↑返回顶部](#betit)
