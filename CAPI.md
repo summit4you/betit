@@ -17,6 +17,7 @@ betit
 	*	[热门打赌排行榜接口](#热门打赌排行榜接口)
 	*	[我的个人信息](#我的个人信息)
 	*	[打赌详情](#打赌详情)
+	*	[获取投注好友](#获取投注好友)
 	*	[评论列表](#评论列表)
 	*	[搜索打赌](#搜索打赌)
 	*	[搜索好友](#搜索好友)
@@ -431,6 +432,36 @@ capi/space.php?do=quiz&id=54&uid=5&m_auth=af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor
 	"resulttime":"1344845443","lastvote":"1344237066","voternum":"1","maxchoice":"0","sex":"0","keyoid":"106","keyoption":"3","totalcost":"60","hasremind":"0",
 	"hasexceed":"0","options":[{"oid":"105","quizid":"54","uid":"5","option":"12","relatedtime":"1344237052","picid":"0","votenum":"2","percent":67,"width":107},
 	{"oid":"106","quizid":"54","uid":"5","option":"3","relatedtime":"1344237052","picid":"0","votenum":"1","percent":33,"width":53}]}},
+
+<h2>获取投注好友</h2>
+capi/do.php?ac=ajax&op=getjoinuser&oid=33&page=0&prepage=10&m_auth=7c44hpLskh17xPRklyu
+#### 请求参数
+	* 操作类型(固定搭配) -- op:getjoinuser
+	* 投注的选项id -- oid
+	* 第几页 -- page
+	* 每页显示数量  -- perpage
+	* API密钥 -- m_auth, 由登录后返回
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[joinusers],用户列表(以joinnum排序)，具体内容如下
+			* 投注id -- jid(请忽略)
+			* 用户id -- uid
+			* 用户名 -- username
+			* 打赌id -- quizid
+			* 投注的选项 -- option，文本
+			* 投注时间 -- dateline(请忽略)
+			* 选项id -- oid
+			* 投注份数 -- joinnum
+		* data[count], 返回列表条目数, 便用遍历
+
+#### 样例
+	{"code":0,"data":{"joinusers":[{"jid":"29","uid":"4","username":"summit2","quizid":"18","option":"\"\u80fd\"","dateline":"1343787281","oid":"33","joinnum":"3",
+	"avatar":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/04_avatar_middle.jpg"},{"jid":"34","uid":"5","username":"summit","quizid":"18",
+	"option":"\"\u80fd\"","dateline":"1343792803","oid":"33","joinnum":"1","avatar":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/05_avatar_middle.jpg"}],
+	"count":2},"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","action":"rest_success"}
 
 <h2>评论列表</h2>
 capi/do.php?ac=ajax&op=getcomment&id=24&idtype=quizid&page=0&prepage=1&m_auth=af9cCEMpQlfFTifZltugadwhG
