@@ -29,6 +29,8 @@ betit
 	*	[上传图片](#上传图片)
 	*	[发布打赌](#发布打赌)
 	*	[参与打赌](#参与打赌)
+	*	[公布答案](#公布答案)
+	*	[详情分享](#详情分享)
 	*	[撰写评论](#撰写评论)
 	*	[发布私信](#发布私信)
 	*	[更改头像](#更改头像)
@@ -868,6 +870,56 @@ capi/cp.php?ac=quiz&op=vote&votesubmit=true&quizid=55&option[]=108&m_auth=af9cCE
 	"options":[{"oid":"107","quizid":"55","uid":"1","option":"A赢","relatedtime":"1344417374","picid":"81","votenum":"0","pic":
 	"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg"},{"oid":"108","quizid":"55","uid":"1","option":"B输","relatedtime":"1344417374","picid":"79",
 	"votenum":"0","pic":"attachment\/201208\/1\/1_1343816747cmwS.png"}]}},"msg":"进行的操作完成了","action":"do_success"}
+
+<h2>公布答案</h2>
+capi/cp.php?ac=quiz&op=publickey&quizid=55&keysubmit=true&keyid=107&m_auth=7c44hpLskh17xPRklyuRE%2FK0fAcYbTThZ
+
+#### 请求参数
+	* 操作类型(固定搭配) -- op:publickey, keysubmit: true
+	* 打赌id --  quizid
+	* 答案选项id -- keyid
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+
+#### 返回参数
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回一个数据
+		* data[quiz], 打赌详情，具体内容如下
+			* 打赌id -- quizid
+			* 发布打赌用户id -- uid
+			* 最热用户 -- hotuser
+			* 发布时间 -- dateline
+			* 投一注所需金币 -- joincost
+			* 用户最大投注数 -- portion
+			* 截止投注时间 -- endtime
+			* 预计公布结果时间 -- resulttime
+			* 最近一次投注时间 -- lastvote
+			* 当前累计投注 -- voternum
+			* 奖金池 -- totalcost
+			* 是否已经提醒过 -- hasremind
+			* 是否已经超期 -- hasexceed
+			* 答案选项id -- keyoid
+			* 答案 -- keyoption
+			* 选项数组 -- options，具体内容如下：
+				* 选项id -- oid
+				* 所属竞猜 -- quizid
+				* 用户id -- uid
+				* 选项 -- option, 文本描述
+				* 相片id -- picid
+				* 相片路径 -- pic
+				* 投注人数 -- votenum
+				* 投注占总投注百分比 -- percent
+#### 样例
+	{"code":0,"data":{"quiz":{"quizid":"55","uid":"1","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"",
+	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":"a:2:{i:0;s:4:\"A赢\";i:1;s:4:\"B输\";}","invite":"","topicid":"0","username":"admin",
+	"subject":"我的打赌","classid":"0","viewnum":"1","replynum":"2","hot":"0","dateline":"1344417374","pic":"","picflag":"0","noreply":"0","friend":"0",
+	"password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3","endtime":"0","resulttime":"0",
+	"lastvote":"1344418287","voternum":"1","maxchoice":"0","sex":"0","keyoid":"0","keyoption":"","totalcost":"20","hasremind":"1","hasexceed":"1",
+	"options":[{"oid":"107","quizid":"55","uid":"1","option":"A赢","relatedtime":"1344417374","picid":"81","votenum":"0",
+	"pic":"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg"},{"oid":"108","quizid":"55","uid":"1","option":"B输","relatedtime":"1344417374","picid":"79",
+	"votenum":"1","pic":"attachment\/201208\/1\/1_1343816747cmwS.png"}]}},"msg":"进行的操作完成了","action":"do_success"}
+
 
 <h2>撰写评论</h2>
 capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=quizid&id=55&m_auth=af9cCEMpQlfFT
