@@ -300,6 +300,7 @@ betit
 			* note -- 通知的内容
 			* isfriend -- 接收和发送方是否好友
 			* dateline -- 时间
+			* avatar -- 通知头像
 		* data[count], 返回列表条目数, 便用遍历
 #### 样例
 	{
@@ -316,7 +317,8 @@ betit
 					"note": "温馨提示：你的 《我的打赌》 的打赌将在1小时后到期，请及时公布答案.",
 					"dateline": "1344932518",
 					"isfriend": 0,
-					"style": ""
+					"style": "",
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
 				},
 				{
 					"id": "206",
@@ -328,7 +330,8 @@ betit
 					"note": "由于你的 《我的打赌》 打赌由于超期没有公布答案，已被取消并扣除你的信用20。",
 					"dateline": "1344932518",
 					"isfriend": 0,
-					"style": ""
+					"style": "",
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
 				}
 			],
 			"count": 2
@@ -359,8 +362,10 @@ capi/space.php?do=pm&page=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6
 		* data[pms]，私信列表， 条目字段如下
 			* pmid -- 私信id
 			* msgfrom -- 消息发送人
+			* msgfromavatar -- 消息发送人头像
 			* msgfromid -- 消息发送人id
 			* msgtoid -- 消息接收人id
+			* msgtoavatar -- 消息接收人头像
 			* authorid -- 发送通知的用户
 			* new -- 是否未读
 			* subject -- 私信标题
@@ -371,8 +376,33 @@ capi/space.php?do=pm&page=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6
 			* daterange -- 消息相隔的天数，1代表1天内，2代表两天内，3代表3天内
 		* data[count], 返回列表条目数, 便用遍历
 #### 样例
-	{"code":0,"data":{"pms":[{"pmid":"7","msgfrom":"admin","msgfromid":"1","msgtoid":"5","new":"1","subject":"你好summit","dateline":"08-07 07:33","message":"你好summit",
-	"delstatus":"0","related":"0","fromappid":"1","daterange":1,"touid":"1"}],"count":1},"msg":"数据获取成功","action":"rest_success"}
+	{
+		"code": 0,
+		"data": {
+			"pms": [
+				{
+					"pmid": "7",
+					"msgfrom": "admin",
+					"msgfromid": "1",
+					"msgtoid": "5",
+					"new": "0",
+					"subject": "你好summit",
+					"dateline": "1344324792",
+					"message": "你好summit",
+					"delstatus": "0",
+					"related": "0",
+					"fromappid": "1",
+					"daterange": 5,
+					"touid": "1",
+					"msgfromavatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg",
+					"msgtoavatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				}
+			],
+			"count": 1
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>私信详情</h2>
@@ -393,7 +423,9 @@ capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&m_auth=55dalDuJytwH
 			* pmid -- 私信id
 			* msgfrom -- 消息发送人
 			* msgfromid -- 消息发送人id
+			* msgfromavatar -- 消息发送人头像
 			* msgtoid -- 消息接收人id
+			* msgtoavatar -- 消息接收人头像
 			* authorid -- 发送通知的用户
 			* new -- 是否未读
 			* subject -- 私信标题
@@ -405,8 +437,67 @@ capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&m_auth=55dalDuJytwH
 		* data[count], 返回列表条目数, 便用遍历
 
 #### 样例
-	{"code":0,"data":{"pms":[{"pmid":"3","msgfrom":"aifaxian","msgfromid":"1","msgtoid":"12","folder":"inbox","new":"1","subject":"你好啊","dateline":"03-09 18:04",
-	"message":"你好啊","delstatus":"0","related":"1","fromappid":"1","daterange":5}],"count":1},"msg":"数据获取成功","action":"rest_success"}
+	{
+		"code": 0,
+		"data": {
+			"pms": [
+				{
+					"pmid": "6",
+					"msgfrom": "summit",
+					"msgfromid": "5",
+					"msgtoid": "1",
+					"folder": "inbox",
+					"new": "1",
+					"subject": "23423432423",
+					"dateline": "1344324163",
+					"message": "23423432423",
+					"delstatus": "0",
+					"related": "1",
+					"fromappid": "1",
+					"daterange": 5,
+					"msgfromavatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg",
+					"msgtoavatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg"
+				},
+				{
+					"pmid": "8",
+					"msgfrom": "summit",
+					"msgfromid": "5",
+					"msgtoid": "1",
+					"folder": "inbox",
+					"new": "1",
+					"subject": "你好吧。admin",
+					"dateline": "1344324259",
+					"message": "你好吧。admin",
+					"delstatus": "0",
+					"related": "1",
+					"fromappid": "1",
+					"daterange": 5,
+					"msgfromavatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg",
+					"msgtoavatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg"
+				},
+				{
+					"pmid": "9",
+					"msgfrom": "admin",
+					"msgfromid": "1",
+					"msgtoid": "5",
+					"folder": "inbox",
+					"new": "0",
+					"subject": "你好summit",
+					"dateline": "1344324792",
+					"message": "你好summit",
+					"delstatus": "0",
+					"related": "1",
+					"fromappid": "1",
+					"daterange": 5,
+					"msgfromavatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg",
+					"msgtoavatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				}
+			],
+			"count": 3
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>好友排行榜接口</h2>
