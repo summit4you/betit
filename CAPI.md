@@ -1,390 +1,529 @@
 betit
 =====
-°æ±¾£º0.1  
-×÷Õß£º[ÇğÎÄ·å](mailto:809104518@qq.com)
+ç‰ˆæœ¬ï¼š0.1  
+ä½œè€…ï¼š[ä¸˜æ–‡å³°](mailto:809104518@qq.com)
 
-±¾ÎÄµµÓÃÓÚÃèÊöBetItµÄ¿Í»§¶Ë½Ó¿Ú
+æœ¬æ–‡æ¡£ç”¨äºæè¿°BetItçš„å®¢æˆ·ç«¯æ¥å£
 ******************************
-Ë÷Òı
+ç´¢å¼•
 ----
-* ÏÂĞĞ½Ó¿Ú
-	*	[ºÃÓÑ¶¯Ì¬ÁĞ±í½Ó¿Ú](#ºÃÓÑ¶¯Ì¬ÁĞ±í½Ó¿Ú)
-	*	[È«²¿´ò¶ÄÁĞ±í½Ó¿Ú](#È«Õ¾¶¯Ì¬ÁĞ±í½Ó¿Ú)
-	*	[Í¨ÖªÁĞ±í½Ó¿Ú](#Í¨ÖªÁĞ±í½Ó¿Ú)
-	*	[Ë½ĞÅÁĞ±í½Ó¿Ú](#Ë½ĞÅÁĞ±í½Ó¿Ú)
-	*	[Ë½ĞÅÏêÇé](#Ë½ĞÅÏêÇé)
-	*	[ºÃÓÑÅÅĞĞ°ñ½Ó¿Ú](#ºÃÓÑÅÅĞĞ°ñ½Ó¿Ú)
-	*	[ÈÈÃÅ´ò¶ÄÅÅĞĞ°ñ½Ó¿Ú](#ÈÈÃÅ´ò¶ÄÅÅĞĞ°ñ½Ó¿Ú)
-	*	[ÎÒµÄ¸öÈËĞÅÏ¢](#ÎÒµÄ¸öÈËĞÅÏ¢)
-	*	[´ò¶ÄÏêÇé](#´ò¶ÄÏêÇé)
-	*	[»ñÈ¡Í¶×¢ºÃÓÑ](#»ñÈ¡Í¶×¢ºÃÓÑ)
-	*	[ÆÀÂÛÁĞ±í](#ÆÀÂÛÁĞ±í)
-	*	[ËÑË÷´ò¶Ä](#ËÑË÷´ò¶Ä)
-	*	[ËÑË÷ºÃÓÑ](#ËÑË÷ºÃÓÑ)
-	*	[ÍÆ¼ö´ò¶ÄÁĞ±í](#ÍÆ¼ö´ò¶ÄÁĞ±í)
+* ä¸‹è¡Œæ¥å£
+	*	[å¥½å‹åŠ¨æ€åˆ—è¡¨æ¥å£](#å¥½å‹åŠ¨æ€åˆ—è¡¨æ¥å£)
+	*	[å…¨éƒ¨æ‰“èµŒåˆ—è¡¨æ¥å£](#å…¨ç«™åŠ¨æ€åˆ—è¡¨æ¥å£)
+	*	[é€šçŸ¥åˆ—è¡¨æ¥å£](#é€šçŸ¥åˆ—è¡¨æ¥å£)
+	*	[ç§ä¿¡åˆ—è¡¨æ¥å£](#ç§ä¿¡åˆ—è¡¨æ¥å£)
+	*	[ç§ä¿¡è¯¦æƒ…](#ç§ä¿¡è¯¦æƒ…)
+	*	[å¥½å‹æ’è¡Œæ¦œæ¥å£](#å¥½å‹æ’è¡Œæ¦œæ¥å£)
+	*	[çƒ­é—¨æ‰“èµŒæ’è¡Œæ¦œæ¥å£](#çƒ­é—¨æ‰“èµŒæ’è¡Œæ¦œæ¥å£)
+	*	[æˆ‘çš„ä¸ªäººä¿¡æ¯](#æˆ‘çš„ä¸ªäººä¿¡æ¯)
+	*	[æ‰“èµŒè¯¦æƒ…](#æ‰“èµŒè¯¦æƒ…)
+	*	[è·å–æŠ•æ³¨å¥½å‹](#è·å–æŠ•æ³¨å¥½å‹)
+	*	[è¯„è®ºåˆ—è¡¨](#è¯„è®ºåˆ—è¡¨)
+	*	[æœç´¢æ‰“èµŒ](#æœç´¢æ‰“èµŒ)
+	*	[æœç´¢å¥½å‹](#æœç´¢å¥½å‹)
+	*	[æ¨èæ‰“èµŒåˆ—è¡¨](#æ¨èæ‰“èµŒåˆ—è¡¨)
 
-* ÉÏĞĞ½Ó¿Ú
-	*	[»ñÈ¡×¢²áÑéÖ¤Âë](#»ñÈ¡×¢²áÑéÖ¤Âë)
-	*	[×¢²á](#×¢²á)
-	*	[µÇÂ¼](#µÇÂ¼)
-	*	[ÉÏ´«Í¼Æ¬](#ÉÏ´«Í¼Æ¬)
-	*	[·¢²¼´ò¶Ä](#·¢²¼´ò¶Ä)
-	*	[²ÎÓë´ò¶Ä](#²ÎÓë´ò¶Ä)
-	*	[¹«²¼´ğ°¸](#¹«²¼´ğ°¸)
-	*	[·ÖÏí´ò¶Ä](#·ÖÏí´ò¶Ä)
-	*	[ÑûÇëºÃÓÑ²ÎÓë´ò¶Ä](#ÑûÇëºÃÓÑ²ÎÓë´ò¶Ä)
-	*	[×«Ğ´ÆÀÂÛ](#×«Ğ´ÆÀÂÛ)
-	*	[·¢²¼Ë½ĞÅ](#·¢²¼Ë½ĞÅ)
-	*	[¸ü¸ÄÍ·Ïñ](#¸ü¸ÄÍ·Ïñ)
-	*	[¸ü¸ÄêÇ³Æ](#¸ü¸ÄêÇ³Æ)
-	*	[±àĞ´ĞÄÇé](#±àĞ´ĞÄÇé)
-	*	[ÑûÇëºÃÓÑ](#ÑûÇëºÃÓÑ)
+* ä¸Šè¡Œæ¥å£
+	*	[è·å–æ³¨å†ŒéªŒè¯ç ](#è·å–æ³¨å†ŒéªŒè¯ç )
+	*	[æ³¨å†Œ](#æ³¨å†Œ)
+	*	[ç™»å½•](#ç™»å½•)
+	*	[ä¸Šä¼ å›¾ç‰‡](#ä¸Šä¼ å›¾ç‰‡)
+	*	[å‘å¸ƒæ‰“èµŒ](#å‘å¸ƒæ‰“èµŒ)
+	*	[å‚ä¸æ‰“èµŒ](#å‚ä¸æ‰“èµŒ)
+	*	[å…¬å¸ƒç­”æ¡ˆ](#å…¬å¸ƒç­”æ¡ˆ)
+	*	[åˆ†äº«æ‰“èµŒ](#åˆ†äº«æ‰“èµŒ)
+	*	[é‚€è¯·å¥½å‹å‚ä¸æ‰“èµŒ](#é‚€è¯·å¥½å‹å‚ä¸æ‰“èµŒ)
+	*	[æ’°å†™è¯„è®º](#æ’°å†™è¯„è®º)
+	*	[å‘å¸ƒç§ä¿¡](#å‘å¸ƒç§ä¿¡)
+	*	[æ›´æ”¹å¤´åƒ](#æ›´æ”¹å¤´åƒ)
+	*	[æ›´æ”¹æ˜µç§°](#æ›´æ”¹æ˜µç§°)
+	*	[ç¼–å†™å¿ƒæƒ…](#ç¼–å†™å¿ƒæƒ…)
+	*	[é‚€è¯·å¥½å‹](#é‚€è¯·å¥½å‹)
 
-½Ó¿ÚËµÃ÷
+æ¥å£è¯´æ˜
 --------
 
-<h2>ºÃÓÑ¶¯Ì¬ÁĞ±í½Ó¿Ú</h2>
+<h2>å¥½å‹åŠ¨æ€åˆ—è¡¨æ¥å£</h2>
 /capi/space.php?do=feed&uid=1&page=0&perpage=10&view=we&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
-#### ÇëÇó²ÎÊı
-	* µ±Ç°ÓÃ»§id -- uid
-	* µÚ¼¸Ò³ -- page
-	* Ã¿Ò³ÏÔÊ¾ÊıÁ¿  -- perpage
-	* ²éÑ¯²ÎÊı -- view, ÖµÎªwe´ú±íºÃÓÑ¶¯Ì¬ÁĞ±í
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[feeds]£¬feedÁĞ±í£¬ ÌõÄ¿×Ö¶ÎÈçÏÂ
-			* feedid -- feedµÄidÖµ
-			* appid -- µ±iconÎªquizÊ±´ú±í²ÎÓë´ò¶Ä
-			* title_template -- feedµÄ±êÌâ
-			* body_template -- feedµÄÄÚÈİ
-			* dateline -- feedµÄÊ±¼ä
-			* uid -- ·¢²¼feedµÄÓÃ»§id
-			* username -- ·¢²¼feedÓÃ»§
-			* image_1_link -- ´ò¶ÄAÍ¼Æ¬
-			* image_2_link -- ´ò¶ÄBÍ¼Æ¬
-			* idtype -- feedÀàĞÍ
-				* quizid -- ´ò¶Ä
-				* doid -- ĞÄÇé
-				* picid -- Í¼Æ¬
-			* comments: ÈôÊÇ´ò¶Ä¶¯Ì¬£¬Ôò»á·µ»ØÁ½Ìõ×îĞÂÆÀÂÛ
-			* commentnum: ÈôÊÇ´ò¶Ä¶¯Ì¬£¬Ôò»á·µ»Ø´ò¶Äµ±Ç°µÄÆÀÂÛ×ÜÊı
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
-#### ÑùÀı
-	{"code":0,"data":{"feeds":{"38527753d7ee50e50c95d6427110b925":{"feedid":"83","appid":"1","icon":"quiz","uid":"5","username":"summit","dateline":"08-06 07:11",
-	"friend":"0","hash_template":"d054367a46e659022b40f4334dec2c56","hash_data":"38527753d7ee50e50c95d6427110b925",
-	"title_template":"summit ¹«²¼ÁË´ò¶Ä <a target=\"_blank\"   href=\"space.php?uid=5&do=quiz&id=54\"  target=\"_blank\">²âÊÔÓÅ»İÈ¯<\/a>µÄ´ğ°¸£¬´ğ°¸ÊÇ3",
-	"title_data":{"url":"space.php?uid=5&do=quiz&id=54","subject":"²âÊÔÓÅ»İÈ¯","key":"3"},"body_template":"<br>²ÎÓëÈËÊı1ÈË,ºÜ²»ĞÒ±¾ÆÚÃ»ÓĞÈË»ñÊ¤£¬´ó¼ÒÒª¼ÓÓÍÓ´£¡",
-	"body_data":{"attend":"1"},"body_general":"","image_1":"","image_1_link":"","image_2":"","image_2_link":"","image_3":"","image_3_link":"","image_4":"",
-	"image_4_link":"","target_ids":"","id":"0","idtype":"","hot":"0","magic_class":"","icon_image":"image\/icon\/quiz.gif","target":" target=\"_blank\"",
-	"style":" onclick=\"readfeed(this, 83);\"","thisapp":1},"c6a4a0d241035ff650c7d2f841f387c8":{"feedid":"82","appid":"1","icon":"quiz","uid":"5","username":"summit",
-	"dateline":"08-06 07:10","friend":"0","hash_template":"d6269a47b34e39569585a1d028651f60","hash_data":"c6a4a0d241035ff650c7d2f841f387c8",
-	"title_template":"summit ·¢±íÁËĞÂ´ò¶Ä","title_data":[],"body_template":"<b><a target=\"_blank\"   href=\"space.php?uid=5&do=quiz&id=54\" >²âÊÔÓÅ»İÈ¯<\/a><\/b><br>
-	<br>12:2ÈËÍ¶×¢<br>3:1ÈËÍ¶×¢<br\/>½±³Ø£º60½ğ±Ò","body_data":{"subject":"<a href=\"space.php?uid=5&do=quiz&id=54\">²âÊÔÓÅ»İÈ¯<\/a>",
-	"option":"<br>12:2ÈËÍ¶×¢<br>3:1ÈËÍ¶×¢","totalcost":"<br\/>½±³Ø£º60½ğ±Ò"},"body_general":"","image_1":"","image_1_link":"","image_2":"","image_2_link":"",
-	"image_3":"","image_3_link":"","image_4":"","image_4_link":"","target_ids":"","id":"54","idtype":"quizid","hot":"0","magic_class":"","icon_image":"image\/icon\/quiz.gif","target":" target=\"_blank\"","style":"","thisapp":1}},"count":2},
-	"msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+#### è¯·æ±‚å‚æ•°
+	* å½“å‰ç”¨æˆ·id -- uid
+	* ç¬¬å‡ é¡µ -- page
+	* æ¯é¡µæ˜¾ç¤ºæ•°é‡  -- perpage
+	* æŸ¥è¯¢å‚æ•° -- view, å€¼ä¸ºweä»£è¡¨å¥½å‹åŠ¨æ€åˆ—è¡¨
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[feeds]ï¼Œfeedåˆ—è¡¨ï¼Œ æ¡ç›®å­—æ®µå¦‚ä¸‹
+			* title_template -- feedçš„æ ‡é¢˜
+			* body_template -- feedçš„å†…å®¹
+			* dateline -- feedçš„æ—¶é—´
+			* uid -- å‘å¸ƒfeedçš„ç”¨æˆ·id
+			* username -- å‘å¸ƒfeedç”¨æˆ·
+			* body_data -- feedçš„å†…å®¹ï¼Œå½“å‰ä»…æœ‰æ‰“èµŒæœ‰æ„ä¹‰
+				* subject -- æ‰“èµŒæ ‡é¢˜
+				* option -- æ‰“èµŒA, Bé€‰æ‹©
+					* oid -- é€‰é¡¹id
+					* option -- é€‰é¡¹æè¿°
+					* relatedtime -- æœ€æ–°æŠ•ç¥¨çš„æ—¶é—´
+					* votenum -- æŠ•ç¥¨äººæ•°
+					* pic -- é€‰é¡¹å›¾ç‰‡
+				* totalcost -- å¥–æ± æ€»é¢
+				* endtime -- æˆªæ­¢æ—¶é—´
+				* resulttime -- é¢„è®¡å…¬å¸ƒç­”æ¡ˆæ—¶é—´
+			* icon -- feedç±»å‹
+				* quiz -- æ‰“èµŒ
+				* do -- å¿ƒæƒ…
+				* pic -- å›¾ç‰‡
+				* profile -- æ›´æ–°èµ„æ–™
+			* comments: è‹¥æ˜¯æ‰“èµŒåŠ¨æ€ï¼Œåˆ™ä¼šè¿”å›ä¸¤æ¡æœ€æ–°è¯„è®º
+			* commentnum: è‹¥æ˜¯æ‰“èµŒåŠ¨æ€ï¼Œåˆ™ä¼šè¿”å›æ‰“èµŒå½“å‰çš„è¯„è®ºæ€»æ•°
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
+#### æ ·ä¾‹
+	{
+		"code": 0,
+		"data": {
+			"feeds": [
+				{
+					"icon": "quiz",
+					"uid": "1",
+					"username": "admin",
+					"dateline": "1344929249",
+					"friend": "0",
+					"title_template": "{actor} å‘è¡¨äº†æ–°æ‰“èµŒ",
+					"title_data": [],
+					"body_template": "<b>{subject}</b><br>{option}{totalcost}",
+					"body_data": {
+						"subject": "20120803æ—¶é—´æˆ³",
+						"option": [
+							{
+								"oid": "109",
+								"option": "21",
+								"relatedtime": "1344929249",
+								"votenum": "0",
+								"pic": "http://betit-pic.b0.upaiyun.com/201208/14/1_13449290756gK5.jpg"
+							},
+							{
+								"oid": "110",
+								"option": "123",
+								"relatedtime": "1344929249",
+								"votenum": "0",
+								"pic": "http://betit-pic.b0.upaiyun.com/201208/14/1_1344929111K4Ac.png"
+							}
+						],
+						"totalcost": "0",
+						"endtime": "1345533855",
+						"resulttime": "1345537455"
+					},
+					"id": "56",
+					"idtype": "quizid",
+					"hot": "0",
+					"commentnum": "0",
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg"
+				},
+				{
+					"icon": "profile",
+					"uid": "1",
+					"username": "admin",
+					"dateline": "1344911867",
+					"friend": "0",
+					"title_template": "{actor} æ›´æ–°äº†è‡ªå·±çš„åŸºæœ¬èµ„æ–™",
+					"title_data": [],
+					"body_template": "",
+					"body_data": [],
+					"id": "0",
+					"idtype": "",
+					"hot": "0",
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg"
+				}
+			],
+			"count": 2
+		},
+		"msg": "æ•°æ®è·å–æˆåŠŸ",
+		"action": "rest_success"
+	}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>È«Õ¾¶¯Ì¬ÁĞ±í½Ó¿Ú</h2>
+<h2>å…¨ç«™åŠ¨æ€åˆ—è¡¨æ¥å£</h2>
 /capi/space.php?do=feed&uid=1&page=0&perpage=10&view=quiz&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
-#### ÇëÇó²ÎÊı
-	* µ±Ç°ÓÃ»§id -- uid
-	* µÚ¼¸Ò³ -- page
-	* Ã¿Ò³ÏÔÊ¾ÊıÁ¿  -- perpage
-	* ²éÑ¯²ÎÊı -- view, ÖµÎªquiz´ú±íÈ«Õ¾´ò¶Ä¶¯Ì¬ÁĞ±í
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[feeds]£¬feedÁĞ±í£¬ ÌõÄ¿×Ö¶ÎÈçÏÂ
-			* feedid -- feedµÄidÖµ
-			* appid -- µ±iconÎªquizÊ±´ú±í²ÎÓë´ò¶Ä
-			* title_template -- feedµÄ±êÌâ
-			* body_template -- feedµÄÄÚÈİ
-			* dateline -- feedµÄÊ±¼ä
-			* uid -- ·¢²¼feedµÄÓÃ»§id
-			* username -- ·¢²¼feedÓÃ»§
-			* image_1_link -- ´ò¶ÄAÍ¼Æ¬
-			* image_2_link -- ´ò¶ÄBÍ¼Æ¬
-			* idtype -- feedÀàĞÍ
-				* quizid -- ´ò¶Ä
-				* doid -- ĞÄÇé
-				* picid -- Í¼Æ¬
-			* comments: ÈôÊÇ´ò¶Ä¶¯Ì¬£¬Ôò»á·µ»ØÁ½Ìõ×îĞÂÆÀÂÛ
-			* commentnum: ÈôÊÇ´ò¶Ä¶¯Ì¬£¬Ôò»á·µ»Ø´ò¶Äµ±Ç°µÄÆÀÂÛ×ÜÊı
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
-#### ÑùÀı
-	{"code":0,"data":{"feeds":{"fbb39498c050c2f975e9a7a3f8fbe48a":{"feedid":"88","appid":"1","icon":"quiz","uid":"1","username":"admin","dateline":"08-08 09:16",
-	"friend":"0","hash_template":"d6269a47b34e39569585a1d028651f60","hash_data":"fbb39498c050c2f975e9a7a3f8fbe48a","title_template":"admin ·¢±íÁËĞÂ´ò¶Ä",
-	"title_data":[],"body_template":"<b><a target=\"_blank\"   href=\"space.php?uid=1&do=quiz&id=55\" >ÎÒµÄ´ò¶Ä<\/a><\/b><br><br>AÓ®:0ÈËÍ¶×¢<br>BÊä:1ÈËÍ¶×¢<br\/>
-	½±³Ø£º20½ğ±Ò","body_data":{"subject":"<a href=\"space.php?uid=1&do=quiz&id=55\">ÎÒµÄ´ò¶Ä<\/a>","option":"<br>AÓ®:0ÈËÍ¶×¢<br>BÊä:1ÈËÍ¶×¢","totalcost":"<br\/>
-	½±³Ø£º20½ğ±Ò"},"body_general":"","image_1":"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg","image_1_link":"space.php?uid=1&do=quiz&id=55",
-	"image_2":"attachment\/201208\/1\/1_1343816747cmwS.png","image_2_link":"space.php?uid=1&do=quiz&id=55","image_3":"","image_3_link":"","image_4":"",
-	"image_4_link":"","target_ids":"","id":"55","idtype":"quizid","hot":"0","magic_class":"","icon_image":"image\/icon\/quiz.gif","target":" target=\"_blank\"",
-	"style":"","thisapp":1}},"count":1},"msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+#### è¯·æ±‚å‚æ•°
+	* å½“å‰ç”¨æˆ·id -- uid
+	* ç¬¬å‡ é¡µ -- page
+	* æ¯é¡µæ˜¾ç¤ºæ•°é‡  -- perpage
+	* æŸ¥è¯¢å‚æ•° -- view, å€¼ä¸ºquizä»£è¡¨å…¨ç«™æ‰“èµŒåŠ¨æ€åˆ—è¡¨
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[feeds]ï¼Œfeedåˆ—è¡¨ï¼Œ æ¡ç›®å­—æ®µå¦‚ä¸‹
+			* title_template -- feedçš„æ ‡é¢˜
+			* body_template -- feedçš„å†…å®¹
+			* dateline -- feedçš„æ—¶é—´
+			* uid -- å‘å¸ƒfeedçš„ç”¨æˆ·id
+			* username -- å‘å¸ƒfeedç”¨æˆ·
+			* body_data -- feedçš„å†…å®¹ï¼Œå½“å‰ä»…æœ‰æ‰“èµŒæœ‰æ„ä¹‰
+				* subject -- æ‰“èµŒæ ‡é¢˜
+				* option -- æ‰“èµŒA, Bé€‰æ‹©
+					* oid -- é€‰é¡¹id
+					* option -- é€‰é¡¹æè¿°
+					* relatedtime -- æœ€æ–°æŠ•ç¥¨çš„æ—¶é—´
+					* votenum -- æŠ•ç¥¨äººæ•°
+					* pic -- é€‰é¡¹å›¾ç‰‡
+				* totalcost -- å¥–æ± æ€»é¢
+				* endtime -- æˆªæ­¢æ—¶é—´
+				* resulttime -- é¢„è®¡å…¬å¸ƒç­”æ¡ˆæ—¶é—´
+			* icon -- feedç±»å‹
+				* quiz -- æ‰“èµŒ
+				* do -- å¿ƒæƒ…
+				* pic -- å›¾ç‰‡
+				* profile -- æ›´æ–°èµ„æ–™
+			* comments: è‹¥æ˜¯æ‰“èµŒåŠ¨æ€ï¼Œåˆ™ä¼šè¿”å›ä¸¤æ¡æœ€æ–°è¯„è®º
+			* commentnum: è‹¥æ˜¯æ‰“èµŒåŠ¨æ€ï¼Œåˆ™ä¼šè¿”å›æ‰“èµŒå½“å‰çš„è¯„è®ºæ€»æ•°
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
+#### æ ·ä¾‹
+	{
+		"code": 0,
+		"data": {
+			"feeds": [
+				{
+					"icon": "quiz",
+					"uid": "5",
+					"username": "summit",
+					"dateline": "1344929322",
+					"friend": "0",
+					"title_template": "{actor} å‘è¡¨äº†æ–°æ‰“èµŒ",
+					"title_data": [],
+					"body_template": "<b>{subject}</b><br>{option}{totalcost}",
+					"body_data": {
+						"subject": "3423423",
+						"option": [
+							{
+								"oid": "111",
+								"option": "32423423",
+								"relatedtime": "1344929322",
+								"votenum": "2"
+							},
+							{
+								"oid": "112",
+								"option": "234324",
+								"relatedtime": "1344929322",
+								"votenum": "0"
+							}
+						],
+						"totalcost": "40",
+						"endtime": "1344929838",
+						"resulttime": "1345537713"
+					},
+					"id": "57",
+					"idtype": "quizid",
+					"hot": "1",
+					"commentnum": "0",
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				},
+				{
+					"icon": "quiz",
+					"uid": "1",
+					"username": "admin",
+					"dateline": "1344929249",
+					"friend": "0",
+					"title_template": "{actor} å‘è¡¨äº†æ–°æ‰“èµŒ",
+					"title_data": [],
+					"body_template": "<b>{subject}</b><br>{option}{totalcost}",
+					"body_data": {
+						"subject": "20120803æ—¶é—´æˆ³",
+						"option": [
+							{
+								"oid": "109",
+								"option": "21",
+								"relatedtime": "1344929249",
+								"votenum": "0",
+								"pic": "http://betit-pic.b0.upaiyun.com/201208/14/1_13449290756gK5.jpg"
+							},
+							{
+								"oid": "110",
+								"option": "123",
+								"relatedtime": "1344929249",
+								"votenum": "0",
+								"pic": "http://betit-pic.b0.upaiyun.com/201208/14/1_1344929111K4Ac.png"
+							}
+						],
+						"totalcost": "0",
+						"endtime": "1345533855",
+						"resulttime": "1345537455"
+					},
+					"id": "56",
+					"idtype": "quizid",
+					"hot": "0",
+					"commentnum": "0",
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg"
+				}
+			],
+			"count": 2
+		},
+		"msg": "æ•°æ®è·å–æˆåŠŸ",
+		"action": "rest_success"
+	}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>Í¨ÖªÁĞ±í½Ó¿Ú</h2>
+<h2>é€šçŸ¥åˆ—è¡¨æ¥å£</h2>
 /capi/space.php?do=notice&page=0&prepage=2&uid=1&type=quizinvalid&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
-#### ÇëÇó²ÎÊı
-	* µ±Ç°ÓÃ»§id -- uid
-	* µÚ¼¸Ò³ -- page
-	* Ã¿Ò³ÏÔÊ¾ÊıÁ¿  -- perpage
-	* Í¨ÖªÀàĞÍ -- type
-		* quiz -- ´ò¶Ä
-		* quizcomment -- ´ò¶ÄÆÀÂÛ
-		* quizinvite -- ´ò¶ÄÑûÇë
-		* clickquiz -- ´ò¶Ä±íÌ¬
-		* quizwin -- ´ò¶ÄÓ®
-		* quizlost -- ´ò¶ÄÊä
-		* quizinvalid -- ´ò¶ÄÁ÷Ê§
-		* credit -- ½ğ±Ò
-		* ¿Õ -- ´ú±íÈ«²¿Í¨Öª
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[notices]£¬Í¨ÖªÁĞ±í£¬ ÌõÄ¿×Ö¶ÎÈçÏÂ
-			* id -- Í¨Öªid
-			* uid -- ½ÓÊÕÍ¨ÖªµÄÓÃ»§
-			* type -- Í¨ÖªÀàĞÍ£¨È¡Öµº¬Òå¼ûÇëÇó²ÎÊı£©
-			* authorid -- ·¢ËÍÍ¨ÖªµÄÓÃ»§
-			* authorid -- ·¢ËÍÍ¨ÖªµÄÓÃ»§
-			* note -- Í¨ÖªµÄÄÚÈİ
-			* isfriend -- ½ÓÊÕºÍ·¢ËÍ·½ÊÇ·ñºÃÓÑ
-			* dateline -- Ê±¼ä
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
-#### ÑùÀı
-	{"code":0,"data":{"notice":[{"id":"124","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit","note":"¹§Ï²ÄãÔÚ 
-	<a href=\"space.php?uid=5&do=quiz&id=53\" target=\"_blank\">¡¶234444444444444444¡·<\/a>µÄĞüÉÍ´ò¶ÄÖĞµÃÊ¤£¬»ñµÃ½ğ±Ò20¡£","dateline":"1344236803","isfriend":1,
-	"style":""},{"id":"122","uid":"5","type":"quizlost","new":"0","authorid":"5","author":"summit","note":"ºÜ²»ĞÒÄãÔÚ <a href=\"space.php?uid=5&do=quiz&id=52\" 
-	target=\"_blank\">¡¶²âÊÔÓÅ»İÈ¯¡·<\/a>µÄĞüÉÍ´ò¶ÄÖĞÃ»ÓĞ»ñÊ¤£¬ÊäÁË´ò¶Ä20£¬Çë¼ÌĞøÅ¬Á¦o~ÏÂ´ÎµÃ½±µÄ¾ÍÊÇÄã£¡","dateline":"1344236757","isfriend":1,"style":""},
-	{"id":"120","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit","note":"¹§Ï²ÄãÔÚ <a href=\"space.php?uid=5&do=quiz&id=51\" target=\"_blank\">
-	¡¶34¡·<\/a>µÄĞüÉÍ´ò¶ÄÖĞµÃÊ¤£¬»ñµÃ½ğ±Ò20¡£","dateline":"1344236043","isfriend":1,"style":""},{"id":"118","uid":"5","type":"quizwin","new":"0","authorid":"5",
-	"author":"summit","note":"¹§Ï²ÄãÔÚ <a href=\"space.php?uid=5&do=quiz&id=50\" target=\"_blank\">¡¶123¡·<\/a>µÄĞüÉÍ´ò¶ÄÖĞµÃÊ¤£¬»ñµÃ½ğ±Ò20¡£","dateline":"1344235975",
+#### è¯·æ±‚å‚æ•°
+	* å½“å‰ç”¨æˆ·id -- uid
+	* ç¬¬å‡ é¡µ -- page
+	* æ¯é¡µæ˜¾ç¤ºæ•°é‡  -- perpage
+	* é€šçŸ¥ç±»å‹ -- type
+		* quiz -- æ‰“èµŒ
+		* quizcomment -- æ‰“èµŒè¯„è®º
+		* quizinvite -- æ‰“èµŒé‚€è¯·
+		* clickquiz -- æ‰“èµŒè¡¨æ€
+		* quizwin -- æ‰“èµŒèµ¢
+		* quizlost -- æ‰“èµŒè¾“
+		* quizinvalid -- æ‰“èµŒæµå¤±
+		* credit -- é‡‘å¸
+		* ç©º -- ä»£è¡¨å…¨éƒ¨é€šçŸ¥
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[notices]ï¼Œé€šçŸ¥åˆ—è¡¨ï¼Œ æ¡ç›®å­—æ®µå¦‚ä¸‹
+			* id -- é€šçŸ¥id
+			* uid -- æ¥æ”¶é€šçŸ¥çš„ç”¨æˆ·
+			* type -- é€šçŸ¥ç±»å‹ï¼ˆå–å€¼å«ä¹‰è§è¯·æ±‚å‚æ•°ï¼‰
+			* authorid -- å‘é€é€šçŸ¥çš„ç”¨æˆ·
+			* authorid -- å‘é€é€šçŸ¥çš„ç”¨æˆ·
+			* note -- é€šçŸ¥çš„å†…å®¹
+			* isfriend -- æ¥æ”¶å’Œå‘é€æ–¹æ˜¯å¦å¥½å‹
+			* dateline -- æ—¶é—´
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
+#### æ ·ä¾‹
+	{"code":0,"data":{"notice":[{"id":"124","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit","note":"æ­å–œä½ åœ¨ 
+	<a href=\"space.php?uid=5&do=quiz&id=53\" target=\"_blank\">ã€Š234444444444444444ã€‹<\/a>çš„æ‚¬èµæ‰“èµŒä¸­å¾—èƒœï¼Œè·å¾—é‡‘å¸20ã€‚","dateline":"1344236803","isfriend":1,
+	"style":""},{"id":"122","uid":"5","type":"quizlost","new":"0","authorid":"5","author":"summit","note":"å¾ˆä¸å¹¸ä½ åœ¨ <a href=\"space.php?uid=5&do=quiz&id=52\" 
+	target=\"_blank\">ã€Šæµ‹è¯•ä¼˜æƒ åˆ¸ã€‹<\/a>çš„æ‚¬èµæ‰“èµŒä¸­æ²¡æœ‰è·èƒœï¼Œè¾“äº†æ‰“èµŒ20ï¼Œè¯·ç»§ç»­åŠªåŠ›o~ä¸‹æ¬¡å¾—å¥–çš„å°±æ˜¯ä½ ï¼","dateline":"1344236757","isfriend":1,"style":""},
+	{"id":"120","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit","note":"æ­å–œä½ åœ¨ <a href=\"space.php?uid=5&do=quiz&id=51\" target=\"_blank\">
+	ã€Š34ã€‹<\/a>çš„æ‚¬èµæ‰“èµŒä¸­å¾—èƒœï¼Œè·å¾—é‡‘å¸20ã€‚","dateline":"1344236043","isfriend":1,"style":""},{"id":"118","uid":"5","type":"quizwin","new":"0","authorid":"5",
+	"author":"summit","note":"æ­å–œä½ åœ¨ <a href=\"space.php?uid=5&do=quiz&id=50\" target=\"_blank\">ã€Š123ã€‹<\/a>çš„æ‚¬èµæ‰“èµŒä¸­å¾—èƒœï¼Œè·å¾—é‡‘å¸20ã€‚","dateline":"1344235975",
 	"isfriend":1,"style":""},{"id":"116","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit",
-	"note":"¹§Ï²ÄãÔÚ <a href=\"space.php?uid=5&do=quiz&id=49\" target=\"_blank\">¡¶²âÊÔÓÅ»İÈ¯¡·<\/a>µÄĞüÉÍ´ò¶ÄÖĞµÃÊ¤£¬»ñµÃ½ğ±Ò40¡£","dateline":"1344235733","isfriend":1,
-	"style":""}],"count":5},"msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"note":"æ­å–œä½ åœ¨ <a href=\"space.php?uid=5&do=quiz&id=49\" target=\"_blank\">ã€Šæµ‹è¯•ä¼˜æƒ åˆ¸ã€‹<\/a>çš„æ‚¬èµæ‰“èµŒä¸­å¾—èƒœï¼Œè·å¾—é‡‘å¸40ã€‚","dateline":"1344235733","isfriend":1,
+	"style":""}],"count":5},"msg":"æ•°æ®è·å–æˆåŠŸ","action":"rest_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>Ë½ĞÅÁĞ±í½Ó¿Ú</h2>
+<h2>ç§ä¿¡åˆ—è¡¨æ¥å£</h2>
 capi/space.php?do=pm&page=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
-#### ÇëÇó²ÎÊı
-	* µ±Ç°ÓÃ»§id -- uid
-	* µÚ¼¸Ò³ -- page
-	* Ã¿Ò³ÏÔÊ¾ÊıÁ¿  -- perpage
-	* Ë½ĞÅÀàĞÍ -- filter
-		* newpm -- Î´¶ÁË½ĞÅ
-		* privatepm -- Ë½ÈËÏûÏ¢
-		* systempm -- ÏµÍ³ÏûÏ¢
-		* announcepm -- ¹«¹²ÏûÏ¢
-		* ¿Õ -- Ë½ÈËÏûÏ¢
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[pms]£¬Ë½ĞÅÁĞ±í£¬ ÌõÄ¿×Ö¶ÎÈçÏÂ
-			* pmid -- Ë½ĞÅid
-			* msgfrom -- ÏûÏ¢·¢ËÍÈË
-			* msgfromid -- ÏûÏ¢·¢ËÍÈËid
-			* msgtoid -- ÏûÏ¢½ÓÊÕÈËid
-			* authorid -- ·¢ËÍÍ¨ÖªµÄÓÃ»§
-			* new -- ÊÇ·ñÎ´¶Á
-			* subject -- Ë½ĞÅ±êÌâ
-			* message -- Ë½ĞÅÄÚÈİ
-			* delstatus -- É¾³ı×´Ì¬
-			* fromappid -- Ó¦ÓÃ³ÌĞòID£¬¿ÉÒÔºöÂÔ
-			* dateline -- Ê±¼ä
-			* daterange -- ÏûÏ¢Ïà¸ôµÄÌìÊı£¬1´ú±í1ÌìÄÚ£¬2´ú±íÁ½ÌìÄÚ£¬3´ú±í3ÌìÄÚ
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
-#### ÑùÀı
-	{"code":0,"data":{"pms":[{"pmid":"7","msgfrom":"admin","msgfromid":"1","msgtoid":"5","new":"1","subject":"ÄãºÃsummit","dateline":"08-07 07:33","message":"ÄãºÃsummit",
-	"delstatus":"0","related":"0","fromappid":"1","daterange":1,"touid":"1"}],"count":1},"msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+#### è¯·æ±‚å‚æ•°
+	* å½“å‰ç”¨æˆ·id -- uid
+	* ç¬¬å‡ é¡µ -- page
+	* æ¯é¡µæ˜¾ç¤ºæ•°é‡  -- perpage
+	* ç§ä¿¡ç±»å‹ -- filter
+		* newpm -- æœªè¯»ç§ä¿¡
+		* privatepm -- ç§äººæ¶ˆæ¯
+		* systempm -- ç³»ç»Ÿæ¶ˆæ¯
+		* announcepm -- å…¬å…±æ¶ˆæ¯
+		* ç©º -- ç§äººæ¶ˆæ¯
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[pms]ï¼Œç§ä¿¡åˆ—è¡¨ï¼Œ æ¡ç›®å­—æ®µå¦‚ä¸‹
+			* pmid -- ç§ä¿¡id
+			* msgfrom -- æ¶ˆæ¯å‘é€äºº
+			* msgfromid -- æ¶ˆæ¯å‘é€äººid
+			* msgtoid -- æ¶ˆæ¯æ¥æ”¶äººid
+			* authorid -- å‘é€é€šçŸ¥çš„ç”¨æˆ·
+			* new -- æ˜¯å¦æœªè¯»
+			* subject -- ç§ä¿¡æ ‡é¢˜
+			* message -- ç§ä¿¡å†…å®¹
+			* delstatus -- åˆ é™¤çŠ¶æ€
+			* fromappid -- åº”ç”¨ç¨‹åºIDï¼Œå¯ä»¥å¿½ç•¥
+			* dateline -- æ—¶é—´
+			* daterange -- æ¶ˆæ¯ç›¸éš”çš„å¤©æ•°ï¼Œ1ä»£è¡¨1å¤©å†…ï¼Œ2ä»£è¡¨ä¸¤å¤©å†…ï¼Œ3ä»£è¡¨3å¤©å†…
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
+#### æ ·ä¾‹
+	{"code":0,"data":{"pms":[{"pmid":"7","msgfrom":"admin","msgfromid":"1","msgtoid":"5","new":"1","subject":"ä½ å¥½summit","dateline":"08-07 07:33","message":"ä½ å¥½summit",
+	"delstatus":"0","related":"0","fromappid":"1","daterange":1,"touid":"1"}],"count":1},"msg":"æ•°æ®è·å–æˆåŠŸ","action":"rest_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>Ë½ĞÅÏêÇé</h2>
+<h2>ç§ä¿¡è¯¦æƒ…</h2>
 capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
-#### ÇëÇó²ÎÊı
-	* ÏûÏ¢ËÍÖÁµÄÓÃ»§id -- touid
-	* ¼ìË÷ÏûÏ¢µÄÇø¼ä£¨¼¸ÌìÖ®ÄÚµÄ£© -- daterange
-	* ÏûÏ¢id -- pmid
-	* ²Ù×÷²ÎÊı -- subop, ±ØĞëÎªview
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
+#### è¯·æ±‚å‚æ•°
+	* æ¶ˆæ¯é€è‡³çš„ç”¨æˆ·id -- touid
+	* æ£€ç´¢æ¶ˆæ¯çš„åŒºé—´ï¼ˆå‡ å¤©ä¹‹å†…çš„ï¼‰ -- daterange
+	* æ¶ˆæ¯id -- pmid
+	* æ“ä½œå‚æ•° -- subop, å¿…é¡»ä¸ºview
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
 
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[pms]£¬Ë½ĞÅÁĞ±í£¬ ÌõÄ¿×Ö¶ÎÈçÏÂ
-			* pmid -- Ë½ĞÅid
-			* msgfrom -- ÏûÏ¢·¢ËÍÈË
-			* msgfromid -- ÏûÏ¢·¢ËÍÈËid
-			* msgtoid -- ÏûÏ¢½ÓÊÕÈËid
-			* authorid -- ·¢ËÍÍ¨ÖªµÄÓÃ»§
-			* new -- ÊÇ·ñÎ´¶Á
-			* subject -- Ë½ĞÅ±êÌâ
-			* message -- Ë½ĞÅÄÚÈİ
-			* delstatus -- É¾³ı×´Ì¬
-			* fromappid -- Ó¦ÓÃ³ÌĞòID£¬¿ÉÒÔºöÂÔ
-			* dateline -- Ê±¼ä
-			* daterange -- ÏûÏ¢Ïà¸ôµÄÌìÊı£¬1´ú±í1ÌìÄÚ£¬2´ú±íÁ½ÌìÄÚ£¬3´ú±í3ÌìÄÚ
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[pms]ï¼Œç§ä¿¡åˆ—è¡¨ï¼Œ æ¡ç›®å­—æ®µå¦‚ä¸‹
+			* pmid -- ç§ä¿¡id
+			* msgfrom -- æ¶ˆæ¯å‘é€äºº
+			* msgfromid -- æ¶ˆæ¯å‘é€äººid
+			* msgtoid -- æ¶ˆæ¯æ¥æ”¶äººid
+			* authorid -- å‘é€é€šçŸ¥çš„ç”¨æˆ·
+			* new -- æ˜¯å¦æœªè¯»
+			* subject -- ç§ä¿¡æ ‡é¢˜
+			* message -- ç§ä¿¡å†…å®¹
+			* delstatus -- åˆ é™¤çŠ¶æ€
+			* fromappid -- åº”ç”¨ç¨‹åºIDï¼Œå¯ä»¥å¿½ç•¥
+			* dateline -- æ—¶é—´
+			* daterange -- æ¶ˆæ¯ç›¸éš”çš„å¤©æ•°ï¼Œ1ä»£è¡¨1å¤©å†…ï¼Œ2ä»£è¡¨ä¸¤å¤©å†…ï¼Œ3ä»£è¡¨3å¤©å†…
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
 
-#### ÑùÀı
-	{"code":0,"data":{"pms":[{"pmid":"3","msgfrom":"aifaxian","msgfromid":"1","msgtoid":"12","folder":"inbox","new":"1","subject":"ÄãºÃ°¡","dateline":"03-09 18:04",
-	"message":"ÄãºÃ°¡","delstatus":"0","related":"1","fromappid":"1","daterange":5}],"count":1},"msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+#### æ ·ä¾‹
+	{"code":0,"data":{"pms":[{"pmid":"3","msgfrom":"aifaxian","msgfromid":"1","msgtoid":"12","folder":"inbox","new":"1","subject":"ä½ å¥½å•Š","dateline":"03-09 18:04",
+	"message":"ä½ å¥½å•Š","delstatus":"0","related":"1","fromappid":"1","daterange":5}],"count":1},"msg":"æ•°æ®è·å–æˆåŠŸ","action":"rest_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>ºÃÓÑÅÅĞĞ°ñ½Ó¿Ú</h2>
+<h2>å¥½å‹æ’è¡Œæ¦œæ¥å£</h2>
 capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj
-#### ÇëÇó²ÎÊı
-	* µ±Ç°ÓÃ»§id -- uid
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
+#### è¯·æ±‚å‚æ•°
+	* å½“å‰ç”¨æˆ·id -- uid
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
 
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[friends]£¬ºÃÓÑÁĞ±í£¬ ÌõÄ¿×Ö¶ÎÈçÏÂ(ÀàËÆÓÚ[µÇÂ¼](#µÇÂ¼)·µ»ØµÄ¿Õ¼äĞÅÏ¢
-			* groupid -- ËùÔÚÓÃ»§×é£¨¼¶±ğ£©
-			* credit -- ½ğ±Ò
-			* experience -- ¾­Ñé
-			* username -- ÓÃ»§Ãû
-			* name -- ÊµÃû
-			* namestatus -- ÊÇ·ñÊµÃû
-			* videostatus -- ÊÇ·ñÊÓÆµÈÏÖ¤
-			* friendnum -- ºÃÓÑÊı
-			* viewnum -- ä¯ÀÀ´ÎÊı
-			* notenum -- Í¨ÖªÊı
-			* addfriendnum -- ¹Ø×¢Êı
-			* doingnum -- ĞÄÇéÊı
-			* lastpost -- ×îĞÂÌá½»Ê±¼ä
-			* lastlogin -- ×îĞÂµÇÂ¼Ê±¼ä
-			* attachsize -- ¿Õ¼ä´óĞ¡
-			* flag -- ÊÇ·ñ±»½û
-			* newpm -- ÊÇ·ñÓĞĞÂÍ¨Öª
-			* avatar -- ¸öÈËÍ·Ïñ
-			* quiznum -- ·¢²¼µÄ´ò¶ÄÊı
-			* winnum -- Ó®µÄ´ÎÊı
-			* lostnum -- ÊäµÄ´ÎÊı
-			* voternum -- ²Î¼Ó´ò¶ÄµÄ´ÎÊı
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[friends]ï¼Œå¥½å‹åˆ—è¡¨ï¼Œ æ¡ç›®å­—æ®µå¦‚ä¸‹(ç±»ä¼¼äº[ç™»å½•](#ç™»å½•)è¿”å›çš„ç©ºé—´ä¿¡æ¯
+			* groupid -- æ‰€åœ¨ç”¨æˆ·ç»„ï¼ˆçº§åˆ«ï¼‰
+			* credit -- é‡‘å¸
+			* experience -- ç»éªŒ
+			* username -- ç”¨æˆ·å
+			* name -- å®å
+			* namestatus -- æ˜¯å¦å®å
+			* videostatus -- æ˜¯å¦è§†é¢‘è®¤è¯
+			* friendnum -- å¥½å‹æ•°
+			* viewnum -- æµè§ˆæ¬¡æ•°
+			* notenum -- é€šçŸ¥æ•°
+			* addfriendnum -- å…³æ³¨æ•°
+			* doingnum -- å¿ƒæƒ…æ•°
+			* lastpost -- æœ€æ–°æäº¤æ—¶é—´
+			* lastlogin -- æœ€æ–°ç™»å½•æ—¶é—´
+			* attachsize -- ç©ºé—´å¤§å°
+			* flag -- æ˜¯å¦è¢«ç¦
+			* newpm -- æ˜¯å¦æœ‰æ–°é€šçŸ¥
+			* avatar -- ä¸ªäººå¤´åƒ
+			* quiznum -- å‘å¸ƒçš„æ‰“èµŒæ•°
+			* winnum -- èµ¢çš„æ¬¡æ•°
+			* lostnum -- è¾“çš„æ¬¡æ•°
+			* voternum -- å‚åŠ æ‰“èµŒçš„æ¬¡æ•°
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
 
-#### ÑùÀı
+#### æ ·ä¾‹
 	{"code":0,"data":{"friends":{"7":{"uid":"7","groupid":"11","credit":"1800","experience":"2000","username":"test2","name":"","namestatus":"0","videostatus":"0",
 	"domain":"","friendnum":"1","viewnum":"4","notenum":"6","addfriendnum":"0","mtaginvitenum":"0","eventinvitenum":"0","myinvitenum":"0","pokenum":"0",
 	"doingnum":"0","blognum":"0","albumnum":"0","threadnum":"0","pollnum":"0","eventnum":"0","sharenum":"0","dateline":"1343973929","updatetime":"1343974426",
 	"lastsearch":"0","lastpost":"1343974426","lastlogin":"1343974880","lastsend":"0","attachsize":"0","addsize":"0","addfriend":"0","flag":"0","newpm":"0",
 	"avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0","quiznum":"1","winnum":"0","lostnum":"0","voternum":"1","resideprovince":"","residecity":"",
-	"note":"","spacenote":"","sex":"0","gid":"0","num":"6","p":"","c":"","group":"ÆäËû","isfriend":1}},"count":1},"msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"note":"","spacenote":"","sex":"0","gid":"0","num":"6","p":"","c":"","group":"å…¶ä»–","isfriend":1}},"count":1},"msg":"æ•°æ®è·å–æˆåŠŸ","action":"rest_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>ÈÈÃÅ´ò¶ÄÅÅĞĞ°ñ½Ó¿Ú</h2>
+<h2>çƒ­é—¨æ‰“èµŒæ’è¡Œæ¦œæ¥å£</h2>
 capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
-#### ÇëÇó²ÎÊı
-	* ÓÃ»§id -- uid
-	* µÚ¼¸Ò³ -- page
-	* Ã¿Ò³ÏÔÊ¾ÊıÁ¿  -- perpage
-	* ²éÑ¯²ÎÊı -- view, ±ØĞëÎªhot
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
+#### è¯·æ±‚å‚æ•°
+	* ç”¨æˆ·id -- uid
+	* ç¬¬å‡ é¡µ -- page
+	* æ¯é¡µæ˜¾ç¤ºæ•°é‡  -- perpage
+	* æŸ¥è¯¢å‚æ•° -- view, å¿…é¡»ä¸ºhot
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
 
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[quizs]£¬´ò¶ÄÁĞ±í£¬ ÌõÄ¿×Ö¶ÎÈçÏÂ
-			* ´ò¶Äid : quizid
-			* ·¢²¼´ò¶ÄµÄÓÃ»§id : uid
-			* ·¢²¼´ò¶ÄµÄÓÃ»§Ãû : username
-			* ´ò¶Ä±êÌâ: subject
-			* ä¯ÀÀ´ÎÊı: viewnum
-			* »Ø¸´´ÎÊı£ºreplynum
-			* ÈÈ¶È: hot
-			* Ê±¼ä: dateline
-			* ²ÎÓëËùĞè½ğ±Ò: joincost
-			* ÔÊĞí×î´óÍ¶×¢´ÎÊı: portion
-			* ½ØÖ¹Ê±¼ä: endtime
-			* Ô¤¼Æ¹«²¼½á¹ûÊ±¼ä: resulttime
-			* ×î½üÒ»´ÎÍ¶Æ±Ê±¼ä: lastvote
-			* ²ÎÓë´ò¶ÄµÄÈËÊı: voternum
-			* ´ğ°¸id: keyoid
-			* ´ğ°¸: keyoption
-			* ½±½ğ³Ø: totalcost
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
-#### ÑùÀı
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[quizs]ï¼Œæ‰“èµŒåˆ—è¡¨ï¼Œ æ¡ç›®å­—æ®µå¦‚ä¸‹
+			* æ‰“èµŒid : quizid
+			* å‘å¸ƒæ‰“èµŒçš„ç”¨æˆ·id : uid
+			* å‘å¸ƒæ‰“èµŒçš„ç”¨æˆ·å : username
+			* æ‰“èµŒæ ‡é¢˜: subject
+			* æµè§ˆæ¬¡æ•°: viewnum
+			* å›å¤æ¬¡æ•°ï¼šreplynum
+			* çƒ­åº¦: hot
+			* æ—¶é—´: dateline
+			* å‚ä¸æ‰€éœ€é‡‘å¸: joincost
+			* å…è®¸æœ€å¤§æŠ•æ³¨æ¬¡æ•°: portion
+			* æˆªæ­¢æ—¶é—´: endtime
+			* é¢„è®¡å…¬å¸ƒç»“æœæ—¶é—´: resulttime
+			* æœ€è¿‘ä¸€æ¬¡æŠ•ç¥¨æ—¶é—´: lastvote
+			* å‚ä¸æ‰“èµŒçš„äººæ•°: voternum
+			* ç­”æ¡ˆid: keyoid
+			* ç­”æ¡ˆ: keyoption
+			* å¥–é‡‘æ± : totalcost
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
+#### æ ·ä¾‹
 	{"code":0,"data":{"quizs":[{"quizid":"48","topicid":"0","uid":"7","username":"test2","subject":"23123","classid":"0","viewnum":"2","replynum":"0","hot":"2",
 	"dateline":"1343974426","pic":"","picflag":"0","noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0",
 	"joincost":"100","portion":"3","endtime":"1344579220","resulttime":"1344582820","lastvote":"1343974888","voternum":"3","maxchoice":"0","sex":"0","keyoid":"0",
 	"keyoption":"","totalcost":"400","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"",
 	"hotuser":"1,5","magiccolor":"0","magicpaper":"0","magiccall":"0","option":["1221","123123"],"invite":"","optioncount":["3","1"]},{"quizid":"49","topicid":"0",
-	"uid":"5","username":"summit","subject":"²âÊÔÓÅ»İÈ¯","classid":"0","viewnum":"1","replynum":"0","hot":"1","dateline":"1344235585","pic":"","picflag":"0",
+	"uid":"5","username":"summit","subject":"æµ‹è¯•ä¼˜æƒ åˆ¸","classid":"0","viewnum":"1","replynum":"0","hot":"1","dateline":"1344235585","pic":"","picflag":"0",
 	"noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3",
 	"endtime":"1344235733","resulttime":"1344843977","lastvote":"1344235654","voternum":"2","maxchoice":"0","sex":"0","keyoid":"95","keyoption":"23",
 	"totalcost":"120","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"1",
-	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":["23","2"],"invite":"","optioncount":["4","2"]}],"count":2},"msg":"Êı¾İ»ñÈ¡³É¹¦",
+	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":["23","2"],"invite":"","optioncount":["4","2"]}],"count":2},"msg":"æ•°æ®è·å–æˆåŠŸ",
 	"action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>ÎÒµÄ¸öÈËĞÅÏ¢</h2>
+<h2>æˆ‘çš„ä¸ªäººä¿¡æ¯</h2>
 capi/cp.php?ac=profile&m_auth=65e8JkX8RscU2y2pYZEVdcZrja2YOr2QXuhbPBCHzLAw
-#### ÇëÇó²ÎÊı
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÒ»¸öÊı¾İ
-		* data[space], µ±Ç°µÇÂ¼ÓÃ»§µÄĞÅÏ¢£¬¾ßÌåÄÚÈİÈçÏÂ
-			* ÓÃ»§id -- uid
-			* ĞÔ±ğ -- sex, ÄĞÈ¡Öµ0£¬ Å®È¡Öµ1
-			* ÓÃ»§ÓÊÏä -- email
-			* ÊÖ»ú -- mobile
-			* qqÕÊºÅ -- qq
-			* msnÕÊºÅ -- msn
-			* weiboÕÊºÅ -- weibo
-			* ÒşË½Êı×é -- privacy, ÓÉÀàĞÍÇø·Ö0´ú±íÈ«Õ¾¿É¼û
-			* ¶¯Ì¬Êı×é -- feed, ÓÉÀàĞÍÇø·Ö
-			* ºÃÓÑÊı -- friend
-			* ¶¯Ì¬ºÃÓÑÊı -- feedfriend
-			* ½ğ±Ò -- credit
-			* ĞÅÓÃ -- experience
-			* ÓÃ»§Ãû -- username
-			* ÊµÃû -- name
-			* ÊÇ·ñÊµÃû -- namestatus, 1ÊÇ, 0·ñ
-			* ĞÄÇéÊı -- doingnum
-			* ·ÖÏíÊı -- sharenum
-			* ×î½ü»îÔ¾Ê±¼ä -- dateline
-			* ×î½ü¸üĞÂÊ±¼ä -- updatetime
-			* ×î½üÒ»´ÎËÑË÷Ê±¼ä -- lastsearch
-			* ×î½üÒ»´Î·¢²¼Ê±¼ä -- lastpost
-			* ×î½üÒ»´ÎµÇÂ¼Ê±¼ä -- lastlogin
-			* ×î½üÒ»´Î·¢ËÍÏûÏ¢Ê±¼ä -- lastsend
-			* ÊÇ·ñ½ûÓÃ -- flag
-			* ÊÇ·ñÓĞĞÂÍ¨Öª -- newpm
-			* Í·Ïñ -- avatar
-			* µÇÂ¼µÄip -- ip
-			* ¸½¼ş´óĞ¡ -- attachsize
-			* ·¢²¼µÄ´ò¶ÄÊı -- quiznum
-			* Ó®µÄ´ÎÊı -- winnum
-			* ÊäµÄ´ÎÊı -- lostnum
-			* ²ÎÓë´ò¶ÄÊı -- voternum
-			* ºÃÓÑÁĞ±íid -- friends
+#### è¯·æ±‚å‚æ•°
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸€ä¸ªæ•°æ®
+		* data[space], å½“å‰ç™»å½•ç”¨æˆ·çš„ä¿¡æ¯ï¼Œå…·ä½“å†…å®¹å¦‚ä¸‹
+			* ç”¨æˆ·id -- uid
+			* æ€§åˆ« -- sex, ç”·å–å€¼0ï¼Œ å¥³å–å€¼1
+			* ç”¨æˆ·é‚®ç®± -- email
+			* æ‰‹æœº -- mobile
+			* qqå¸å· -- qq
+			* msnå¸å· -- msn
+			* weiboå¸å· -- weibo
+			* éšç§æ•°ç»„ -- privacy, ç”±ç±»å‹åŒºåˆ†0ä»£è¡¨å…¨ç«™å¯è§
+			* åŠ¨æ€æ•°ç»„ -- feed, ç”±ç±»å‹åŒºåˆ†
+			* å¥½å‹æ•° -- friend
+			* åŠ¨æ€å¥½å‹æ•° -- feedfriend
+			* é‡‘å¸ -- credit
+			* ä¿¡ç”¨ -- experience
+			* ç”¨æˆ·å -- username
+			* å®å -- name
+			* æ˜¯å¦å®å -- namestatus, 1æ˜¯, 0å¦
+			* å¿ƒæƒ…æ•° -- doingnum
+			* åˆ†äº«æ•° -- sharenum
+			* æœ€è¿‘æ´»è·ƒæ—¶é—´ -- dateline
+			* æœ€è¿‘æ›´æ–°æ—¶é—´ -- updatetime
+			* æœ€è¿‘ä¸€æ¬¡æœç´¢æ—¶é—´ -- lastsearch
+			* æœ€è¿‘ä¸€æ¬¡å‘å¸ƒæ—¶é—´ -- lastpost
+			* æœ€è¿‘ä¸€æ¬¡ç™»å½•æ—¶é—´ -- lastlogin
+			* æœ€è¿‘ä¸€æ¬¡å‘é€æ¶ˆæ¯æ—¶é—´ -- lastsend
+			* æ˜¯å¦ç¦ç”¨ -- flag
+			* æ˜¯å¦æœ‰æ–°é€šçŸ¥ -- newpm
+			* å¤´åƒ -- avatar
+			* ç™»å½•çš„ip -- ip
+			* é™„ä»¶å¤§å° -- attachsize
+			* å‘å¸ƒçš„æ‰“èµŒæ•° -- quiznum
+			* èµ¢çš„æ¬¡æ•° -- winnum
+			* è¾“çš„æ¬¡æ•° -- lostnum
+			* å‚ä¸æ‰“èµŒæ•° -- voternum
+			* å¥½å‹åˆ—è¡¨id -- friends
 
 			
-#### ÑùÀı
+#### æ ·ä¾‹
 	{"code":0,"data":{"space":{"uid":"5","sex":"0","email":"summit_mail@qq.com","newemail":"","emailcheck":"0","mobile":"","qq":"","msn":"","msnrobot":"",
 	"msncstatus":"0","videopic":"","birthyear":"0","birthmonth":"0","birthday":"0","blood":"","note":"","spacenote":"","authstr":"","theme":"","nocss":"0","menunum":"0","css":"","privacy":{"view":{"index":"0","friend":"0","wall":"0",
 	"feed":"0","doing":"0","quiz":"0","share":"0"},"feed":{"doing":1,"quiz":1,"joinquiz":1,"share":1,"post":1,"join":1,"friend":1,"comment":1,"credit":1,"spaceopen":1,"invite":1,
@@ -392,159 +531,159 @@ capi/cp.php?ac=profile&m_auth=65e8JkX8RscU2y2pYZEVdcZrja2YOr2QXuhbPBCHzLAw
 	"credit":"2007","experience":"2047","username":"summit","name":"","namestatus":"0","videostatus":"0","domain":"","friendnum":"1","viewnum":"5","notenum":"0",
 	"addfriendnum":"0","doingnum":"0","sharenum":"0","dateline":"1343789930","updatetime":"1344237052","lastsearch":"0","lastpost":"1344324259","lastlogin":"1344395688",
 	"lastsend":"0","attachsize":"0","addsize":"0","addfriend":"0","flag":"0","newpm":"0","avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0",
-	"quiznum":"8","winnum":"4","lostnum":"1","voternum":"7","self":1,"friends":["7"],"allnotenum":0}},"msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"quiznum":"8","winnum":"4","lostnum":"1","voternum":"7","self":1,"friends":["7"],"allnotenum":0}},"msg":"æ•°æ®è·å–æˆåŠŸ","action":"rest_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>´ò¶ÄÏêÇé</h2>
+<h2>æ‰“èµŒè¯¦æƒ…</h2>
 capi/space.php?do=quiz&id=54&uid=5&m_auth=af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2ibMM1tNHXaHYweU%2B8hsBHobKzgHFJs
 
-#### ÇëÇó²ÎÊı
-	* ´ò¶Äid -- id
-	* ·¢²¼´Ë´ò¶ÄµÄÓÃ»§id -- uid
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
+#### è¯·æ±‚å‚æ•°
+	* æ‰“èµŒid -- id
+	* å‘å¸ƒæ­¤æ‰“èµŒçš„ç”¨æˆ·id -- uid
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
 
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÒ»¸öÊı¾İ
-		* data[quiz], ´ò¶ÄÏêÇé£¬¾ßÌåÄÚÈİÈçÏÂ
-			* ´ò¶Äid -- quizid
-			* ·¢²¼´ò¶ÄÓÃ»§id -- uid
-			* ×îÈÈÓÃ»§ -- hotuser
-			* ·¢²¼Ê±¼ä -- dateline
-			* Í¶Ò»×¢ËùĞè½ğ±Ò -- joincost
-			* ÓÃ»§×î´óÍ¶×¢Êı -- portion
-			* ½ØÖ¹Í¶×¢Ê±¼ä -- endtime
-			* Ô¤¼Æ¹«²¼½á¹ûÊ±¼ä -- resulttime
-			* ×î½üÒ»´ÎÍ¶×¢Ê±¼ä -- lastvote
-			* µ±Ç°ÀÛ¼ÆÍ¶×¢ -- voternum
-			* ½±½ğ³Ø -- totalcost
-			* ÊÇ·ñÒÑ¾­ÌáĞÑ¹ı -- hasremind
-			* ÊÇ·ñÒÑ¾­³¬ÆÚ -- hasexceed
-			* ´ğ°¸Ñ¡Ïîid -- keyoid
-			* ´ğ°¸ -- keyoption
-			* Ñ¡ÏîÊı×é -- options£¬¾ßÌåÄÚÈİÈçÏÂ£º
-				* Ñ¡Ïîid -- oid
-				* ËùÊô¾º²Â -- quizid
-				* ÓÃ»§id -- uid
-				* Ñ¡Ïî -- option, ÎÄ±¾ÃèÊö
-				* ÏàÆ¬id -- picid
-				* ÏàÆ¬Â·¾¶ -- pic
-				* Í¶×¢ÈËÊı -- votenum
-				* Í¶×¢Õ¼×ÜÍ¶×¢°Ù·Ö±È -- percent
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸€ä¸ªæ•°æ®
+		* data[quiz], æ‰“èµŒè¯¦æƒ…ï¼Œå…·ä½“å†…å®¹å¦‚ä¸‹
+			* æ‰“èµŒid -- quizid
+			* å‘å¸ƒæ‰“èµŒç”¨æˆ·id -- uid
+			* æœ€çƒ­ç”¨æˆ· -- hotuser
+			* å‘å¸ƒæ—¶é—´ -- dateline
+			* æŠ•ä¸€æ³¨æ‰€éœ€é‡‘å¸ -- joincost
+			* ç”¨æˆ·æœ€å¤§æŠ•æ³¨æ•° -- portion
+			* æˆªæ­¢æŠ•æ³¨æ—¶é—´ -- endtime
+			* é¢„è®¡å…¬å¸ƒç»“æœæ—¶é—´ -- resulttime
+			* æœ€è¿‘ä¸€æ¬¡æŠ•æ³¨æ—¶é—´ -- lastvote
+			* å½“å‰ç´¯è®¡æŠ•æ³¨ -- voternum
+			* å¥–é‡‘æ±  -- totalcost
+			* æ˜¯å¦å·²ç»æé†’è¿‡ -- hasremind
+			* æ˜¯å¦å·²ç»è¶…æœŸ -- hasexceed
+			* ç­”æ¡ˆé€‰é¡¹id -- keyoid
+			* ç­”æ¡ˆ -- keyoption
+			* é€‰é¡¹æ•°ç»„ -- optionsï¼Œå…·ä½“å†…å®¹å¦‚ä¸‹ï¼š
+				* é€‰é¡¹id -- oid
+				* æ‰€å±ç«çŒœ -- quizid
+				* ç”¨æˆ·id -- uid
+				* é€‰é¡¹ -- option, æ–‡æœ¬æè¿°
+				* ç›¸ç‰‡id -- picid
+				* ç›¸ç‰‡è·¯å¾„ -- pic
+				* æŠ•æ³¨äººæ•° -- votenum
+				* æŠ•æ³¨å æ€»æŠ•æ³¨ç™¾åˆ†æ¯” -- percent
 
-#### ÑùÀı
+#### æ ·ä¾‹
 	{"code":0,"data":{"quiz":{"quizid":"54","uid":"5","hotuser":"","option":"a:2:{i:0;s:2:\"12\";i:1;s:1:\"3\";}","invite":"","topicid":"0","username":"summit",
-	"subject":"²âÊÔÓÅ»İÈ¯","classid":"0","viewnum":"0","replynum":"0","hot":"0","dateline":"1344237052","pic":"","picflag":"0","noreply":"0",
+	"subject":"æµ‹è¯•ä¼˜æƒ åˆ¸","classid":"0","viewnum":"0","replynum":"0","hot":"0","dateline":"1344237052","pic":"","picflag":"0","noreply":"0",
 	"friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3","endtime":"1344237071",
 	"resulttime":"1344845443","lastvote":"1344237066","voternum":"1","maxchoice":"0","sex":"0","keyoid":"106","keyoption":"3","totalcost":"60","hasremind":"0",
 	"hasexceed":"0","options":[{"oid":"105","quizid":"54","uid":"5","option":"12","relatedtime":"1344237052","picid":"0","votenum":"2","percent":67,"width":107},
 	{"oid":"106","quizid":"54","uid":"5","option":"3","relatedtime":"1344237052","picid":"0","votenum":"1","percent":33,"width":53}]}},
-[¡ü·µ»Ø¶¥²¿](#betit)
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>»ñÈ¡Í¶×¢ºÃÓÑ</h2>
+<h2>è·å–æŠ•æ³¨å¥½å‹</h2>
 capi/do.php?ac=ajax&op=getjoinuser&oid=33&page=0&prepage=10&m_auth=7c44hpLskh17xPRklyu
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- op:getjoinuser
-	* Í¶×¢µÄÑ¡Ïîid -- oid
-	* µÚ¼¸Ò³ -- page
-	* Ã¿Ò³ÏÔÊ¾ÊıÁ¿  -- perpage
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[joinusers],ÓÃ»§ÁĞ±í(ÒÔjoinnumÅÅĞò)£¬¾ßÌåÄÚÈİÈçÏÂ
-			* Í¶×¢id -- jid(ÇëºöÂÔ)
-			* ÓÃ»§id -- uid
-			* ÓÃ»§Ãû -- username
-			* ´ò¶Äid -- quizid
-			* Í¶×¢µÄÑ¡Ïî -- option£¬ÎÄ±¾
-			* Í¶×¢Ê±¼ä -- dateline(ÇëºöÂÔ)
-			* Ñ¡Ïîid -- oid
-			* Í¶×¢·İÊı -- joinnum
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- op:getjoinuser
+	* æŠ•æ³¨çš„é€‰é¡¹id -- oid
+	* ç¬¬å‡ é¡µ -- page
+	* æ¯é¡µæ˜¾ç¤ºæ•°é‡  -- perpage
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[joinusers],ç”¨æˆ·åˆ—è¡¨(ä»¥joinnumæ’åº)ï¼Œå…·ä½“å†…å®¹å¦‚ä¸‹
+			* æŠ•æ³¨id -- jid(è¯·å¿½ç•¥)
+			* ç”¨æˆ·id -- uid
+			* ç”¨æˆ·å -- username
+			* æ‰“èµŒid -- quizid
+			* æŠ•æ³¨çš„é€‰é¡¹ -- optionï¼Œæ–‡æœ¬
+			* æŠ•æ³¨æ—¶é—´ -- dateline(è¯·å¿½ç•¥)
+			* é€‰é¡¹id -- oid
+			* æŠ•æ³¨ä»½æ•° -- joinnum
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
 
-#### ÑùÀı
+#### æ ·ä¾‹
 	{"code":0,"data":{"joinusers":[{"jid":"29","uid":"4","username":"summit2","quizid":"18","option":"\"\u80fd\"","dateline":"1343787281","oid":"33","joinnum":"3",
 	"avatar":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/04_avatar_middle.jpg"},{"jid":"34","uid":"5","username":"summit","quizid":"18",
 	"option":"\"\u80fd\"","dateline":"1343792803","oid":"33","joinnum":"1","avatar":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/05_avatar_middle.jpg"}],
 	"count":2},"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>ÆÀÂÛÁĞ±í</h2>
+<h2>è¯„è®ºåˆ—è¡¨</h2>
 capi/do.php?ac=ajax&op=getcomment&id=24&idtype=quizid&page=0&prepage=1&m_auth=af9cCEMpQlfFTifZltugadwhG
 
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ -- op, ±ØĞëÎªgetcomment
-	* ²éÑ¯ÆÀÂÛ¹ØÁªµÄid -- id, ÈôÎª´ò¶Ä£¬ÔòÎª´ò¶ÄidÖµ£¬ÈôÎª¿Õ¼äÔòÎªÓÃ»§idÖµ£¬ÈôÎª·ÖÏíÔòÎª·ÖÏíidÖµ
-	* Ö¸Ê¾id´ú±íµÄÀàĞÍ -- idtype, quizid´ú±í´ò¶Ä£¬uid´ú±í¿Õ¼ä, sid´ú±í·ÖÏí
-	* µÚ¼¸Ò³ -- page
-	* Ã¿Ò³ÏÔÊ¾ÊıÁ¿  -- perpage
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹ -- op, å¿…é¡»ä¸ºgetcomment
+	* æŸ¥è¯¢è¯„è®ºå…³è”çš„id -- id, è‹¥ä¸ºæ‰“èµŒï¼Œåˆ™ä¸ºæ‰“èµŒidå€¼ï¼Œè‹¥ä¸ºç©ºé—´åˆ™ä¸ºç”¨æˆ·idå€¼ï¼Œè‹¥ä¸ºåˆ†äº«åˆ™ä¸ºåˆ†äº«idå€¼
+	* æŒ‡ç¤ºidä»£è¡¨çš„ç±»å‹ -- idtype, quizidä»£è¡¨æ‰“èµŒï¼Œuidä»£è¡¨ç©ºé—´, sidä»£è¡¨åˆ†äº«
+	* ç¬¬å‡ é¡µ -- page
+	* æ¯é¡µæ˜¾ç¤ºæ•°é‡  -- perpage
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
 
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[comments],ÆÀÂÛÁĞ±í£¬¾ßÌåÄÚÈİÈçÏÂ
-			* ÆÀÂÛid -- cid
-			* ÆÀÂÛ¶ÔÏó£¬ÓÃ»§id -- uid
-			* ÆÀÂÛ¹ØÁªµÄid -- id
-			* ÆÀÂÛÀàĞÍ -- idtype
-			* ·¢±íÆÀÂÛµÄÓÃ»§id -- authorid
-			* ·¢±íÆÀÂÛµÄÓÃ»§Ãû -- author
-			* ·¢±íµÄÊ±¼ä -- dateline
-			* ·¢±íµÄip -- ip
-			* ÆÀÂÛµÄÄÚÈİ -- message
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[comments],è¯„è®ºåˆ—è¡¨ï¼Œå…·ä½“å†…å®¹å¦‚ä¸‹
+			* è¯„è®ºid -- cid
+			* è¯„è®ºå¯¹è±¡ï¼Œç”¨æˆ·id -- uid
+			* è¯„è®ºå…³è”çš„id -- id
+			* è¯„è®ºç±»å‹ -- idtype
+			* å‘è¡¨è¯„è®ºçš„ç”¨æˆ·id -- authorid
+			* å‘è¡¨è¯„è®ºçš„ç”¨æˆ·å -- author
+			* å‘è¡¨çš„æ—¶é—´ -- dateline
+			* å‘è¡¨çš„ip -- ip
+			* è¯„è®ºçš„å†…å®¹ -- message
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
 
-#### ÑùÀı
+#### æ ·ä¾‹
 	{"code":0,"data":{"comments":[{"cid":"31","uid":"1","id":"24","idtype":"quizid","authorid":"1","author":"admin","ip":"127.0.0.1","dateline":"1344407149",
-	"message":"234234"}],"count":1},"msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
+	"message":"234234"}],"count":1},"msg":"æ•°æ®è·å–æˆåŠŸ","action":"rest_success"}
 
-<h2>ËÑË÷´ò¶Ä</h2>
-capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=²âÊÔ&m_auth=af9cCEMpQ
-#### ÇëÇó²ÎÊı
-	* ÓÃ»§id -- uid
-	* µÚ¼¸Ò³ -- page
-	* Ã¿Ò³ÏÔÊ¾ÊıÁ¿  -- perpage
-	* ²éÑ¯²ÎÊı -- view, ±ØĞëÎªnew
-	* ²éÑ¯ÄÚÈİ -- searchkey
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
-[¡ü·µ»Ø¶¥²¿](#betit)
+<h2>æœç´¢æ‰“èµŒ</h2>
+capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=æµ‹è¯•&m_auth=af9cCEMpQ
+#### è¯·æ±‚å‚æ•°
+	* ç”¨æˆ·id -- uid
+	* ç¬¬å‡ é¡µ -- page
+	* æ¯é¡µæ˜¾ç¤ºæ•°é‡  -- perpage
+	* æŸ¥è¯¢å‚æ•° -- view, å¿…é¡»ä¸ºnew
+	* æŸ¥è¯¢å†…å®¹ -- searchkey
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÈı¸öÊı¾İ
-		* data[quizs]£¬´ò¶ÄÁĞ±í£¬ ÌõÄ¿×Ö¶ÎÈçÏÂ
-			* ´ò¶Äid : quizid
-			* ·¢²¼´ò¶ÄµÄÓÃ»§id : uid
-			* ·¢²¼´ò¶ÄµÄÓÃ»§Ãû : username
-			* ´ò¶Ä±êÌâ: subject
-			* ä¯ÀÀ´ÎÊı: viewnum
-			* »Ø¸´´ÎÊı£ºreplynum
-			* ÈÈ¶È: hot
-			* Ê±¼ä: dateline
-			* ²ÎÓëËùĞè½ğ±Ò: joincost
-			* ÔÊĞí×î´óÍ¶×¢´ÎÊı: portion
-			* ½ØÖ¹Ê±¼ä: endtime
-			* Ô¤¼Æ¹«²¼½á¹ûÊ±¼ä: resulttime
-			* ×î½üÒ»´ÎÍ¶Æ±Ê±¼ä: lastvote
-			* ²ÎÓë´ò¶ÄµÄÈËÊı: voternum
-			* ´ğ°¸id: keyoid
-			* ´ğ°¸: keyoption
-			* ½±½ğ³Ø: totalcost
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
-		* data[reward], ²éÑ¯²Ù×÷¿Û³ıµÄ½ğ±ÒºÍĞÅÓÃ
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸‰ä¸ªæ•°æ®
+		* data[quizs]ï¼Œæ‰“èµŒåˆ—è¡¨ï¼Œ æ¡ç›®å­—æ®µå¦‚ä¸‹
+			* æ‰“èµŒid : quizid
+			* å‘å¸ƒæ‰“èµŒçš„ç”¨æˆ·id : uid
+			* å‘å¸ƒæ‰“èµŒçš„ç”¨æˆ·å : username
+			* æ‰“èµŒæ ‡é¢˜: subject
+			* æµè§ˆæ¬¡æ•°: viewnum
+			* å›å¤æ¬¡æ•°ï¼šreplynum
+			* çƒ­åº¦: hot
+			* æ—¶é—´: dateline
+			* å‚ä¸æ‰€éœ€é‡‘å¸: joincost
+			* å…è®¸æœ€å¤§æŠ•æ³¨æ¬¡æ•°: portion
+			* æˆªæ­¢æ—¶é—´: endtime
+			* é¢„è®¡å…¬å¸ƒç»“æœæ—¶é—´: resulttime
+			* æœ€è¿‘ä¸€æ¬¡æŠ•ç¥¨æ—¶é—´: lastvote
+			* å‚ä¸æ‰“èµŒçš„äººæ•°: voternum
+			* ç­”æ¡ˆid: keyoid
+			* ç­”æ¡ˆ: keyoption
+			* å¥–é‡‘æ± : totalcost
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
+		* data[reward], æŸ¥è¯¢æ“ä½œæ‰£é™¤çš„é‡‘å¸å’Œä¿¡ç”¨
 
-#### ÑùÀı
-	{"code":0,"data":{"quizs":[{"quizid":"54","topicid":"0","uid":"5","username":"summit","subject":"²âÊÔÓÅ»İÈ¯",
+#### æ ·ä¾‹
+	{"code":0,"data":{"quizs":[{"quizid":"54","topicid":"0","uid":"5","username":"summit","subject":"æµ‹è¯•ä¼˜æƒ åˆ¸",
 	"classid":"0","viewnum":"1","replynum":"0","hot":"0","dateline":"1344237052","pic":"","picflag":"0",
 	"noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0",
 	"click_5":"0","joincost":"20","portion":"3","endtime":"1344237071","resulttime":"1344845443",
@@ -552,174 +691,174 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=²âÊÔ&m_auth=af9
 	"totalcost":"60","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"",
 	"relatedtime":"0","target_ids":"","hotuser":"","magiccolor":"0","magicpaper":"0","magiccall":"0",
 	"option":["12","3"],"invite":"","optioncount":["2","1"]},{"quizid":"52","topicid":"0","uid":"5",
-	"username":"summit","subject":"²âÊÔÓÅ»İÈ¯","classid":"0","viewnum":"0","replynum":"0","hot":"0",
+	"username":"summit","subject":"æµ‹è¯•ä¼˜æƒ åˆ¸","classid":"0","viewnum":"0","replynum":"0","hot":"0",
 	"dateline":"1344236417","pic":"","picflag":"0","noreply":"0","friend":"0","password":"","click_1":"0",
 	"click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3","endtime":"1344236757",
 	"resulttime":"1344844795","lastvote":"1344236423","voternum":"1","maxchoice":"0","sex":"0","keyoid":"102",
-	"keyoption":"²»ÄÜ","totalcost":"20","hasremind":"0","hasexceed":"0","tag":"","message":"",
+	"keyoption":"ä¸èƒ½","totalcost":"20","hasremind":"0","hasexceed":"0","tag":"","message":"",
 	"postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"","magiccolor":"0",
-	"magicpaper":"0","magiccall":"0","option":["ÄÜ","²»ÄÜ"],"invite":"","optioncount":["1","0"]}],"count":2,
-	"reward":{"credit":1,"experience":0}},"msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"magicpaper":"0","magiccall":"0","option":["èƒ½","ä¸èƒ½"],"invite":"","optioncount":["1","0"]}],"count":2,
+	"reward":{"credit":1,"experience":0}},"msg":"æ•°æ®è·å–æˆåŠŸ","action":"rest_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>ËÑË÷ºÃÓÑ</h2>
+<h2>æœç´¢å¥½å‹</h2>
 capi/cp.php?ac=friend&op=search&page=0&perpage=1&searchkey=admin&searchsubmit=true&searchmode=1&m_auth=af9cCEMpQ
-#### ÇëÇó²ÎÊı
-	* ÓÃ»§id -- uid
-	* µÚ¼¸Ò³ -- page
-	* Ã¿Ò³ÏÔÊ¾ÊıÁ¿  -- perpage
-	* ²éÑ¯²ÎÊı -- searchsubmit±ØĞëÎªtrue, searchmode±ØĞëÎª1
-	* ²éÑ¯ÄÚÈİ -- searchkey
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
+#### è¯·æ±‚å‚æ•°
+	* ç”¨æˆ·id -- uid
+	* ç¬¬å‡ é¡µ -- page
+	* æ¯é¡µæ˜¾ç¤ºæ•°é‡  -- perpage
+	* æŸ¥è¯¢å‚æ•° -- searchsubmitå¿…é¡»ä¸ºtrue, searchmodeå¿…é¡»ä¸º1
+	* æŸ¥è¯¢å†…å®¹ -- searchkey
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
 
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[friend]£¬´ò¶ÄÁĞ±í£¬ ÌõÄ¿×Ö¶ÎÈçÏÂ
-			* ÓÃ»§id -- uid
-			* ½ğ±Ò -- credit
-			* ĞÅÓÃ -- experience
-			* ÓÃ»§Ãû -- username
-			* ÊµÃû -- name
-			* ÊÇ·ñÊµÃû -- namestatus, 1ÊÇ, 0·ñ
-			* ĞÄÇéÊı -- doingnum
-			* ·ÖÏíÊı -- sharenum
-			* ×î½ü»îÔ¾Ê±¼ä -- dateline
-			* ×î½ü¸üĞÂÊ±¼ä -- updatetime
-			* ×î½üÒ»´ÎËÑË÷Ê±¼ä -- lastsearch
-			* ×î½üÒ»´Î·¢²¼Ê±¼ä -- lastpost
-			* ×î½üÒ»´ÎµÇÂ¼Ê±¼ä -- lastlogin
-			* ×î½üÒ»´Î·¢ËÍÏûÏ¢Ê±¼ä -- lastsend
-			* ÊÇ·ñ½ûÓÃ -- flag
-			* ÊÇ·ñÓĞĞÂÍ¨Öª -- newpm
-			* Í·Ïñ -- avatar
-			* µÇÂ¼µÄip -- ip
-			* ¸½¼ş´óĞ¡ -- attachsize
-			* ·¢²¼µÄ´ò¶ÄÊı -- quiznum
-			* Ó®µÄ´ÎÊı -- winnum
-			* ÊäµÄ´ÎÊı -- lostnum
-			* ²ÎÓë´ò¶ÄÊı -- voternum
-			* ÊÇ·ñºÃÓÑ-- isfriend, 0·ñ£¬1ÊÇ
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[friend]ï¼Œæ‰“èµŒåˆ—è¡¨ï¼Œ æ¡ç›®å­—æ®µå¦‚ä¸‹
+			* ç”¨æˆ·id -- uid
+			* é‡‘å¸ -- credit
+			* ä¿¡ç”¨ -- experience
+			* ç”¨æˆ·å -- username
+			* å®å -- name
+			* æ˜¯å¦å®å -- namestatus, 1æ˜¯, 0å¦
+			* å¿ƒæƒ…æ•° -- doingnum
+			* åˆ†äº«æ•° -- sharenum
+			* æœ€è¿‘æ´»è·ƒæ—¶é—´ -- dateline
+			* æœ€è¿‘æ›´æ–°æ—¶é—´ -- updatetime
+			* æœ€è¿‘ä¸€æ¬¡æœç´¢æ—¶é—´ -- lastsearch
+			* æœ€è¿‘ä¸€æ¬¡å‘å¸ƒæ—¶é—´ -- lastpost
+			* æœ€è¿‘ä¸€æ¬¡ç™»å½•æ—¶é—´ -- lastlogin
+			* æœ€è¿‘ä¸€æ¬¡å‘é€æ¶ˆæ¯æ—¶é—´ -- lastsend
+			* æ˜¯å¦ç¦ç”¨ -- flag
+			* æ˜¯å¦æœ‰æ–°é€šçŸ¥ -- newpm
+			* å¤´åƒ -- avatar
+			* ç™»å½•çš„ip -- ip
+			* é™„ä»¶å¤§å° -- attachsize
+			* å‘å¸ƒçš„æ‰“èµŒæ•° -- quiznum
+			* èµ¢çš„æ¬¡æ•° -- winnum
+			* è¾“çš„æ¬¡æ•° -- lostnum
+			* å‚ä¸æ‰“èµŒæ•° -- voternum
+			* æ˜¯å¦å¥½å‹-- isfriend, 0å¦ï¼Œ1æ˜¯
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
 
-#### ÑùÀı
+#### æ ·ä¾‹
 	{"code":0,"data":{"friends":{"1":{"uid":"1","groupid":"11","credit":"2042","experience":"2045",
 	"username":"admin","name":"","namestatus":"0","videostatus":"0","domain":"","friendnum":"0","viewnum":"3",
 	"notenum":"0","doingnum":"0","sharenum":"0","dateline":"1343725030","updatetime":"1343966557","lastsearch":"1344408548","lastpost":"1344324792",
 	"lastlogin":"1344399107","lastsend":"0","attachsize":"774822","addsize":"0","addfriend":"0","flag":"0",
 	"newpm":"0","avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0","quiznum":"27","winnum":"2",
-	"lostnum":"0","voternum":"10","isfriend":1}},"count":1},"msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"lostnum":"0","voternum":"10","isfriend":1}},"count":1},"msg":"æ•°æ®è·å–æˆåŠŸ","action":"rest_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>ÍÆ¼ö´ò¶ÄÁĞ±í</h2>
-#### ×¢Òâ£ºÍ¬ [ÈÈÃÅ´ò¶ÄÅÅĞĞ°ñ½Ó¿Ú](#ÈÈÃÅ´ò¶ÄÅÅĞĞ°ñ½Ó¿Ú)
+<h2>æ¨èæ‰“èµŒåˆ—è¡¨</h2>
+#### æ³¨æ„ï¼šåŒ [çƒ­é—¨æ‰“èµŒæ’è¡Œæ¦œæ¥å£](#çƒ­é—¨æ‰“èµŒæ’è¡Œæ¦œæ¥å£)
 capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
-#### ÇëÇó²ÎÊı
-	* ÓÃ»§id -- uid
-	* µÚ¼¸Ò³ -- page
-	* Ã¿Ò³ÏÔÊ¾ÊıÁ¿  -- perpage
-	* ²éÑ¯²ÎÊı -- view, ±ØĞëÎªhot
-	* APIÃÜÔ¿ -- m_auth, ÓÉµÇÂ¼ºó·µ»Ø
+#### è¯·æ±‚å‚æ•°
+	* ç”¨æˆ·id -- uid
+	* ç¬¬å‡ é¡µ -- page
+	* æ¯é¡µæ˜¾ç¤ºæ•°é‡  -- perpage
+	* æŸ¥è¯¢å‚æ•° -- view, å¿…é¡»ä¸ºhot
+	* APIå¯†é’¥ -- m_auth, ç”±ç™»å½•åè¿”å›
 
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[quizs]£¬´ò¶ÄÁĞ±í£¬ ÌõÄ¿×Ö¶ÎÈçÏÂ
-			* ´ò¶Äid : quizid
-			* ·¢²¼´ò¶ÄµÄÓÃ»§id : uid
-			* ·¢²¼´ò¶ÄµÄÓÃ»§Ãû : username
-			* ´ò¶Ä±êÌâ: subject
-			* ä¯ÀÀ´ÎÊı: viewnum
-			* »Ø¸´´ÎÊı£ºreplynum
-			* ÈÈ¶È: hot
-			* Ê±¼ä: dateline
-			* ²ÎÓëËùĞè½ğ±Ò: joincost
-			* ÔÊĞí×î´óÍ¶×¢´ÎÊı: portion
-			* ½ØÖ¹Ê±¼ä: endtime
-			* Ô¤¼Æ¹«²¼½á¹ûÊ±¼ä: resulttime
-			* ×î½üÒ»´ÎÍ¶Æ±Ê±¼ä: lastvote
-			* ²ÎÓë´ò¶ÄµÄÈËÊı: voternum
-			* ´ğ°¸id: keyoid
-			* ´ğ°¸: keyoption
-			* ½±½ğ³Ø: totalcost
-		* data[count], ·µ»ØÁĞ±íÌõÄ¿Êı, ±ãÓÃ±éÀú
-#### ÑùÀı
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[quizs]ï¼Œæ‰“èµŒåˆ—è¡¨ï¼Œ æ¡ç›®å­—æ®µå¦‚ä¸‹
+			* æ‰“èµŒid : quizid
+			* å‘å¸ƒæ‰“èµŒçš„ç”¨æˆ·id : uid
+			* å‘å¸ƒæ‰“èµŒçš„ç”¨æˆ·å : username
+			* æ‰“èµŒæ ‡é¢˜: subject
+			* æµè§ˆæ¬¡æ•°: viewnum
+			* å›å¤æ¬¡æ•°ï¼šreplynum
+			* çƒ­åº¦: hot
+			* æ—¶é—´: dateline
+			* å‚ä¸æ‰€éœ€é‡‘å¸: joincost
+			* å…è®¸æœ€å¤§æŠ•æ³¨æ¬¡æ•°: portion
+			* æˆªæ­¢æ—¶é—´: endtime
+			* é¢„è®¡å…¬å¸ƒç»“æœæ—¶é—´: resulttime
+			* æœ€è¿‘ä¸€æ¬¡æŠ•ç¥¨æ—¶é—´: lastvote
+			* å‚ä¸æ‰“èµŒçš„äººæ•°: voternum
+			* ç­”æ¡ˆid: keyoid
+			* ç­”æ¡ˆ: keyoption
+			* å¥–é‡‘æ± : totalcost
+		* data[count], è¿”å›åˆ—è¡¨æ¡ç›®æ•°, ä¾¿ç”¨éå†
+#### æ ·ä¾‹
 	{"code":0,"data":{"quizs":[{"quizid":"48","topicid":"0","uid":"7","username":"test2","subject":"23123","classid":"0","viewnum":"2","replynum":"0","hot":"2",
 	"dateline":"1343974426","pic":"","picflag":"0","noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0",
 	"joincost":"100","portion":"3","endtime":"1344579220","resulttime":"1344582820","lastvote":"1343974888","voternum":"3","maxchoice":"0","sex":"0","keyoid":"0",
 	"keyoption":"","totalcost":"400","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"",
 	"hotuser":"1,5","magiccolor":"0","magicpaper":"0","magiccall":"0","option":["1221","123123"],"invite":"","optioncount":["3","1"]},{"quizid":"49","topicid":"0",
-	"uid":"5","username":"summit","subject":"²âÊÔÓÅ»İÈ¯","classid":"0","viewnum":"1","replynum":"0","hot":"1","dateline":"1344235585","pic":"","picflag":"0",
+	"uid":"5","username":"summit","subject":"æµ‹è¯•ä¼˜æƒ åˆ¸","classid":"0","viewnum":"1","replynum":"0","hot":"1","dateline":"1344235585","pic":"","picflag":"0",
 	"noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3",
 	"endtime":"1344235733","resulttime":"1344843977","lastvote":"1344235654","voternum":"2","maxchoice":"0","sex":"0","keyoid":"95","keyoption":"23",
 	"totalcost":"120","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"1",
-	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":["23","2"],"invite":"","optioncount":["4","2"]}],"count":2},"msg":"Êı¾İ»ñÈ¡³É¹¦",
+	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":["23","2"],"invite":"","optioncount":["4","2"]}],"count":2},"msg":"æ•°æ®è·å–æˆåŠŸ",
 	"action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
 ******************************
-<h2>»ñÈ¡×¢²áÑéÖ¤Âë</h2>
+<h2>è·å–æ³¨å†ŒéªŒè¯ç </h2>
 capi/do.php?ac=register&op=seccode
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ -- op, ±ØĞëÎªseccode
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹ -- op, å¿…é¡»ä¸ºseccode
 
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, rest_success:´ú±í³É¹¦, rest_fail:´ú±íÊ§°Ü
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÁ½¸öÊı¾İ
-		* data[seccode_auth] -- ·µ»ØµÄÑéÖ¤Âëkey£¬ÔÚ×¢²áÊ±ĞèÒª´«Èë
-		* data[seccode] -- ÑéÖ¤Âë
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, rest_success:ä»£è¡¨æˆåŠŸ, rest_fail:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸¤ä¸ªæ•°æ®
+		* data[seccode_auth] -- è¿”å›çš„éªŒè¯ç keyï¼Œåœ¨æ³¨å†Œæ—¶éœ€è¦ä¼ å…¥
+		* data[seccode] -- éªŒè¯ç 
 
-#### ÑùÀı
+#### æ ·ä¾‹
 	{"code":0,"data":{"seccode_auth":"1a6431MIvgvhZZzUPUmCUML%2FtL4rlXrN2R8nL5G3qvta","seccode":"CQ7T"},
-	"msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"msg":"æ•°æ®è·å–æˆåŠŸ","action":"rest_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>×¢²á</h2>
+<h2>æ³¨å†Œ</h2>
 /capi/do.php?ac=register&registersubmit=true&username=test4&password=123&password2=123&seccode=cQ7T&m_auth=1a6431MIvgvhZZzUPUmCUML%2FtL4rlXrN2R8nL5G3qvta
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷²ÎÊı -- registersubmit, ±ØĞëÎªtrue
-	* ÓÃ»§Ãû -- username
-	* ÓÃ»§ÊäÈëµÄµÚÒ»´ÎÃÜÂë -- password
-	* ÓÃ»§ÊäÈëµÄÈ·ÈÏÃÜÂë -- password2
-	* ÓÃ»§ÊäÈëµÄÑéÖ¤Âë -- seccode
-	* Éú³ÉÑéÖ¤Âë·µ»ØµÄkey -- m_auth
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œå‚æ•° -- registersubmit, å¿…é¡»ä¸ºtrue
+	* ç”¨æˆ·å -- username
+	* ç”¨æˆ·è¾“å…¥çš„ç¬¬ä¸€æ¬¡å¯†ç  -- password
+	* ç”¨æˆ·è¾“å…¥çš„ç¡®è®¤å¯†ç  -- password2
+	* ç”¨æˆ·è¾“å…¥çš„éªŒè¯ç  -- seccode
+	* ç”ŸæˆéªŒè¯ç è¿”å›çš„key -- m_auth
 
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
-	* ÓÃ»§¿Õ¼äĞÅÏ¢ -- space
-		* groupid -- ËùÔÚÓÃ»§×é£¨¼¶±ğ£©
-		* credit -- ½ğ±Ò(ÕâÀï´ú±í×¢²áÔö¼ÓµÄ½ğ±Ò)
-		* experience -- ¾­Ñé(ÕâÀï´ú±í×¢²áÔö¼ÓµÄ¾­Ñé)
-		* username -- ÓÃ»§Ãû
-		* name -- ÊµÃû
-		* namestatus -- ÊÇ·ñÊµÃû
-		* videostatus -- ÊÇ·ñÊÓÆµÈÏÖ¤
-		* friendnum -- ºÃÓÑÊı
-		* viewnum -- ä¯ÀÀ´ÎÊı
-		* notenum -- Í¨ÖªÊı
-		* addfriendnum -- ¹Ø×¢Êı
-		* doingnum -- ĞÄÇéÊı
-		* lastpost -- ×îĞÂÌá½»Ê±¼ä
-		* lastlogin -- ×îĞÂµÇÂ¼Ê±¼ä
-		* attachsize -- ¿Õ¼ä´óĞ¡
-		* flag -- ÊÇ·ñ±»½û
-		* newpm -- ÊÇ·ñÓĞĞÂÍ¨Öª
-		* avatar -- ¸öÈËÍ·Ïñ
-		* quiznum -- ·¢²¼µÄ´ò¶ÄÊı
-		* winnum -- Ó®µÄ´ÎÊı
-		* lostnum -- ÊäµÄ´ÎÊı
-		* voternum -- ²Î¼Ó´ò¶ÄµÄ´ÎÊı
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
+	* ç”¨æˆ·ç©ºé—´ä¿¡æ¯ -- space
+		* groupid -- æ‰€åœ¨ç”¨æˆ·ç»„ï¼ˆçº§åˆ«ï¼‰
+		* credit -- é‡‘å¸(è¿™é‡Œä»£è¡¨æ³¨å†Œå¢åŠ çš„é‡‘å¸)
+		* experience -- ç»éªŒ(è¿™é‡Œä»£è¡¨æ³¨å†Œå¢åŠ çš„ç»éªŒ)
+		* username -- ç”¨æˆ·å
+		* name -- å®å
+		* namestatus -- æ˜¯å¦å®å
+		* videostatus -- æ˜¯å¦è§†é¢‘è®¤è¯
+		* friendnum -- å¥½å‹æ•°
+		* viewnum -- æµè§ˆæ¬¡æ•°
+		* notenum -- é€šçŸ¥æ•°
+		* addfriendnum -- å…³æ³¨æ•°
+		* doingnum -- å¿ƒæƒ…æ•°
+		* lastpost -- æœ€æ–°æäº¤æ—¶é—´
+		* lastlogin -- æœ€æ–°ç™»å½•æ—¶é—´
+		* attachsize -- ç©ºé—´å¤§å°
+		* flag -- æ˜¯å¦è¢«ç¦
+		* newpm -- æ˜¯å¦æœ‰æ–°é€šçŸ¥
+		* avatar -- ä¸ªäººå¤´åƒ
+		* quiznum -- å‘å¸ƒçš„æ‰“èµŒæ•°
+		* winnum -- èµ¢çš„æ¬¡æ•°
+		* lostnum -- è¾“çš„æ¬¡æ•°
+		* voternum -- å‚åŠ æ‰“èµŒçš„æ¬¡æ•°
 
-#### ÑùÀı
+#### æ ·ä¾‹
 	{"code":0,"data":{"space":{"uid":"11","sex":"0","email":"test6@betit.cn","newemail":"","emailcheck":"0",
 	"mobile":"","qq":"","msn":"","msnrobot":"","msncstatus":"0","videopic":"","birthyear":"0","birthmonth":"0",
 	"birthday":"0","blood":"","marry":"0","birthprovince":"","birthcity":"","resideprovince":"","residecity":"",
@@ -737,61 +876,61 @@ capi/do.php?ac=register&op=seccode
 	"avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0","quiznum":"0","winnum":"0","lostnum":"0",
 	"voternum":"0","self":1,"friends":[],"allnotenum":0},
 	"m_auth":"cf7chDvDIcnUVeupGp4utLftIQEP%2B1rP8eGrGWydH3ITmly6DURpvHCvByCJlE0hEus%2F5Ji%2FqVUrfnd3dHn6%2BA"},
-	"msg":"×¢²á³É¹¦ÁË£¬½øÈë¸öÈË¿Õ¼ä","action":"registered"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"msg":"æ³¨å†ŒæˆåŠŸäº†ï¼Œè¿›å…¥ä¸ªäººç©ºé—´","action":"registered"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 	
-<h2>µÇÂ¼</h2>
+<h2>ç™»å½•</h2>
 capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
-#### ÇëÇó²ÎÊı
-	* ÓÃ»§Ãû -- username
-	* ÃÜÂë -- password
-	* Ìá½»ÀàĞÍ -- loginsubmit£¬ ±ØĞëÎªtrue
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
-	* ÓÃ»§¿Õ¼äĞÅÏ¢ -- space
-		* groupid -- ËùÔÚÓÃ»§×é£¨¼¶±ğ£©
-		* credit -- ½ğ±Ò
-		* experience -- ¾­Ñé
-		* username -- ÓÃ»§Ãû
-		* name -- ÊµÃû
-		* namestatus -- ÊÇ·ñÊµÃû
-		* videostatus -- ÊÇ·ñÊÓÆµÈÏÖ¤
-		* friendnum -- ºÃÓÑÊı
-		* viewnum -- ä¯ÀÀ´ÎÊı
-		* notenum -- Í¨ÖªÊı
-		* addfriendnum -- ¹Ø×¢Êı
-		* doingnum -- ĞÄÇéÊı
-		* lastpost -- ×îĞÂÌá½»Ê±¼ä
-		* lastlogin -- ×îĞÂµÇÂ¼Ê±¼ä
-		* attachsize -- ¿Õ¼ä´óĞ¡
-		* flag -- ÊÇ·ñ±»½û
-		* newpm -- ÊÇ·ñÓĞĞÂÍ¨Öª
-		* avatar -- ¸öÈËÍ·Ïñ
-		* quiznum -- ·¢²¼µÄ´ò¶ÄÊı
-		* winnum -- Ó®µÄ´ÎÊı
-		* lostnum -- ÊäµÄ´ÎÊı
-		* voternum -- ²Î¼Ó´ò¶ÄµÄ´ÎÊı
-#### ÑùÀı
+#### è¯·æ±‚å‚æ•°
+	* ç”¨æˆ·å -- username
+	* å¯†ç  -- password
+	* æäº¤ç±»å‹ -- loginsubmitï¼Œ å¿…é¡»ä¸ºtrue
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
+	* ç”¨æˆ·ç©ºé—´ä¿¡æ¯ -- space
+		* groupid -- æ‰€åœ¨ç”¨æˆ·ç»„ï¼ˆçº§åˆ«ï¼‰
+		* credit -- é‡‘å¸
+		* experience -- ç»éªŒ
+		* username -- ç”¨æˆ·å
+		* name -- å®å
+		* namestatus -- æ˜¯å¦å®å
+		* videostatus -- æ˜¯å¦è§†é¢‘è®¤è¯
+		* friendnum -- å¥½å‹æ•°
+		* viewnum -- æµè§ˆæ¬¡æ•°
+		* notenum -- é€šçŸ¥æ•°
+		* addfriendnum -- å…³æ³¨æ•°
+		* doingnum -- å¿ƒæƒ…æ•°
+		* lastpost -- æœ€æ–°æäº¤æ—¶é—´
+		* lastlogin -- æœ€æ–°ç™»å½•æ—¶é—´
+		* attachsize -- ç©ºé—´å¤§å°
+		* flag -- æ˜¯å¦è¢«ç¦
+		* newpm -- æ˜¯å¦æœ‰æ–°é€šçŸ¥
+		* avatar -- ä¸ªäººå¤´åƒ
+		* quiznum -- å‘å¸ƒçš„æ‰“èµŒæ•°
+		* winnum -- èµ¢çš„æ¬¡æ•°
+		* lostnum -- è¾“çš„æ¬¡æ•°
+		* voternum -- å‚åŠ æ‰“èµŒçš„æ¬¡æ•°
+#### æ ·ä¾‹
 	{"code":{"space":{"uid":"1","groupid":"11","credit":"2030","experience":"2030","username":"admin","name":"","namestatus":"0","videostatus":"0","domain":"",
 	"friendnum":"0","viewnum":"3","notenum":"0","addfriendnum":"0","doingnum":"0",
 	"blognum":"3","albumnum":"0","threadnum":"0","pollnum":"0","eventnum":"0","sharenum":"0","dateline":"1343725030","updatetime":"1343966557","lastsearch":"0",
 	"lastpost":"1344324792","lastlogin":"1344328793","attachsize":"774822","addsize":"0","addfriend":"0","flag":"0","newpm":"0","avatar":"0",
 	"mood":"0","quiznum":"27","winnum":"2","lostnum":"0","voternum":"10"},
 	"m_auth":"55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0"},"data":[],
-	"msg":"µÇÂ¼³É¹¦ÁË£¬ÏÖÔÚÒıµ¼Äú½øÈëµÇÂ¼Ç°Ò³Ãæ \\1","action":"login_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"msg":"ç™»å½•æˆåŠŸäº†ï¼Œç°åœ¨å¼•å¯¼æ‚¨è¿›å…¥ç™»å½•å‰é¡µé¢ \\1","action":"login_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>ÉÏ´«Í¼Æ¬</h2>
-#### ×¢Òâ:²ÉÓÃPOSTÉÏ´«
-#### POSTÑùÀı£º
+<h2>ä¸Šä¼ å›¾ç‰‡</h2>
+#### æ³¨æ„:é‡‡ç”¨POSTä¸Šä¼ 
+#### POSTæ ·ä¾‹ï¼š
 	<!DOCTYPE HTML>
 	<html>
 	<head>
 	<meta charset="utf-8">
-	<title>ÉÏ´«Í¼Æ¬</title></head><body>
+	<title>ä¸Šä¼ å›¾ç‰‡</title></head><body>
 	<form action="capi/cp.php?ac=upload" method="post" enctype="multipart/form-data">
 	<input type="file" name="attach"/><input type="hidden" name="op" value="uploadphoto2" />
 	<input type="hidden" name="uid" value="1" />
@@ -800,338 +939,338 @@ capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
 	<input type="hidden" name="topicid"  value="0" />
 	<input type="hidden" name="ac"  value="upload" />
 	<input type="hidden" name="albumid" value="0" />
-	<input type="submit"  name="submit"  value="Ìá½»"/>
+	<input type="submit"  name="submit"  value="æäº¤"/>
 	</form>
 	</body>
 	</html>
-#### ÇëÇó²ÎÊı
-	* ÉÏ´«ÎÄ¼ş -- attach
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- op: uploadphoto2, uploadsubmit2:true, topicid:0. albumid:0, ac:upload
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
-	* ÉÏ´«ÓÃ»§id -- uid
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÒ»¸öÊı¾İ
-		* data[pic] -- ÉÏ´«³É¹¦µÄÍ¼Æ¬ÄÚÈİ£¬¾ßÌåÌõÄ¿ÈçÏÂ:
-			* ÉÏ´«µÄÓÃ»§id -- uid
-			* ÉÏ´«µÄÓÃ»§Ãû -- username
-			* ÉÏ´«Ê±¼ä -- dateline
-			* ÉÏ´«ÎÄ¼şÃû -- filename
-			* Í¼Æ¬±êÌâ -- title, Ä¬ÈÏÎª¿Õ
-			* Í¼Æ¬ÀàĞÍ -- type
-			* Í¼Æ¬´óĞ¡ -- size
-			* Í¼Æ¬·şÎñ¶ËÎÄ¼şÃû -- filepath
-			* ÊÇ·ñÉú³ÉÁËËõÂÔÍ¼ -- thumb, 1´ú±íÉú³ÉÁË£¬0´ú±íÃ»ÓĞ
-			* ÊÇ·ñ·ÅÔÚÔ¶¶ËÍ¼Ïñ·şÎñÆ÷ -- remote
-			* Í¼Æ¬id -- picid, <em>ÖØÒª</em>£¬µ±·¢²¼´ò¶ÄÊ±ĞèÒª¹ØÁª
-			* Í¼Æ¬·şÎñ¶ËÂ·¾¶ -- pic
-#### ÑùÀı
-	{"code":0,"data":{"pic":{"albumid":0,"uid":"1","username":"test6","dateline":"1344415852","filename":"qqÌáĞÑ.png","postip":"127.0.0.1","title":"",
+#### è¯·æ±‚å‚æ•°
+	* ä¸Šä¼ æ–‡ä»¶ -- attach
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- op: uploadphoto2, uploadsubmit2:true, topicid:0. albumid:0, ac:upload
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
+	* ä¸Šä¼ ç”¨æˆ·id -- uid
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸€ä¸ªæ•°æ®
+		* data[pic] -- ä¸Šä¼ æˆåŠŸçš„å›¾ç‰‡å†…å®¹ï¼Œå…·ä½“æ¡ç›®å¦‚ä¸‹:
+			* ä¸Šä¼ çš„ç”¨æˆ·id -- uid
+			* ä¸Šä¼ çš„ç”¨æˆ·å -- username
+			* ä¸Šä¼ æ—¶é—´ -- dateline
+			* ä¸Šä¼ æ–‡ä»¶å -- filename
+			* å›¾ç‰‡æ ‡é¢˜ -- title, é»˜è®¤ä¸ºç©º
+			* å›¾ç‰‡ç±»å‹ -- type
+			* å›¾ç‰‡å¤§å° -- size
+			* å›¾ç‰‡æœåŠ¡ç«¯æ–‡ä»¶å -- filepath
+			* æ˜¯å¦ç”Ÿæˆäº†ç¼©ç•¥å›¾ -- thumb, 1ä»£è¡¨ç”Ÿæˆäº†ï¼Œ0ä»£è¡¨æ²¡æœ‰
+			* æ˜¯å¦æ”¾åœ¨è¿œç«¯å›¾åƒæœåŠ¡å™¨ -- remote
+			* å›¾ç‰‡id -- picid, <em>é‡è¦</em>ï¼Œå½“å‘å¸ƒæ‰“èµŒæ—¶éœ€è¦å…³è”
+			* å›¾ç‰‡æœåŠ¡ç«¯è·¯å¾„ -- pic
+#### æ ·ä¾‹
+	{"code":0,"data":{"pic":{"albumid":0,"uid":"1","username":"test6","dateline":"1344415852","filename":"qqæé†’.png","postip":"127.0.0.1","title":"",
 	"type":"image\/png","size":165056,"filepath":"1_1344415852h77H.png","thumb":1,"remote":0,"topicid":0,"picid":80,"pic":"attachment\/1_1344415852h77H.png.thumb.jpg"}},
-	"msg":"½øĞĞµÄ²Ù×÷Íê³ÉÁË","action":"do_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"msg":"è¿›è¡Œçš„æ“ä½œå®Œæˆäº†","action":"do_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>·¢²¼´ò¶Ä</h2>
-capi/cp.php?ac=quiz&quizsubmit=true&subject=ÎÒµÄ´ò¶Ä&options[1]=AÓ®&options[2]=BÊä&pics[1]=81&pics[2]=79&joincost=20&portion=3
+<h2>å‘å¸ƒæ‰“èµŒ</h2>
+capi/cp.php?ac=quiz&quizsubmit=true&subject=æˆ‘çš„æ‰“èµŒ&options[1]=Aèµ¢&options[2]=Bè¾“&pics[1]=81&pics[2]=79&joincost=20&portion=3
 &endtime=2012-08-15 17:12:12&resulttime=2012-08-16 17:12:12&friend=0&m_auth=af9cCEMpQlfFT
 
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- quizsubmit: true
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
-	* ´ò¶ÄµÄ±êÌâ -- subject
-	* AÑ¡ÏîµÄÃèÊö -- options[1]
-	* BÑ¡ÏîµÄÃèÊö -- options[2]
-	* AÑ¡ÏîµÄÍ¼Æ¬id -- pics[1]
-	* BÑ¡ÏîµÄÍ¼Æ¬id -- pics[2]
-	* Ã¿Ò»·İÍ¶×¢ĞèÒªµÄ½ğ±ÒÊı -- joincost
-	* Ã¿¸öÓÃ»§¿ÉÔÊĞíµÄ×î´óÍ¶×¢´ÎÊı -- portion
-	* ´ò¶ÄÍ¶×¢½ØÖ¹Ê±¼ä -- endtime(´«ËÍÊ±Òªurlencode)
-	* ´ò¶ÄÔ¤¼Æ¹«²¼´ğ°¸Ê±¼ä -- resulttime(´«ËÍÊ±Òªurlencode)
-	* ÊÇ·ñÈ«Õ¾¹«¿ª -- frined , Ä¬ÈÏ0È«Õ¾¹«¿ª
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- quizsubmit: true
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
+	* æ‰“èµŒçš„æ ‡é¢˜ -- subject
+	* Aé€‰é¡¹çš„æè¿° -- options[1]
+	* Bé€‰é¡¹çš„æè¿° -- options[2]
+	* Aé€‰é¡¹çš„å›¾ç‰‡id -- pics[1]
+	* Bé€‰é¡¹çš„å›¾ç‰‡id -- pics[2]
+	* æ¯ä¸€ä»½æŠ•æ³¨éœ€è¦çš„é‡‘å¸æ•° -- joincost
+	* æ¯ä¸ªç”¨æˆ·å¯å…è®¸çš„æœ€å¤§æŠ•æ³¨æ¬¡æ•° -- portion
+	* æ‰“èµŒæŠ•æ³¨æˆªæ­¢æ—¶é—´ -- endtime(ä¼ é€æ—¶è¦urlencode)
+	* æ‰“èµŒé¢„è®¡å…¬å¸ƒç­”æ¡ˆæ—¶é—´ -- resulttime(ä¼ é€æ—¶è¦urlencode)
+	* æ˜¯å¦å…¨ç«™å…¬å¼€ -- frined , é»˜è®¤0å…¨ç«™å…¬å¼€
 
-#### ·µ»Ø²ÎÊı
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÒ»¸öÊı¾İ
-		* data[quiz] -- ·¢²¼³É¹¦µÄ´ò¶Ä£¬¾ßÌåÌõÄ¿ÈçÏÂ:
-			* ´ò¶ÄµÄ±êÌâ -- subject
-			* ÊÇ·ñÈ«Õ¾¹«¿ª -- frined , Ä¬ÈÏ0È«Õ¾¹«¿ª
-			* Ã¿Ò»·İÍ¶×¢ĞèÒªµÄ½ğ±ÒÊı -- joincost
-			* Ã¿¸öÓÃ»§¿ÉÔÊĞíµÄ×î´óÍ¶×¢´ÎÊı -- portion
-			* ´ò¶ÄÍ¶×¢½ØÖ¹Ê±¼ä -- endtime
-			* ´ò¶ÄÔ¤¼Æ¹«²¼´ğ°¸Ê±¼ä -- resulttime
-			* ´ò¶Äid --  quizid
-			* ·¢²¼µÄÓÃ»§id -- uid
-			* ·¢²¼µÄÓÃ»§Ãû -- username
+#### è¿”å›å‚æ•°
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸€ä¸ªæ•°æ®
+		* data[quiz] -- å‘å¸ƒæˆåŠŸçš„æ‰“èµŒï¼Œå…·ä½“æ¡ç›®å¦‚ä¸‹:
+			* æ‰“èµŒçš„æ ‡é¢˜ -- subject
+			* æ˜¯å¦å…¨ç«™å…¬å¼€ -- frined , é»˜è®¤0å…¨ç«™å…¬å¼€
+			* æ¯ä¸€ä»½æŠ•æ³¨éœ€è¦çš„é‡‘å¸æ•° -- joincost
+			* æ¯ä¸ªç”¨æˆ·å¯å…è®¸çš„æœ€å¤§æŠ•æ³¨æ¬¡æ•° -- portion
+			* æ‰“èµŒæŠ•æ³¨æˆªæ­¢æ—¶é—´ -- endtime
+			* æ‰“èµŒé¢„è®¡å…¬å¸ƒç­”æ¡ˆæ—¶é—´ -- resulttime
+			* æ‰“èµŒid --  quizid
+			* å‘å¸ƒçš„ç”¨æˆ·id -- uid
+			* å‘å¸ƒçš„ç”¨æˆ·å -- username
 
-#### ÑùÀı
-	{"code":0,"data":{"quiz":{"subject":"ÎÒµÄ´ò¶Ä","classid":0,"friend":0,"password":null,"noreply":0,"joincost":20,"portion":3,
+#### æ ·ä¾‹
+	{"code":0,"data":{"quiz":{"subject":"æˆ‘çš„æ‰“èµŒ","classid":0,"friend":0,"password":null,"noreply":0,"joincost":20,"portion":3,
 	"endtime":null,"resulttime":null,"picflag":0,"pic":"","hot":0,"topicid":0,"uid":1,"username":"admin","dateline":"1344417374","quizid":55}},
-	"msg":"½øĞĞµÄ²Ù×÷Íê³ÉÁË","action":"do_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"msg":"è¿›è¡Œçš„æ“ä½œå®Œæˆäº†","action":"do_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
 
-<h2>²ÎÓë´ò¶Ä</h2>
+<h2>å‚ä¸æ‰“èµŒ</h2>
 capi/cp.php?ac=quiz&op=vote&votesubmit=true&quizid=55&option[]=108&m_auth=af9cCEMpQlfFTifZlt
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- op:vote, votesubmit: true
-	* ´ò¶Äid --  quizid
-	* Í¶×¢µÄÑ¡Ïî -- option[]
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- op:vote, votesubmit: true
+	* æ‰“èµŒid --  quizid
+	* æŠ•æ³¨çš„é€‰é¡¹ -- option[]
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
 
-#### ·µ»Ø²ÎÊı
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÒ»¸öÊı¾İ
-		* data[quiz], ´ò¶ÄÏêÇé£¬¾ßÌåÄÚÈİÈçÏÂ
-			* ´ò¶Äid -- quizid
-			* ·¢²¼´ò¶ÄÓÃ»§id -- uid
-			* ×îÈÈÓÃ»§ -- hotuser
-			* ·¢²¼Ê±¼ä -- dateline
-			* Í¶Ò»×¢ËùĞè½ğ±Ò -- joincost
-			* ÓÃ»§×î´óÍ¶×¢Êı -- portion
-			* ½ØÖ¹Í¶×¢Ê±¼ä -- endtime
-			* Ô¤¼Æ¹«²¼½á¹ûÊ±¼ä -- resulttime
-			* ×î½üÒ»´ÎÍ¶×¢Ê±¼ä -- lastvote
-			* µ±Ç°ÀÛ¼ÆÍ¶×¢ -- voternum
-			* ½±½ğ³Ø -- totalcost
-			* ÊÇ·ñÒÑ¾­ÌáĞÑ¹ı -- hasremind
-			* ÊÇ·ñÒÑ¾­³¬ÆÚ -- hasexceed
-			* ´ğ°¸Ñ¡Ïîid -- keyoid
-			* ´ğ°¸ -- keyoption
-			* Ñ¡ÏîÊı×é -- options£¬¾ßÌåÄÚÈİÈçÏÂ£º
-				* Ñ¡Ïîid -- oid
-				* ËùÊô¾º²Â -- quizid
-				* ÓÃ»§id -- uid
-				* Ñ¡Ïî -- option, ÎÄ±¾ÃèÊö
-				* ÏàÆ¬id -- picid
-				* ÏàÆ¬Â·¾¶ -- pic
-				* Í¶×¢ÈËÊı -- votenum
-				* Í¶×¢Õ¼×ÜÍ¶×¢°Ù·Ö±È -- percent
-#### ÑùÀı
+#### è¿”å›å‚æ•°
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸€ä¸ªæ•°æ®
+		* data[quiz], æ‰“èµŒè¯¦æƒ…ï¼Œå…·ä½“å†…å®¹å¦‚ä¸‹
+			* æ‰“èµŒid -- quizid
+			* å‘å¸ƒæ‰“èµŒç”¨æˆ·id -- uid
+			* æœ€çƒ­ç”¨æˆ· -- hotuser
+			* å‘å¸ƒæ—¶é—´ -- dateline
+			* æŠ•ä¸€æ³¨æ‰€éœ€é‡‘å¸ -- joincost
+			* ç”¨æˆ·æœ€å¤§æŠ•æ³¨æ•° -- portion
+			* æˆªæ­¢æŠ•æ³¨æ—¶é—´ -- endtime
+			* é¢„è®¡å…¬å¸ƒç»“æœæ—¶é—´ -- resulttime
+			* æœ€è¿‘ä¸€æ¬¡æŠ•æ³¨æ—¶é—´ -- lastvote
+			* å½“å‰ç´¯è®¡æŠ•æ³¨ -- voternum
+			* å¥–é‡‘æ±  -- totalcost
+			* æ˜¯å¦å·²ç»æé†’è¿‡ -- hasremind
+			* æ˜¯å¦å·²ç»è¶…æœŸ -- hasexceed
+			* ç­”æ¡ˆé€‰é¡¹id -- keyoid
+			* ç­”æ¡ˆ -- keyoption
+			* é€‰é¡¹æ•°ç»„ -- optionsï¼Œå…·ä½“å†…å®¹å¦‚ä¸‹ï¼š
+				* é€‰é¡¹id -- oid
+				* æ‰€å±ç«çŒœ -- quizid
+				* ç”¨æˆ·id -- uid
+				* é€‰é¡¹ -- option, æ–‡æœ¬æè¿°
+				* ç›¸ç‰‡id -- picid
+				* ç›¸ç‰‡è·¯å¾„ -- pic
+				* æŠ•æ³¨äººæ•° -- votenum
+				* æŠ•æ³¨å æ€»æŠ•æ³¨ç™¾åˆ†æ¯” -- percent
+#### æ ·ä¾‹
 	{"code":0,"data":{"quiz":{"quizid":"55","uid":"1","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"",
-	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":"a:2:{i:0;s:4:\"AÓ®\";i:1;s:4:\"BÊä\";}","invite":"","topicid":"0","username":"admin",
-	"subject":"ÎÒµÄ´ò¶Ä","classid":"0","viewnum":"1","replynum":"0","hot":"0","dateline":"1344417374","pic":"","picflag":"0","noreply":"0","friend":"0",
+	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":"a:2:{i:0;s:4:\"Aèµ¢\";i:1;s:4:\"Bè¾“\";}","invite":"","topicid":"0","username":"admin",
+	"subject":"æˆ‘çš„æ‰“èµŒ","classid":"0","viewnum":"1","replynum":"0","hot":"0","dateline":"1344417374","pic":"","picflag":"0","noreply":"0","friend":"0",
 	"password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3","endtime":"0","resulttime":"0",
 	"lastvote":"0","voternum":"0","maxchoice":"0","sex":"0","keyoid":"0","keyoption":"","totalcost":"0","hasremind":"1","hasexceed":"1",
-	"options":[{"oid":"107","quizid":"55","uid":"1","option":"AÓ®","relatedtime":"1344417374","picid":"81","votenum":"0","pic":
-	"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg"},{"oid":"108","quizid":"55","uid":"1","option":"BÊä","relatedtime":"1344417374","picid":"79",
-	"votenum":"0","pic":"attachment\/201208\/1\/1_1343816747cmwS.png"}]}},"msg":"½øĞĞµÄ²Ù×÷Íê³ÉÁË","action":"do_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"options":[{"oid":"107","quizid":"55","uid":"1","option":"Aèµ¢","relatedtime":"1344417374","picid":"81","votenum":"0","pic":
+	"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg"},{"oid":"108","quizid":"55","uid":"1","option":"Bè¾“","relatedtime":"1344417374","picid":"79",
+	"votenum":"0","pic":"attachment\/201208\/1\/1_1343816747cmwS.png"}]}},"msg":"è¿›è¡Œçš„æ“ä½œå®Œæˆäº†","action":"do_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>¹«²¼´ğ°¸</h2>
+<h2>å…¬å¸ƒç­”æ¡ˆ</h2>
 capi/cp.php?ac=quiz&op=publickey&quizid=55&keysubmit=true&keyid=107&m_auth=7c44hpLskh17xPRklyuRE%2FK0fAcYbTThZ
 
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- op:publickey, keysubmit: true
-	* ´ò¶Äid --  quizid
-	* ´ğ°¸Ñ¡Ïîid -- keyid
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- op:publickey, keysubmit: true
+	* æ‰“èµŒid --  quizid
+	* ç­”æ¡ˆé€‰é¡¹id -- keyid
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
 
-#### ·µ»Ø²ÎÊı
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÒ»¸öÊı¾İ
-		* data[quiz], ´ò¶ÄÏêÇé£¬¾ßÌåÄÚÈİÈçÏÂ
-			* ´ò¶Äid -- quizid
-			* ·¢²¼´ò¶ÄÓÃ»§id -- uid
-			* ×îÈÈÓÃ»§ -- hotuser
-			* ·¢²¼Ê±¼ä -- dateline
-			* Í¶Ò»×¢ËùĞè½ğ±Ò -- joincost
-			* ÓÃ»§×î´óÍ¶×¢Êı -- portion
-			* ½ØÖ¹Í¶×¢Ê±¼ä -- endtime
-			* Ô¤¼Æ¹«²¼½á¹ûÊ±¼ä -- resulttime
-			* ×î½üÒ»´ÎÍ¶×¢Ê±¼ä -- lastvote
-			* µ±Ç°ÀÛ¼ÆÍ¶×¢ -- voternum
-			* ½±½ğ³Ø -- totalcost
-			* ÊÇ·ñÒÑ¾­ÌáĞÑ¹ı -- hasremind
-			* ÊÇ·ñÒÑ¾­³¬ÆÚ -- hasexceed
-			* ´ğ°¸Ñ¡Ïîid -- keyoid
-			* ´ğ°¸ -- keyoption
-			* Ñ¡ÏîÊı×é -- options£¬¾ßÌåÄÚÈİÈçÏÂ£º
-				* Ñ¡Ïîid -- oid
-				* ËùÊô¾º²Â -- quizid
-				* ÓÃ»§id -- uid
-				* Ñ¡Ïî -- option, ÎÄ±¾ÃèÊö
-				* ÏàÆ¬id -- picid
-				* ÏàÆ¬Â·¾¶ -- pic
-				* Í¶×¢ÈËÊı -- votenum
-				* Í¶×¢Õ¼×ÜÍ¶×¢°Ù·Ö±È -- percent
-#### ÑùÀı
+#### è¿”å›å‚æ•°
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸€ä¸ªæ•°æ®
+		* data[quiz], æ‰“èµŒè¯¦æƒ…ï¼Œå…·ä½“å†…å®¹å¦‚ä¸‹
+			* æ‰“èµŒid -- quizid
+			* å‘å¸ƒæ‰“èµŒç”¨æˆ·id -- uid
+			* æœ€çƒ­ç”¨æˆ· -- hotuser
+			* å‘å¸ƒæ—¶é—´ -- dateline
+			* æŠ•ä¸€æ³¨æ‰€éœ€é‡‘å¸ -- joincost
+			* ç”¨æˆ·æœ€å¤§æŠ•æ³¨æ•° -- portion
+			* æˆªæ­¢æŠ•æ³¨æ—¶é—´ -- endtime
+			* é¢„è®¡å…¬å¸ƒç»“æœæ—¶é—´ -- resulttime
+			* æœ€è¿‘ä¸€æ¬¡æŠ•æ³¨æ—¶é—´ -- lastvote
+			* å½“å‰ç´¯è®¡æŠ•æ³¨ -- voternum
+			* å¥–é‡‘æ±  -- totalcost
+			* æ˜¯å¦å·²ç»æé†’è¿‡ -- hasremind
+			* æ˜¯å¦å·²ç»è¶…æœŸ -- hasexceed
+			* ç­”æ¡ˆé€‰é¡¹id -- keyoid
+			* ç­”æ¡ˆ -- keyoption
+			* é€‰é¡¹æ•°ç»„ -- optionsï¼Œå…·ä½“å†…å®¹å¦‚ä¸‹ï¼š
+				* é€‰é¡¹id -- oid
+				* æ‰€å±ç«çŒœ -- quizid
+				* ç”¨æˆ·id -- uid
+				* é€‰é¡¹ -- option, æ–‡æœ¬æè¿°
+				* ç›¸ç‰‡id -- picid
+				* ç›¸ç‰‡è·¯å¾„ -- pic
+				* æŠ•æ³¨äººæ•° -- votenum
+				* æŠ•æ³¨å æ€»æŠ•æ³¨ç™¾åˆ†æ¯” -- percent
+#### æ ·ä¾‹
 	{"code":0,"data":{"quiz":{"quizid":"55","uid":"1","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"",
-	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":"a:2:{i:0;s:4:\"AÓ®\";i:1;s:4:\"BÊä\";}","invite":"","topicid":"0","username":"admin",
-	"subject":"ÎÒµÄ´ò¶Ä","classid":"0","viewnum":"1","replynum":"2","hot":"0","dateline":"1344417374","pic":"","picflag":"0","noreply":"0","friend":"0",
+	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":"a:2:{i:0;s:4:\"Aèµ¢\";i:1;s:4:\"Bè¾“\";}","invite":"","topicid":"0","username":"admin",
+	"subject":"æˆ‘çš„æ‰“èµŒ","classid":"0","viewnum":"1","replynum":"2","hot":"0","dateline":"1344417374","pic":"","picflag":"0","noreply":"0","friend":"0",
 	"password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3","endtime":"0","resulttime":"0",
 	"lastvote":"1344418287","voternum":"1","maxchoice":"0","sex":"0","keyoid":"0","keyoption":"","totalcost":"20","hasremind":"1","hasexceed":"1",
-	"options":[{"oid":"107","quizid":"55","uid":"1","option":"AÓ®","relatedtime":"1344417374","picid":"81","votenum":"0",
-	"pic":"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg"},{"oid":"108","quizid":"55","uid":"1","option":"BÊä","relatedtime":"1344417374","picid":"79",
-	"votenum":"1","pic":"attachment\/201208\/1\/1_1343816747cmwS.png"}]}},"msg":"½øĞĞµÄ²Ù×÷Íê³ÉÁË","action":"do_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+	"options":[{"oid":"107","quizid":"55","uid":"1","option":"Aèµ¢","relatedtime":"1344417374","picid":"81","votenum":"0",
+	"pic":"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg"},{"oid":"108","quizid":"55","uid":"1","option":"Bè¾“","relatedtime":"1344417374","picid":"79",
+	"votenum":"1","pic":"attachment\/201208\/1\/1_1343816747cmwS.png"}]}},"msg":"è¿›è¡Œçš„æ“ä½œå®Œæˆäº†","action":"do_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>·ÖÏí´ò¶Ä</h2>
-capi/cp.php?ac=share&type=quiz&id=54&sharesubmit=true&general=ºÃ´ò¶Ä&m_auth=7c44hpLskh17xPRklyuRE%2FK0fAcYbT
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- type:quiz, sharesubmit: true
-	* ´ò¶Äid --  id
-	* ·ÖÏíËµÃ÷ -- general
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
+<h2>åˆ†äº«æ‰“èµŒ</h2>
+capi/cp.php?ac=share&type=quiz&id=54&sharesubmit=true&general=å¥½æ‰“èµŒ&m_auth=7c44hpLskh17xPRklyuRE%2FK0fAcYbT
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- type:quiz, sharesubmit: true
+	* æ‰“èµŒid --  id
+	* åˆ†äº«è¯´æ˜ -- general
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
 
-#### ·µ»Ø²ÎÊı
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-#### ÑùÀı
-	{"code":0,"data":[],"msg":"½øĞĞµÄ²Ù×÷Íê³ÉÁË","action":"do_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+#### è¿”å›å‚æ•°
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+#### æ ·ä¾‹
+	{"code":0,"data":[],"msg":"è¿›è¡Œçš„æ“ä½œå®Œæˆäº†","action":"do_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>ÑûÇëºÃÓÑ²ÎÓë´ò¶Ä</h2>
+<h2>é‚€è¯·å¥½å‹å‚ä¸æ‰“èµŒ</h2>
 capi/cp.php?ac=quiz&op=invite&quizid=54&uid=5&group=-1&ids[]=7&invitesubmit=true&m_auth=7c44hpLskh17xPRkly
 
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- op:invite, sharesubmit: true, group=-1
-	* ´ò¶Äid --  quizid
-	* ÓÃ»§id -- uid
-	* ÑûÇëÁĞ±í -- ids[], ´«ÑûÇëÓÃ»§µÄÓÃ»§id
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- op:invite, sharesubmit: true, group=-1
+	* æ‰“èµŒid --  quizid
+	* ç”¨æˆ·id -- uid
+	* é‚€è¯·åˆ—è¡¨ -- ids[], ä¼ é‚€è¯·ç”¨æˆ·çš„ç”¨æˆ·id
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
 
-#### ·µ»Ø²ÎÊı
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
+#### è¿”å›å‚æ•°
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
 
-#### ÑùÀı
+#### æ ·ä¾‹
 	{"code":0,"data":[],"msg":"\u8fdb\u884c\u7684\u64cd\u4f5c\u5b8c\u6210\u4e86","action":"do_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>×«Ğ´ÆÀÂÛ</h2>
+<h2>æ’°å†™è¯„è®º</h2>
 capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=quizid&id=55&m_auth=af9cCEMpQlfFT
 
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- commentsubmit: true
-	* Ö¸Ê¾id´ú±íµÄÀàĞÍ -- idtype, quizid´ú±í´ò¶Ä£¬uid´ú±í¿Õ¼ä, sid´ú±í·ÖÏí
-	* ÆÀÂÛ¹ØÁªµÄid -- id
-	* ÆÀÂÛÄÚÈİ -- message
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- commentsubmit: true
+	* æŒ‡ç¤ºidä»£è¡¨çš„ç±»å‹ -- idtype, quizidä»£è¡¨æ‰“èµŒï¼Œuidä»£è¡¨ç©ºé—´, sidä»£è¡¨åˆ†äº«
+	* è¯„è®ºå…³è”çš„id -- id
+	* è¯„è®ºå†…å®¹ -- message
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
 
-#### ·µ»Ø²ÎÊı
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
+#### è¿”å›å‚æ•°
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
 
-#### ÑùÀı
-	{"code":0,"data":"do_success","msg":"Êı¾İ»ñÈ¡³É¹¦","action":"rest_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+#### æ ·ä¾‹
+	{"code":0,"data":"do_success","msg":"æ•°æ®è·å–æˆåŠŸ","action":"rest_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>·¢²¼Ë½ĞÅ</h2>
-capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=ÄãºÃ!summit&pmsubmit=true&m_auth=af9cCEMpQlfFTifZltugadwh
+<h2>å‘å¸ƒç§ä¿¡</h2>
+capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=ä½ å¥½!summit&pmsubmit=true&m_auth=af9cCEMpQlfFTifZltugadwh
 
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- op: send, touid: 0, pmid: 0, pmsubmit: true
-	* ½ÓÊÕ·½µÄÓÃ»§Ãû -- username
-	* Ë½ĞÅÄÚÈİ -- message
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- op: send, touid: 0, pmid: 0, pmsubmit: true
+	* æ¥æ”¶æ–¹çš„ç”¨æˆ·å -- username
+	* ç§ä¿¡å†…å®¹ -- message
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
 
-#### ·µ»Ø²ÎÊı
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
+#### è¿”å›å‚æ•°
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
 
-#### ÑùÀı
-	{"code":0,"data":[],"msg":"½øĞĞµÄ²Ù×÷Íê³ÉÁË","action":"do_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+#### æ ·ä¾‹
+	{"code":0,"data":[],"msg":"è¿›è¡Œçš„æ“ä½œå®Œæˆäº†","action":"do_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>¸ü¸ÄÍ·Ïñ</h2>
-#### ×¢Òâ:²ÉÓÃPOSTÉÏ´«
-#### POSTÑùÀı£º
+<h2>æ›´æ”¹å¤´åƒ</h2>
+#### æ³¨æ„:é‡‡ç”¨POSTä¸Šä¼ 
+#### POSTæ ·ä¾‹ï¼š
 <!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
-<title>ÉÏ´«Í·Ïñ</title></head><body>
+<title>ä¸Šä¼ å¤´åƒ</title></head><body>
 <form action="capi/cp.php?ac=avatar" method="post" enctype="multipart/form-data">
-<input type="file" name="Filedata"/><input type="submit"  name="submit"  value="Ìá½»"/>
+<input type="file" name="Filedata"/><input type="submit"  name="submit"  value="æäº¤"/>
 <input type="hidden" name="m_auth" value="af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2ibMM1tNHXaHYweU%2B8hsBHobKzgHFJs" />
 <input type="hidden" name="ac" value="avatar" />
 <input type="hidden" name="avatarsubmit" id="avatarsubmit" value="true" />
 </form></body>
 
-#### ÇëÇó²ÎÊı
-	* ÉÏ´«Í·Ïñ -- Filedata
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- ac:avatar, avatarsubmit:true
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
+#### è¯·æ±‚å‚æ•°
+	* ä¸Šä¼ å¤´åƒ -- Filedata
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- ac:avatar, avatarsubmit:true
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
 	
-#### ·µ»Ø×Ö¶Î
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
-	* ½á¹û -- data, jsonÊı×é, ±¾²Ù×÷·µ»ØÈı¸öÊı¾İ
-		* data[url], ·µ»ØÍ·ÏñµÄÁ´½Ó
-			* big -- ´óÍ·ÏñURL
-			* middle -- ÖĞÍ·ÏñURL
-			* small -- Ğ¡Í·ÏñURL
-		* data[reward], ·µ»Ø²Ù×÷Ôö¼ÓµÄ½ğ±ÒºÍĞÅÓÃ
-			* credit -- Ôö¼ÓµÄ½ğ±ÒÁ¿
-			* experience -- Ôö¼ÓµÄĞÅÓÃ
-		* date[dateline]: ²Ù×÷¸üĞÂµÄÊ±¼ä
+#### è¿”å›å­—æ®µ
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
+	* ç»“æœ -- data, jsonæ•°ç»„, æœ¬æ“ä½œè¿”å›ä¸‰ä¸ªæ•°æ®
+		* data[url], è¿”å›å¤´åƒçš„é“¾æ¥
+			* big -- å¤§å¤´åƒURL
+			* middle -- ä¸­å¤´åƒURL
+			* small -- å°å¤´åƒURL
+		* data[reward], è¿”å›æ“ä½œå¢åŠ çš„é‡‘å¸å’Œä¿¡ç”¨
+			* credit -- å¢åŠ çš„é‡‘å¸é‡
+			* experience -- å¢åŠ çš„ä¿¡ç”¨
+		* date[dateline]: æ“ä½œæ›´æ–°çš„æ—¶é—´
 
-#### ÑùÀı
+#### æ ·ä¾‹
 	{"code":0,"data":{"url":{"big":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/00_avatar_big.jpg","middle":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/00_avatar_middle.jpg","small":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/00_avatar_small.jpg"},"msg":"",
 	"reward":{"credit":0,"experience":0},"dateline":"1344421976"},"msg":"\u8fdb\u884c\u7684\u64cd\u4f5c\u5b8c\u6210\u4e86","action":"do_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>¸ü¸ÄêÇ³Æ</h2>
+<h2>æ›´æ”¹æ˜µç§°</h2>
 cp.php?ac=profile&op=name&name=summit&m_auth=af9cCEMpQlfFTifZltu
 
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- op: name
-	* êÇ³Æ -- name
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- op: name
+	* æ˜µç§° -- name
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
 
-#### ·µ»Ø²ÎÊı
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
+#### è¿”å›å‚æ•°
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
 
-#### ÑùÀı
-	{"code":0,"data":[],"msg":"½øĞĞµÄ²Ù×÷Íê³ÉÁË","action":"do_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+#### æ ·ä¾‹
+	{"code":0,"data":[],"msg":"è¿›è¡Œçš„æ“ä½œå®Œæˆäº†","action":"do_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>±àĞ´ĞÄÇé</h2>
-capi/cp.php?ac=doing&addsubmit=true&spacenote=true&message=ÄãºÃ!summit&m_auth=af9cCEMpQlfFTifZ
+<h2>ç¼–å†™å¿ƒæƒ…</h2>
+capi/cp.php?ac=doing&addsubmit=true&spacenote=true&message=ä½ å¥½!summit&m_auth=af9cCEMpQlfFTifZ
 
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) -- addsubmit: true, spacenote:true
-	* ĞÄÇéÄÚÈİ -- message
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) -- addsubmit: true, spacenote:true
+	* å¿ƒæƒ…å†…å®¹ -- message
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
 
-#### ·µ»Ø²ÎÊı
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
+#### è¿”å›å‚æ•°
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
 
-#### ÑùÀı
-	{"code":0,"data":[],"msg":"½øĞĞµÄ²Ù×÷Íê³ÉÁË","action":"do_success"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+#### æ ·ä¾‹
+	{"code":0,"data":[],"msg":"è¿›è¡Œçš„æ“ä½œå®Œæˆäº†","action":"do_success"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
 
-<h2>ÑûÇëºÃÓÑ</h2>
-capi/cp.php?ac=invite&emailinvite=true&email=summit_mail@qq.com&saymsg=À´betit°ü×¬Ã»Åâ&m_auth=7c44hpLskh17xPRklyu
+<h2>é‚€è¯·å¥½å‹</h2>
+capi/cp.php?ac=invite&emailinvite=true&email=summit_mail@qq.com&saymsg=æ¥betitåŒ…èµšæ²¡èµ”&m_auth=7c44hpLskh17xPRklyu
 
-#### ÇëÇó²ÎÊı
-	* ²Ù×÷ÀàĞÍ(¹Ì¶¨´îÅä) --emailinvite: true
-	* ºÃÓÑµÄÓÊ¼ş: email, ÒÔ¶ººÅ·Ö¸ô
-	* ¶ÔºÃÓÑËµµÄ»°: saymsg
-	* APIÃÜÔ¿ -- m_auth, Ã¿´Îµ÷ÓÃ½Ó¿Ú£¬ĞèÒªÌá¹©´ËkeyÒÔÑéÖ¤ÓÃ»§
+#### è¯·æ±‚å‚æ•°
+	* æ“ä½œç±»å‹(å›ºå®šæ­é…) --emailinvite: true
+	* å¥½å‹çš„é‚®ä»¶: email, ä»¥é€—å·åˆ†éš”
+	* å¯¹å¥½å‹è¯´çš„è¯: saymsg
+	* APIå¯†é’¥ -- m_auth, æ¯æ¬¡è°ƒç”¨æ¥å£ï¼Œéœ€è¦æä¾›æ­¤keyä»¥éªŒè¯ç”¨æˆ·
 
-#### ·µ»Ø²ÎÊı
-	* ´íÎóÂë -- code, 0:´ú±í³É¹¦£¬ 1:´ú±íÊ§°Ü
-	* ´íÎóÀàĞÍ -- action, login_success:´ú±íµÇÂ¼³É¹¦
-	* ´íÎóĞÅÏ¢ -- msg, ÏêÏ¸²Î¼û¸½Â¼
+#### è¿”å›å‚æ•°
+	* é”™è¯¯ç  -- code, 0:ä»£è¡¨æˆåŠŸï¼Œ 1:ä»£è¡¨å¤±è´¥
+	* é”™è¯¯ç±»å‹ -- action, login_success:ä»£è¡¨ç™»å½•æˆåŠŸ
+	* é”™è¯¯ä¿¡æ¯ -- msg, è¯¦ç»†å‚è§é™„å½•
 
-#### ÑùÀı
-	{"code":0,"data":[],"msg":"ÓÊ¼şÒÑ¾­ËÍ³ö£¬ÄúµÄºÃÓÑ¿ÉÄÜĞèÒª¼¸·ÖÖÓºó²ÅÄÜÊÕµ½ÓÊ¼ş","action":"send_result_1"}
-[¡ü·µ»Ø¶¥²¿](#betit)
+#### æ ·ä¾‹
+	{"code":0,"data":[],"msg":"é‚®ä»¶å·²ç»é€å‡ºï¼Œæ‚¨çš„å¥½å‹å¯èƒ½éœ€è¦å‡ åˆ†é’Ÿåæ‰èƒ½æ”¶åˆ°é‚®ä»¶","action":"send_result_1"}
+[â†‘è¿”å›é¡¶éƒ¨](#betit)
