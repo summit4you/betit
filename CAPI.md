@@ -1652,14 +1652,67 @@ capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
 		* winnum -- 赢的次数
 		* lostnum -- 输的次数
 		* voternum -- 参加打赌的次数
+		* reward -- 操作增加的金币分和经验
+			* credit -- 金币
+			* experience -- 经验
 #### 样例
-	{"code":{"space":{"uid":"1","groupid":"11","credit":"2030","experience":"2030","username":"admin","name":"","namestatus":"0","videostatus":"0","domain":"",
-	"friendnum":"0","viewnum":"3","notenum":"0","addfriendnum":"0","doingnum":"0",
-	"blognum":"3","albumnum":"0","threadnum":"0","pollnum":"0","eventnum":"0","sharenum":"0","dateline":"1343725030","updatetime":"1343966557","lastsearch":"0",
-	"lastpost":"1344324792","lastlogin":"1344328793","attachsize":"774822","addsize":"0","addfriend":"0","flag":"0","newpm":"0","avatar":"0",
-	"mood":"0","quiznum":"27","winnum":"2","lostnum":"0","voternum":"10"},
-	"m_auth":"55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0"},"data":[],
-	"msg":"登录成功了，现在引导您进入登录前页面 \\1","action":"login_success"}
+	{
+		"code": {
+			"space": {
+				"uid": "5",
+				"groupid": "11",
+				"credit": "2047",
+				"experience": "2108",
+				"username": "summit",
+				"name": "",
+				"namestatus": "0",
+				"videostatus": "0",
+				"domain": "",
+				"friendnum": "1",
+				"viewnum": "17",
+				"notenum": "0",
+				"addfriendnum": "0",
+				"mtaginvitenum": "0",
+				"eventinvitenum": "0",
+				"myinvitenum": "0",
+				"pokenum": "0",
+				"doingnum": "0",
+				"blognum": "2",
+				"albumnum": "0",
+				"threadnum": "0",
+				"pollnum": "0",
+				"eventnum": "0",
+				"sharenum": "0",
+				"dateline": "1343789930",
+				"updatetime": "1344932295",
+				"lastsearch": "1345360391",
+				"lastpost": "1344932295",
+				"lastlogin": "1345359730",
+				"lastsend": "0",
+				"attachsize": "0",
+				"addsize": "0",
+				"addfriend": "0",
+				"flag": "0",
+				"newpm": "0",
+				"avatar": "0",
+				"regip": "127.0.0.1",
+				"ip": "127000000",
+				"mood": "0",
+				"quiznum": "10",
+				"winnum": "4",
+				"lostnum": "1",
+				"voternum": "8",
+				"reward": {
+					"credit": 0,
+					"experience": 0
+				}
+			},
+			"m_auth": "b819QOI5fDiDEO7L0DG66A%2FF%2B0bUu3DVzWGp3IQvkHwE%2BWc7p9qfAUwWK7jsI0C4FaXDCSbWNaqeCOlWIRDb"
+		},
+		"data": [],
+		"msg": "登录成功了，现在引导您进入登录前页面 \\1",
+		"action": "login_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>上传图片</h2>
@@ -1744,11 +1797,40 @@ capi/cp.php?ac=quiz&quizsubmit=true&subject=我的打赌&options[1]=A赢&options
 			* 打赌id --  quizid
 			* 发布的用户id -- uid
 			* 发布的用户名 -- username
+			* reward -- 操作增加的金币分和经验
+				* credit -- 金币
+				* experience -- 经验
 
 #### 样例
-	{"code":0,"data":{"quiz":{"subject":"我的打赌","classid":0,"friend":0,"password":null,"noreply":0,"joincost":20,"portion":3,
-	"endtime":null,"resulttime":null,"picflag":0,"pic":"","hot":0,"topicid":0,"uid":1,"username":"admin","dateline":"1344417374","quizid":55}},
-	"msg":"进行的操作完成了","action":"do_success"}
+	{
+		"code": 0,
+		"data": {
+			"quiz": {
+				"subject": "我的打赌",
+				"classid": 0,
+				"friend": 0,
+				"password": null,
+				"noreply": 0,
+				"joincost": 20,
+				"portion": 3,
+				"endtime": null,
+				"resulttime": null,
+				"picflag": 0,
+				"pic": "",
+				"topicid": 0,
+				"uid": 5,
+				"username": "summit",
+				"dateline": "1345361570",
+				"quizid": 59,
+				"reward": {
+					"credit": 0,
+					"experience": 0
+				}
+			}
+		},
+		"msg": "进行的操作完成了",
+		"action": "do_success"
+	}
 [↑返回顶部](#betit)
 
 
@@ -1790,15 +1872,90 @@ capi/cp.php?ac=quiz&op=vote&votesubmit=true&quizid=55&option[]=108&m_auth=af9cCE
 				* 相片路径 -- pic
 				* 投注人数 -- votenum
 				* 投注占总投注百分比 -- percent
+			* reward -- 操作增加的金币分和经验
+				* credit -- 金币
+				* experience -- 经验
 #### 样例
-	{"code":0,"data":{"quiz":{"quizid":"55","uid":"1","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"",
-	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":"a:2:{i:0;s:4:\"A赢\";i:1;s:4:\"B输\";}","invite":"","topicid":"0","username":"admin",
-	"subject":"我的打赌","classid":"0","viewnum":"1","replynum":"0","hot":"0","dateline":"1344417374","pic":"","picflag":"0","noreply":"0","friend":"0",
-	"password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3","endtime":"0","resulttime":"0",
-	"lastvote":"0","voternum":"0","maxchoice":"0","sex":"0","keyoid":"0","keyoption":"","totalcost":"0","hasremind":"1","hasexceed":"1",
-	"options":[{"oid":"107","quizid":"55","uid":"1","option":"A赢","relatedtime":"1344417374","picid":"81","votenum":"0","pic":
-	"attachment\/201208\/8\/1_13444161795Gzu.png.thumb.jpg"},{"oid":"108","quizid":"55","uid":"1","option":"B输","relatedtime":"1344417374","picid":"79",
-	"votenum":"0","pic":"attachment\/201208\/1\/1_1343816747cmwS.png"}]}},"msg":"进行的操作完成了","action":"do_success"}
+	{
+		"code": 0,
+		"data": {
+			"quiz": {
+				"quizid": "59",
+				"uid": "5",
+				"tag": "",
+				"message": "",
+				"postip": "127.0.0.1",
+				"related": "",
+				"relatedtime": "0",
+				"target_ids": "",
+				"hotuser": "",
+				"magiccolor": "0",
+				"magicpaper": "0",
+				"magiccall": "0",
+				"option": "a:2:{i:0;s:4:\"A赢\";i:1;s:4:\"B输\";}",
+				"invite": "",
+				"topicid": "0",
+				"username": "summit",
+				"subject": "我的打赌",
+				"classid": "0",
+				"viewnum": "0",
+				"replynum": "0",
+				"hot": "0",
+				"dateline": "1345361570",
+				"pic": "",
+				"picflag": "0",
+				"noreply": "0",
+				"friend": "0",
+				"password": "",
+				"click_1": "0",
+				"click_2": "0",
+				"click_3": "0",
+				"click_4": "0",
+				"click_5": "0",
+				"joincost": "20",
+				"portion": "3",
+				"endtime": "0",
+				"resulttime": "0",
+				"lastvote": "0",
+				"voternum": "0",
+				"maxchoice": "0",
+				"sex": "0",
+				"keyoid": "0",
+				"keyoption": "",
+				"totalcost": "0",
+				"hasremind": "1",
+				"hasexceed": "1",
+				"options": [
+					{
+						"oid": "115",
+						"quizid": "59",
+						"uid": "5",
+						"option": "A赢",
+						"relatedtime": "1345361570",
+						"picid": "81",
+						"votenum": "0",
+						"pic": "attachment/201208/8/1_13444161795Gzu.png.thumb.jpg"
+					},
+					{
+						"oid": "116",
+						"quizid": "59",
+						"uid": "5",
+						"option": "B输",
+						"relatedtime": "1345361570",
+						"picid": "79",
+						"votenum": "0",
+						"pic": "attachment/201208/1/1_1343816747cmwS.png"
+					}
+				],
+				"reward": {
+					"credit": "-20",
+					"experience": 0
+				}
+			}
+		},
+		"msg": "进行的操作完成了",
+		"action": "do_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>公布答案</h2>
@@ -1863,8 +2020,19 @@ capi/cp.php?ac=share&type=quiz&id=54&sharesubmit=true&general=好打赌&m_auth=7
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, login_success:代表登录成功
 	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 返回操作完成增加的金币和经验
+		* credit -- 金币
+		* experience -- 经验
 #### 样例
-	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
+	{
+		"code": 0,
+		"data": {
+			"credit": 2,
+			"experience": 2
+		},
+		"msg": "进行的操作完成了",
+		"action": "do_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>邀请好友参与打赌</h2>
@@ -1900,9 +2068,19 @@ capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=qu
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, login_success:代表登录成功
 	* 错误信息 -- msg, 详细参见附录
-
+	* 结果 -- data, json数组, 返回操作完成增加的金币和经验
+		* credit -- 金币
+		* experience -- 经验
 #### 样例
-	{"code":0,"data":"do_success","msg":"数据获取成功","action":"rest_success"}
+	{
+		"code": 0,
+		"data": {
+			"credit": 1,
+			"experience": 1
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>发布私信</h2>
@@ -1974,9 +2152,19 @@ cp.php?ac=profile&op=name&name=summit&m_auth=af9cCEMpQlfFTifZltu
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, login_success:代表登录成功
 	* 错误信息 -- msg, 详细参见附录
-
+	* 结果 -- data, json数组, 返回操作完成增加的金币和经验
+		* credit -- 金币
+		* experience -- 经验
 #### 样例
-	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
+	{
+		"code": 0,
+		"data": {
+			"credit": 0,
+			"experience": 0
+		},
+		"msg": "进行的操作完成了",
+		"action": "do_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>编写心情</h2>
@@ -1991,9 +2179,19 @@ capi/cp.php?ac=doing&addsubmit=true&spacenote=true&message=你好!summit&m_auth=
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, login_success:代表登录成功
 	* 错误信息 -- msg, 详细参见附录
-
+	* 结果 -- data, json数组, 返回操作完成增加的金币和经验
+		* credit -- 金币
+		* experience -- 经验
 #### 样例
-	{"code":0,"data":[],"msg":"进行的操作完成了","action":"do_success"}
+	{
+		"code": 0,
+		"data": {
+			"credit": 3,
+			"experience": 3
+		},
+		"msg": "进行的操作完成了",
+		"action": "do_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>邀请好友</h2>
@@ -2004,12 +2202,22 @@ capi/cp.php?ac=invite&emailinvite=true&email=summit_mail@qq.com&saymsg=来betit�
 	* 好友的邮件: email, 以逗号分隔
 	* 对好友说的话: saymsg
 	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
-
+	
 #### 返回参数
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, login_success:代表登录成功
 	* 错误信息 -- msg, 详细参见附录
-
+	* 结果 -- data, json数组, 返回操作完成增加的金币和经验
+		* credit -- 金币
+		* experience -- 经验
 #### 样例
-	{"code":0,"data":[],"msg":"邮件已经送出，您的好友可能需要几分钟后才能收到邮件","action":"send_result_1"}
+	{
+		"code": 0,
+		"data": {
+			"credit": 0,
+			"experience": 0
+		},
+		"msg": "邮件已经送出，您的好友可能需要几分钟后才能收到邮件",
+		"action": "send_result_1"
+	}
 [↑返回顶部](#betit)
