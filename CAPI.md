@@ -524,6 +524,7 @@ capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upU
 			* notenum -- 通知数
 			* addfriendnum -- 关注数
 			* doingnum -- 心情数
+			* spacenote -- 心情
 			* lastpost -- 最新提交时间
 			* lastlogin -- 最新登录时间
 			* attachsize -- 空间大小
@@ -537,12 +538,72 @@ capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upU
 		* data[count], 返回列表条目数, 便用遍历
 
 #### 样例
-	{"code":0,"data":{"friends":{"7":{"uid":"7","groupid":"11","credit":"1800","experience":"2000","username":"test2","name":"","namestatus":"0","videostatus":"0",
-	"domain":"","friendnum":"1","viewnum":"4","notenum":"6","addfriendnum":"0","mtaginvitenum":"0","eventinvitenum":"0","myinvitenum":"0","pokenum":"0",
-	"doingnum":"0","blognum":"0","albumnum":"0","threadnum":"0","pollnum":"0","eventnum":"0","sharenum":"0","dateline":"1343973929","updatetime":"1343974426",
-	"lastsearch":"0","lastpost":"1343974426","lastlogin":"1343974880","lastsend":"0","attachsize":"0","addsize":"0","addfriend":"0","flag":"0","newpm":"0",
-	"avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0","quiznum":"1","winnum":"0","lostnum":"0","voternum":"1","resideprovince":"","residecity":"",
-	"note":"","spacenote":"","sex":"0","gid":"0","num":"6","p":"","c":"","group":"其他","isfriend":1}},"count":1},"msg":"数据获取成功","action":"rest_success"}
+	{
+		"code": 0,
+		"data": {
+			"friends": {
+				"7": {
+					"uid": "7",
+					"groupid": "11",
+					"credit": "1795",
+					"experience": "2015",
+					"username": "test2",
+					"name": "",
+					"namestatus": "0",
+					"videostatus": "0",
+					"domain": "",
+					"friendnum": "1",
+					"viewnum": "4",
+					"notenum": "1",
+					"addfriendnum": "0",
+					"mtaginvitenum": "0",
+					"eventinvitenum": "0",
+					"myinvitenum": "0",
+					"pokenum": "0",
+					"doingnum": "0",
+					"blognum": "0",
+					"albumnum": "0",
+					"threadnum": "0",
+					"pollnum": "0",
+					"eventnum": "0",
+					"sharenum": "0",
+					"dateline": "1343973929",
+					"updatetime": "1343974426",
+					"lastsearch": "0",
+					"lastpost": "1343974426",
+					"lastlogin": "1344929531",
+					"lastsend": "0",
+					"attachsize": "0",
+					"addsize": "0",
+					"addfriend": "0",
+					"flag": "0",
+					"newpm": "0",
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/07_avatar_small.jpg",
+					"regip": "127.0.0.1",
+					"ip": "127000000",
+					"mood": "0",
+					"quiznum": "1",
+					"winnum": "0",
+					"lostnum": "0",
+					"voternum": "2",
+					"resideprovince": "",
+					"residecity": "",
+					"note": "",
+					"spacenote": "",
+					"sex": "0",
+					"gid": "0",
+					"num": "10",
+					"p": "",
+					"c": "",
+					"group": "其他",
+					"isfriend": 1
+				}
+			},
+			"count": 1
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>热门打赌排行榜接口</h2>
@@ -579,17 +640,88 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWom
 			* 奖金池: totalcost
 		* data[count], 返回列表条目数, 便用遍历
 #### 样例
-	{"code":0,"data":{"quizs":[{"quizid":"48","topicid":"0","uid":"7","username":"test2","subject":"23123","classid":"0","viewnum":"2","replynum":"0","hot":"2",
-	"dateline":"1343974426","pic":"","picflag":"0","noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0",
-	"joincost":"100","portion":"3","endtime":"1344579220","resulttime":"1344582820","lastvote":"1343974888","voternum":"3","maxchoice":"0","sex":"0","keyoid":"0",
-	"keyoption":"","totalcost":"400","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"",
-	"hotuser":"1,5","magiccolor":"0","magicpaper":"0","magiccall":"0","option":["1221","123123"],"invite":"","optioncount":["3","1"]},{"quizid":"49","topicid":"0",
-	"uid":"5","username":"summit","subject":"测试优惠券","classid":"0","viewnum":"1","replynum":"0","hot":"1","dateline":"1344235585","pic":"","picflag":"0",
-	"noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3",
-	"endtime":"1344235733","resulttime":"1344843977","lastvote":"1344235654","voternum":"2","maxchoice":"0","sex":"0","keyoid":"95","keyoption":"23",
-	"totalcost":"120","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"1",
-	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":["23","2"],"invite":"","optioncount":["4","2"]}],"count":2},"msg":"数据获取成功",
-	"action":"rest_success"}
+	{
+		"code": 0,
+		"data": {
+			"feeds": [
+				{
+					"icon": "quiz",
+					"uid": "5",
+					"username": "summit",
+					"dateline": "1344929322",
+					"friend": "0",
+					"title_template": "{actor} 发表了新打赌",
+					"title_data": [],
+					"body_template": "<b>{subject}</b><br>{option}{totalcost}",
+					"body_data": {
+						"subject": "3423423",
+						"option": [
+							{
+								"oid": "111",
+								"option": "32423423",
+								"relatedtime": "1344929322",
+								"votenum": "2"
+							},
+							{
+								"oid": "112",
+								"option": "234324",
+								"relatedtime": "1344929322",
+								"votenum": "0"
+							}
+						],
+						"totalcost": "40",
+						"endtime": "1344929838",
+						"resulttime": "1345537713"
+					},
+					"id": "57",
+					"idtype": "quizid",
+					"hot": "1",
+					"commentnum": "0",
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				},
+				{
+					"icon": "quiz",
+					"uid": "1",
+					"username": "admin",
+					"dateline": "1344929249",
+					"friend": "0",
+					"title_template": "{actor} 发表了新打赌",
+					"title_data": [],
+					"body_template": "<b>{subject}</b><br>{option}{totalcost}",
+					"body_data": {
+						"subject": "20120803时间戳",
+						"option": [
+							{
+								"oid": "109",
+								"option": "21",
+								"relatedtime": "1344929249",
+								"votenum": "0",
+								"pic": "http://betit-pic.b0.upaiyun.com/201208/14/1_13449290756gK5.jpg"
+							},
+							{
+								"oid": "110",
+								"option": "123",
+								"relatedtime": "1344929249",
+								"votenum": "0",
+								"pic": "http://betit-pic.b0.upaiyun.com/201208/14/1_1344929111K4Ac.png"
+							}
+						],
+						"totalcost": "0",
+						"endtime": "1345533855",
+						"resulttime": "1345537455"
+					},
+					"id": "56",
+					"idtype": "quizid",
+					"hot": "0",
+					"commentnum": "0",
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg"
+				}
+			],
+			"count": 2
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>我的个人信息</h2>
@@ -639,14 +771,136 @@ capi/cp.php?ac=profile&m_auth=65e8JkX8RscU2y2pYZEVdcZrja2YOr2QXuhbPBCHzLAw
 
 			
 #### 样例
-	{"code":0,"data":{"space":{"uid":"5","sex":"0","email":"summit_mail@qq.com","newemail":"","emailcheck":"0","mobile":"","qq":"","msn":"","msnrobot":"",
-	"msncstatus":"0","videopic":"","birthyear":"0","birthmonth":"0","birthday":"0","blood":"","note":"","spacenote":"","authstr":"","theme":"","nocss":"0","menunum":"0","css":"","privacy":{"view":{"index":"0","friend":"0","wall":"0",
-	"feed":"0","doing":"0","quiz":"0","share":"0"},"feed":{"doing":1,"quiz":1,"joinquiz":1,"share":1,"post":1,"join":1,"friend":1,"comment":1,"credit":1,"spaceopen":1,"invite":1,
-	"task":1,"profile":1,"click":1}},"friend":"7","feedfriend":"7","sendmail":"","magicstar":"0","magicexpire":"0","timeoffset":"","weibo":"","groupid":"11",
-	"credit":"2007","experience":"2047","username":"summit","name":"","namestatus":"0","videostatus":"0","domain":"","friendnum":"1","viewnum":"5","notenum":"0",
-	"addfriendnum":"0","doingnum":"0","sharenum":"0","dateline":"1343789930","updatetime":"1344237052","lastsearch":"0","lastpost":"1344324259","lastlogin":"1344395688",
-	"lastsend":"0","attachsize":"0","addsize":"0","addfriend":"0","flag":"0","newpm":"0","avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0",
-	"quiznum":"8","winnum":"4","lostnum":"1","voternum":"7","self":1,"friends":["7"],"allnotenum":0}},"msg":"数据获取成功","action":"rest_success"}
+	{
+		"code": 0,
+		"data": {
+			"space": {
+				"uid": "5",
+				"sex": "0",
+				"email": "summit_mail@qq.com",
+				"newemail": "",
+				"emailcheck": "0",
+				"mobile": "",
+				"qq": "",
+				"msn": "",
+				"msnrobot": "",
+				"msncstatus": "0",
+				"videopic": "",
+				"birthyear": "0",
+				"birthmonth": "0",
+				"birthday": "0",
+				"blood": "",
+				"marry": "0",
+				"birthprovince": "",
+				"birthcity": "",
+				"resideprovince": "",
+				"residecity": "",
+				"note": "",
+				"spacenote": "",
+				"authstr": "",
+				"theme": "",
+				"nocss": "0",
+				"menunum": "0",
+				"css": "",
+				"privacy": {
+					"view": {
+						"index": "0",
+						"friend": "0",
+						"wall": "0",
+						"feed": "0",
+						"mtag": "0",
+						"event": "0",
+						"doing": "0",
+						"blog": "0",
+						"quiz": "0",
+						"album": "0",
+						"share": "0",
+						"poll": "0"
+					},
+					"feed": {
+						"doing": 1,
+						"blog": 1,
+						"quiz": 1,
+						"joinquiz": 1,
+						"upload": 1,
+						"share": 1,
+						"poll": 1,
+						"joinpoll": 1,
+						"thread": 1,
+						"post": 1,
+						"mtag": 1,
+						"event": 1,
+						"join": 1,
+						"friend": 1,
+						"comment": 1,
+						"show": 1,
+						"credit": 1,
+						"spaceopen": 1,
+						"invite": 1,
+						"task": 1,
+						"profile": 1,
+						"click": 1
+					}
+				},
+				"friend": "7",
+				"feedfriend": "7",
+				"sendmail": "",
+				"magicstar": "0",
+				"magicexpire": "0",
+				"timeoffset": "",
+				"weibo": "",
+				"groupid": "11",
+				"credit": "2048",
+				"experience": "2108",
+				"username": "summit",
+				"name": "",
+				"namestatus": "0",
+				"videostatus": "0",
+				"domain": "",
+				"friendnum": "1",
+				"viewnum": "17",
+				"notenum": "0",
+				"addfriendnum": "0",
+				"mtaginvitenum": "0",
+				"eventinvitenum": "0",
+				"myinvitenum": "0",
+				"pokenum": "0",
+				"doingnum": "0",
+				"blognum": "2",
+				"albumnum": "0",
+				"threadnum": "0",
+				"pollnum": "0",
+				"eventnum": "0",
+				"sharenum": "0",
+				"dateline": "1343789930",
+				"updatetime": "1344932295",
+				"lastsearch": "0",
+				"lastpost": "1344932295",
+				"lastlogin": "1345359730",
+				"lastsend": "0",
+				"attachsize": "0",
+				"addsize": "0",
+				"addfriend": "0",
+				"flag": "0",
+				"newpm": "0",
+				"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg",
+				"regip": "127.0.0.1",
+				"ip": "127000000",
+				"mood": "0",
+				"quiznum": "10",
+				"winnum": "4",
+				"lostnum": "1",
+				"voternum": "8",
+				"self": 1,
+				"friends": [
+					"7"
+				],
+				"allnotenum": 0
+			}
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>打赌详情</h2>
@@ -665,6 +919,7 @@ capi/space.php?do=quiz&id=54&uid=5&m_auth=af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor
 		* data[quiz], 打赌详情，具体内容如下
 			* 打赌id -- quizid
 			* 发布打赌用户id -- uid
+			* 发布打赌用户头像 -- avatar
 			* 最热用户 -- hotuser
 			* 发布时间 -- dateline
 			* 投一注所需金币 -- joincost
@@ -689,12 +944,85 @@ capi/space.php?do=quiz&id=54&uid=5&m_auth=af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor
 				* 投注占总投注百分比 -- percent
 
 #### 样例
-	{"code":0,"data":{"quiz":{"quizid":"54","uid":"5","hotuser":"","option":"a:2:{i:0;s:2:\"12\";i:1;s:1:\"3\";}","invite":"","topicid":"0","username":"summit",
-	"subject":"测试优惠券","classid":"0","viewnum":"0","replynum":"0","hot":"0","dateline":"1344237052","pic":"","picflag":"0","noreply":"0",
-	"friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3","endtime":"1344237071",
-	"resulttime":"1344845443","lastvote":"1344237066","voternum":"1","maxchoice":"0","sex":"0","keyoid":"106","keyoption":"3","totalcost":"60","hasremind":"0",
-	"hasexceed":"0","options":[{"oid":"105","quizid":"54","uid":"5","option":"12","relatedtime":"1344237052","picid":"0","votenum":"2","percent":67,"width":107},
-	{"oid":"106","quizid":"54","uid":"5","option":"3","relatedtime":"1344237052","picid":"0","votenum":"1","percent":33,"width":53}]}},
+	{
+		"code": 0,
+		"data": {
+			"quiz": {
+				"quizid": "52",
+				"uid": "5",
+				"tag": [],
+				"message": "",
+				"postip": "127.0.0.1",
+				"related": [],
+				"relatedtime": "0",
+				"target_ids": "",
+				"hotuser": "",
+				"magiccolor": "0",
+				"magicpaper": "0",
+				"magiccall": "0",
+				"option": "a:2:{i:0;s:3:\"能\";i:1;s:6:\"不能\";}",
+				"invite": "",
+				"topicid": "0",
+				"username": "summit",
+				"subject": "测试优惠券",
+				"classid": "0",
+				"viewnum": "1",
+				"replynum": "0",
+				"hot": "0",
+				"dateline": "1344236417",
+				"pic": "",
+				"picflag": "0",
+				"noreply": "0",
+				"friend": "0",
+				"password": "",
+				"click_1": "0",
+				"click_2": "0",
+				"click_3": "0",
+				"click_4": "0",
+				"click_5": "0",
+				"joincost": "20",
+				"portion": "3",
+				"endtime": "1344236757",
+				"resulttime": "1344844795",
+				"lastvote": "1344236423",
+				"voternum": "1",
+				"maxchoice": "0",
+				"sex": "0",
+				"keyoid": "102",
+				"keyoption": "不能",
+				"totalcost": "20",
+				"hasremind": "1",
+				"hasexceed": "0",
+				"options": [
+					{
+						"oid": "101",
+						"quizid": "52",
+						"uid": "5",
+						"option": "能",
+						"relatedtime": "1344236417",
+						"picid": "0",
+						"votenum": "1",
+						"percent": 100,
+						"width": 160
+					},
+					{
+						"oid": "102",
+						"quizid": "52",
+						"uid": "5",
+						"option": "不能",
+						"relatedtime": "1344236417",
+						"picid": "0",
+						"votenum": "0",
+						"percent": 0,
+						"width": 0
+					}
+				],
+				"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+			}
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>获取投注好友</h2>
@@ -747,9 +1075,11 @@ capi/do.php?ac=ajax&op=getcomment&id=24&idtype=quizid&page=0&prepage=1&m_auth=af
 		* data[comments],评论列表，具体内容如下
 			* 评论id -- cid
 			* 评论对象，用户id -- uid
+			* 评论对象头像 -- avatar
 			* 评论关联的id -- id
 			* 评论类型 -- idtype
 			* 发表评论的用户id -- authorid
+			* 发表评论的用户头像 -- authoravatar
 			* 发表评论的用户名 -- author
 			* 发表的时间 -- dateline
 			* 发表的ip -- ip
@@ -757,8 +1087,29 @@ capi/do.php?ac=ajax&op=getcomment&id=24&idtype=quizid&page=0&prepage=1&m_auth=af
 		* data[count], 返回列表条目数, 便用遍历
 
 #### 样例
-	{"code":0,"data":{"comments":[{"cid":"31","uid":"1","id":"24","idtype":"quizid","authorid":"1","author":"admin","ip":"127.0.0.1","dateline":"1344407149",
-	"message":"234234"}],"count":1},"msg":"数据获取成功","action":"rest_success"}
+	{
+    "code": 0,
+    "data": {
+        "comments": [
+            {
+                "cid": "31",
+                "uid": "1",
+                "id": "24",
+                "idtype": "quizid",
+                "authorid": "1",
+                "author": "admin",
+                "ip": "127.0.0.1",
+                "dateline": "1344407149",
+                "message": "234234",
+                "magicflicker": "0",
+                "avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg"
+            }
+        ],
+        "count": 1
+    },
+    "msg": "数据获取成功",
+    "action": "rest_success"
+}
 
 <h2>搜索打赌</h2>
 capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=测试&m_auth=af9cCEMpQ
@@ -779,6 +1130,7 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=测试&m_auth=a
 		* data[quizs]，打赌列表， 条目字段如下
 			* 打赌id : quizid
 			* 发布打赌的用户id : uid
+			* 发布打赌的用户头像: avatar
 			* 发布打赌的用户名 : username
 			* 打赌标题: subject
 			* 浏览次数: viewnum
@@ -798,22 +1150,130 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=测试&m_auth=a
 		* data[reward], 查询操作扣除的金币和信用
 
 #### 样例
-	{"code":0,"data":{"quizs":[{"quizid":"54","topicid":"0","uid":"5","username":"summit","subject":"测试优惠券",
-	"classid":"0","viewnum":"1","replynum":"0","hot":"0","dateline":"1344237052","pic":"","picflag":"0",
-	"noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0",
-	"click_5":"0","joincost":"20","portion":"3","endtime":"1344237071","resulttime":"1344845443",
-	"lastvote":"1344237066","voternum":"1","maxchoice":"0","sex":"0","keyoid":"106","keyoption":"3",
-	"totalcost":"60","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"",
-	"relatedtime":"0","target_ids":"","hotuser":"","magiccolor":"0","magicpaper":"0","magiccall":"0",
-	"option":["12","3"],"invite":"","optioncount":["2","1"]},{"quizid":"52","topicid":"0","uid":"5",
-	"username":"summit","subject":"测试优惠券","classid":"0","viewnum":"0","replynum":"0","hot":"0",
-	"dateline":"1344236417","pic":"","picflag":"0","noreply":"0","friend":"0","password":"","click_1":"0",
-	"click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3","endtime":"1344236757",
-	"resulttime":"1344844795","lastvote":"1344236423","voternum":"1","maxchoice":"0","sex":"0","keyoid":"102",
-	"keyoption":"不能","totalcost":"20","hasremind":"0","hasexceed":"0","tag":"","message":"",
-	"postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"","magiccolor":"0",
-	"magicpaper":"0","magiccall":"0","option":["能","不能"],"invite":"","optioncount":["1","0"]}],"count":2,
-	"reward":{"credit":1,"experience":0}},"msg":"数据获取成功","action":"rest_success"}
+	{
+		"code": 0,
+		"data": {
+			"quizs": [
+				{
+					"quizid": "54",
+					"topicid": "0",
+					"uid": "5",
+					"username": "summit",
+					"subject": "测试优惠券",
+					"classid": "0",
+					"viewnum": "6",
+					"replynum": "0",
+					"hot": "0",
+					"dateline": "1344237052",
+					"pic": "",
+					"picflag": "0",
+					"noreply": "0",
+					"friend": "0",
+					"password": "",
+					"click_1": "0",
+					"click_2": "0",
+					"click_3": "0",
+					"click_4": "0",
+					"click_5": "0",
+					"joincost": "20",
+					"portion": "3",
+					"endtime": "1344237071",
+					"resulttime": "1344845443",
+					"lastvote": "1344237066",
+					"voternum": "1",
+					"maxchoice": "0",
+					"sex": "0",
+					"keyoid": "106",
+					"keyoption": "3",
+					"totalcost": "60",
+					"hasremind": "1",
+					"hasexceed": "0",
+					"tag": "",
+					"message": "",
+					"postip": "127.0.0.1",
+					"related": "",
+					"relatedtime": "0",
+					"target_ids": "",
+					"hotuser": "",
+					"magiccolor": "0",
+					"magicpaper": "0",
+					"magiccall": "0",
+					"option": [
+						"12",
+						"3"
+					],
+					"invite": ",7",
+					"optioncount": [
+						"2",
+						"1"
+					],
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				},
+				{
+					"quizid": "52",
+					"topicid": "0",
+					"uid": "5",
+					"username": "summit",
+					"subject": "测试优惠券",
+					"classid": "0",
+					"viewnum": "2",
+					"replynum": "0",
+					"hot": "0",
+					"dateline": "1344236417",
+					"pic": "",
+					"picflag": "0",
+					"noreply": "0",
+					"friend": "0",
+					"password": "",
+					"click_1": "0",
+					"click_2": "0",
+					"click_3": "0",
+					"click_4": "0",
+					"click_5": "0",
+					"joincost": "20",
+					"portion": "3",
+					"endtime": "1344236757",
+					"resulttime": "1344844795",
+					"lastvote": "1344236423",
+					"voternum": "1",
+					"maxchoice": "0",
+					"sex": "0",
+					"keyoid": "102",
+					"keyoption": "不能",
+					"totalcost": "20",
+					"hasremind": "1",
+					"hasexceed": "0",
+					"tag": "",
+					"message": "",
+					"postip": "127.0.0.1",
+					"related": "",
+					"relatedtime": "0",
+					"target_ids": "",
+					"hotuser": "",
+					"magiccolor": "0",
+					"magicpaper": "0",
+					"magiccall": "0",
+					"option": [
+						"能",
+						"不能"
+					],
+					"invite": "",
+					"optioncount": [
+						"1",
+						"0"
+					],
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				}
+			],
+			"count": 2,
+			"reward": {
+				"credit": 1,
+				"experience": 0
+			}
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>搜索好友</h2>
@@ -833,6 +1293,7 @@ capi/cp.php?ac=friend&op=search&page=0&perpage=1&searchkey=admin&searchsubmit=tr
 	* 结果 -- data, json数组, 本操作返回两个数据
 		* data[friend]，打赌列表， 条目字段如下
 			* 用户id -- uid
+			* 用户头像 -- avatar
 			* 金币 -- credit
 			* 信用 -- experience
 			* 用户名 -- username
@@ -859,12 +1320,62 @@ capi/cp.php?ac=friend&op=search&page=0&perpage=1&searchkey=admin&searchsubmit=tr
 		* data[count], 返回列表条目数, 便用遍历
 
 #### 样例
-	{"code":0,"data":{"friends":{"1":{"uid":"1","groupid":"11","credit":"2042","experience":"2045",
-	"username":"admin","name":"","namestatus":"0","videostatus":"0","domain":"","friendnum":"0","viewnum":"3",
-	"notenum":"0","doingnum":"0","sharenum":"0","dateline":"1343725030","updatetime":"1343966557","lastsearch":"1344408548","lastpost":"1344324792",
-	"lastlogin":"1344399107","lastsend":"0","attachsize":"774822","addsize":"0","addfriend":"0","flag":"0",
-	"newpm":"0","avatar":"0","regip":"127.0.0.1","ip":"127000000","mood":"0","quiznum":"27","winnum":"2",
-	"lostnum":"0","voternum":"10","isfriend":1}},"count":1},"msg":"数据获取成功","action":"rest_success"}
+	{
+		"code": 0,
+		"data": {
+			"friends": {
+				"1": {
+					"uid": "1",
+					"groupid": "11",
+					"credit": "2072",
+					"experience": "2095",
+					"username": "admin",
+					"name": "admin",
+					"namestatus": "1",
+					"videostatus": "0",
+					"domain": "",
+					"friendnum": "0",
+					"viewnum": "8",
+					"notenum": "44",
+					"addfriendnum": "0",
+					"mtaginvitenum": "0",
+					"eventinvitenum": "0",
+					"myinvitenum": "0",
+					"pokenum": "0",
+					"doingnum": "1",
+					"blognum": "3",
+					"albumnum": "0",
+					"threadnum": "0",
+					"pollnum": "0",
+					"eventnum": "0",
+					"sharenum": "1",
+					"dateline": "1343725030",
+					"updatetime": "1344929249",
+					"lastsearch": "1344408548",
+					"lastpost": "1344929249",
+					"lastlogin": "1344929040",
+					"lastsend": "0",
+					"attachsize": "3530916",
+					"addsize": "0",
+					"addfriend": "0",
+					"flag": "0",
+					"newpm": "0",
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg",
+					"regip": "127.0.0.1",
+					"ip": "127000000",
+					"mood": "0",
+					"quiznum": "29",
+					"winnum": "2",
+					"lostnum": "1",
+					"voternum": "11",
+					"isfriend": 0
+				}
+			},
+			"count": 1
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>推荐打赌列表</h2>
@@ -902,17 +1413,130 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWom
 			* 奖金池: totalcost
 		* data[count], 返回列表条目数, 便用遍历
 #### 样例
-	{"code":0,"data":{"quizs":[{"quizid":"48","topicid":"0","uid":"7","username":"test2","subject":"23123","classid":"0","viewnum":"2","replynum":"0","hot":"2",
-	"dateline":"1343974426","pic":"","picflag":"0","noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0",
-	"joincost":"100","portion":"3","endtime":"1344579220","resulttime":"1344582820","lastvote":"1343974888","voternum":"3","maxchoice":"0","sex":"0","keyoid":"0",
-	"keyoption":"","totalcost":"400","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"",
-	"hotuser":"1,5","magiccolor":"0","magicpaper":"0","magiccall":"0","option":["1221","123123"],"invite":"","optioncount":["3","1"]},{"quizid":"49","topicid":"0",
-	"uid":"5","username":"summit","subject":"测试优惠券","classid":"0","viewnum":"1","replynum":"0","hot":"1","dateline":"1344235585","pic":"","picflag":"0",
-	"noreply":"0","friend":"0","password":"","click_1":"0","click_2":"0","click_3":"0","click_4":"0","click_5":"0","joincost":"20","portion":"3",
-	"endtime":"1344235733","resulttime":"1344843977","lastvote":"1344235654","voternum":"2","maxchoice":"0","sex":"0","keyoid":"95","keyoption":"23",
-	"totalcost":"120","hasremind":"0","hasexceed":"0","tag":"","message":"","postip":"127.0.0.1","related":"","relatedtime":"0","target_ids":"","hotuser":"1",
-	"magiccolor":"0","magicpaper":"0","magiccall":"0","option":["23","2"],"invite":"","optioncount":["4","2"]}],"count":2},"msg":"数据获取成功",
-	"action":"rest_success"}
+	{
+		"code": 0,
+		"data": {
+			"quizs": [
+				{
+					"quizid": "54",
+					"topicid": "0",
+					"uid": "5",
+					"username": "summit",
+					"subject": "测试优惠券",
+					"classid": "0",
+					"viewnum": "6",
+					"replynum": "0",
+					"hot": "0",
+					"dateline": "1344237052",
+					"pic": "",
+					"picflag": "0",
+					"noreply": "0",
+					"friend": "0",
+					"password": "",
+					"click_1": "0",
+					"click_2": "0",
+					"click_3": "0",
+					"click_4": "0",
+					"click_5": "0",
+					"joincost": "20",
+					"portion": "3",
+					"endtime": "1344237071",
+					"resulttime": "1344845443",
+					"lastvote": "1344237066",
+					"voternum": "1",
+					"maxchoice": "0",
+					"sex": "0",
+					"keyoid": "106",
+					"keyoption": "3",
+					"totalcost": "60",
+					"hasremind": "1",
+					"hasexceed": "0",
+					"tag": "",
+					"message": "",
+					"postip": "127.0.0.1",
+					"related": "",
+					"relatedtime": "0",
+					"target_ids": "",
+					"hotuser": "",
+					"magiccolor": "0",
+					"magicpaper": "0",
+					"magiccall": "0",
+					"option": [
+						"12",
+						"3"
+					],
+					"invite": ",7",
+					"optioncount": [
+						"2",
+						"1"
+					],
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				},
+				{
+					"quizid": "52",
+					"topicid": "0",
+					"uid": "5",
+					"username": "summit",
+					"subject": "测试优惠券",
+					"classid": "0",
+					"viewnum": "2",
+					"replynum": "0",
+					"hot": "0",
+					"dateline": "1344236417",
+					"pic": "",
+					"picflag": "0",
+					"noreply": "0",
+					"friend": "0",
+					"password": "",
+					"click_1": "0",
+					"click_2": "0",
+					"click_3": "0",
+					"click_4": "0",
+					"click_5": "0",
+					"joincost": "20",
+					"portion": "3",
+					"endtime": "1344236757",
+					"resulttime": "1344844795",
+					"lastvote": "1344236423",
+					"voternum": "1",
+					"maxchoice": "0",
+					"sex": "0",
+					"keyoid": "102",
+					"keyoption": "不能",
+					"totalcost": "20",
+					"hasremind": "1",
+					"hasexceed": "0",
+					"tag": "",
+					"message": "",
+					"postip": "127.0.0.1",
+					"related": "",
+					"relatedtime": "0",
+					"target_ids": "",
+					"hotuser": "",
+					"magiccolor": "0",
+					"magicpaper": "0",
+					"magiccall": "0",
+					"option": [
+						"能",
+						"不能"
+					],
+					"invite": "",
+					"optioncount": [
+						"1",
+						"0"
+					],
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				}
+			],
+			"count": 2,
+			"reward": {
+				"credit": 1,
+				"experience": 0
+			}
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
 [↑返回顶部](#betit)
 
 ******************************
