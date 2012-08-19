@@ -302,16 +302,40 @@ betit
 			* dateline -- 时间
 		* data[count], 返回列表条目数, 便用遍历
 #### 样例
-	{"code":0,"data":{"notice":[{"id":"124","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit","note":"恭喜你在 
-	<a href=\"space.php?uid=5&do=quiz&id=53\" target=\"_blank\">《234444444444444444》<\/a>的悬赏打赌中得胜，获得金币20。","dateline":"1344236803","isfriend":1,
-	"style":""},{"id":"122","uid":"5","type":"quizlost","new":"0","authorid":"5","author":"summit","note":"很不幸你在 <a href=\"space.php?uid=5&do=quiz&id=52\" 
-	target=\"_blank\">《测试优惠券》<\/a>的悬赏打赌中没有获胜，输了打赌20，请继续努力o~下次得奖的就是你！","dateline":"1344236757","isfriend":1,"style":""},
-	{"id":"120","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit","note":"恭喜你在 <a href=\"space.php?uid=5&do=quiz&id=51\" target=\"_blank\">
-	《34》<\/a>的悬赏打赌中得胜，获得金币20。","dateline":"1344236043","isfriend":1,"style":""},{"id":"118","uid":"5","type":"quizwin","new":"0","authorid":"5",
-	"author":"summit","note":"恭喜你在 <a href=\"space.php?uid=5&do=quiz&id=50\" target=\"_blank\">《123》<\/a>的悬赏打赌中得胜，获得金币20。","dateline":"1344235975",
-	"isfriend":1,"style":""},{"id":"116","uid":"5","type":"quizwin","new":"0","authorid":"5","author":"summit",
-	"note":"恭喜你在 <a href=\"space.php?uid=5&do=quiz&id=49\" target=\"_blank\">《测试优惠券》<\/a>的悬赏打赌中得胜，获得金币40。","dateline":"1344235733","isfriend":1,
-	"style":""}],"count":5},"msg":"数据获取成功","action":"rest_success"}
+	{
+		"code": 0,
+		"data": {
+			"notices": [
+				{
+					"id": "205",
+					"uid": "5",
+					"type": "quiz",
+					"new": "0",
+					"authorid": "1",
+					"author": "summit",
+					"note": "温馨提示：你的 《我的打赌》 的打赌将在1小时后到期，请及时公布答案.",
+					"dateline": "1344932518",
+					"isfriend": 0,
+					"style": ""
+				},
+				{
+					"id": "206",
+					"uid": "5",
+					"type": "quizexceed",
+					"new": "0",
+					"authorid": "1",
+					"author": "summit",
+					"note": "由于你的 《我的打赌》 打赌由于超期没有公布答案，已被取消并扣除你的信用20。",
+					"dateline": "1344932518",
+					"isfriend": 0,
+					"style": ""
+				}
+			],
+			"count": 2
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
 [↑返回顶部](#betit)
 
 <h2>私信列表接口</h2>
