@@ -44,7 +44,7 @@ betit
 --------
 
 <h2>好友动态列表接口</h2>
-/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=we&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=friend&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- page
@@ -62,22 +62,41 @@ betit
 			* dateline -- feed的时间
 			* uid -- 发布feed的用户id
 			* username -- 发布feed用户
-			* body_data -- feed的内容，当前仅有打赌有意义
-				* subject -- 打赌标题
-				* option -- 打赌A, B选择
-					* oid -- 选项id
-					* option -- 选项描述
-					* relatedtime -- 最新投票的时间
-					* votenum -- 投票人数
-					* pic -- 选项图片
-				* totalcost -- 奖池总额
-				* endtime -- 截止时间
-				* resulttime -- 预计公布答案时间
+			* body_data -- feed的内容，当前仅有打赌、表态、评论、加为好友
+				* 打赌(icon值为quiz)
+					* subject -- 打赌标题
+					* option -- 打赌A, B选择
+						* oid -- 选项id
+						* option -- 选项描述
+						* relatedtime -- 最新投票的时间
+						* votenum -- 投票人数
+						* pic -- 选项图片
+					* totalcost -- 奖池总额
+					* endtime -- 截止时间
+					* resulttime -- 预计公布答案时间
+				* 表态(icon值click)
+					* touser -- 操作的对象，文本描述
+					* touserid -- 操作对象的用户id
+					* click -- 表态的动作
+					* subject -- 表态的打赌标题
+					* id -- 表态的文章id
+					* idtype -- 表态的文章类型，当前仅有quizid
+				* 评论(icon值为comment)
+					* touser -- 操作的对象，文本描述
+					* touserid -- 操作对象的用户id
+					* quiz -- 评论的打赌标题
+					* quizid -- 评论的打赌id
+				* 加为好友(icon值为friend)
+					* touser -- 操作的对象，文本描述
+					* touserid -- 操作对象的用户id
 			* icon -- feed类型
 				* quiz -- 打赌
 				* do -- 心情
 				* pic -- 图片
 				* profile -- 更新资料
+				* click -- 表太空
+				* comment -- 评论
+				* friend -- 成为好友
 			* comments: 若是打赌动态，则会返回两条最新评论
 			* commentnum: 若是打赌动态，则会返回打赌当前的评论总数
 		* data[count], 返回列表条目数, 便用遍历
@@ -87,59 +106,339 @@ betit
 		"data": {
 			"feeds": [
 				{
-					"icon": "quiz",
-					"uid": "1",
-					"username": "admin",
-					"dateline": "1344929249",
+					"icon": "click",
+					"uid": "15",
+					"username": "xiao",
+					"dateline": "1345429834",
 					"friend": "0",
-					"title_template": "{actor} 发表了新打赌",
-					"title_data": [],
-					"body_template": "<b>{subject}</b><br>{option}{totalcost}",
-					"body_data": {
-						"subject": "20120803时间戳",
-						"option": [
-							{
-								"oid": "109",
-								"option": "21",
-								"relatedtime": "1344929249",
-								"votenum": "0",
-								"pic": "http://betit-pic.b0.upaiyun.com/201208/14/1_13449290756gK5.jpg"
-							},
-							{
-								"oid": "110",
-								"option": "123",
-								"relatedtime": "1344929249",
-								"votenum": "0",
-								"pic": "http://betit-pic.b0.upaiyun.com/201208/14/1_1344929111K4Ac.png"
-							}
-						],
-						"totalcost": "0",
-						"endtime": "1345533855",
-						"resulttime": "1345537455"
+					"title_template": "feed_click_quiz",
+					"title_data": {
+						"touser": " fat___lin ",
+						"subject": " wp8是否会让诺基亚走出困境 ",
+						"click": "握手",
+						"touseruid": "6",
+						"id": "35",
+						"idtype": "quiz"
 					},
-					"id": "56",
-					"idtype": "quizid",
+					"body_template": "",
+					"body_data": [],
+					"id": "0",
+					"idtype": "",
 					"hot": "0",
-					"commentnum": "0",
-					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg"
+					"avatar": "http://58.215.187.8:8081/center/data/avatar/000/00/00/15_avatar_small.jpg"
+				},
+				{
+					"icon": "comment",
+					"uid": "15",
+					"username": "xiao",
+					"dateline": "1345429820",
+					"friend": "0",
+					"title_template": "{actor} 评论了 {touser} 的打赌 {quiz}",
+					"title_data": {
+						"touser": " fat___lin ",
+						"quiz": " wp8是否会让诺基亚走出困境 ",
+						"touseruid": "6",
+						"quizid": "35"
+					},
+					"body_template": "",
+					"body_data": [],
+					"id": "0",
+					"idtype": "",
+					"hot": "0",
+					"avatar": "http://58.215.187.8:8081/center/data/avatar/000/00/00/15_avatar_small.jpg"
+				},
+				{
+					"icon": "friend",
+					"uid": "15",
+					"username": "xiao",
+					"dateline": "1345429287",
+					"friend": "0",
+					"title_template": "{actor} 和 {touser} 成为了好友",
+					"title_data": {
+						"touser": " fat___lin ",
+						"touseruid": "6"
+					},
+					"body_template": "",
+					"body_data": [],
+					"id": "0",
+					"idtype": "",
+					"hot": "0",
+					"avatar": "http://58.215.187.8:8081/center/data/avatar/000/00/00/15_avatar_small.jpg"
 				},
 				{
 					"icon": "profile",
-					"uid": "1",
-					"username": "admin",
-					"dateline": "1344911867",
+					"uid": "15",
+					"username": "xiao",
+					"dateline": "1345429067",
 					"friend": "0",
-					"title_template": "{actor} 更新了自己的基本资料",
+					"title_template": "{actor} 开通了自己的个人主页",
 					"title_data": [],
 					"body_template": "",
 					"body_data": [],
 					"id": "0",
 					"idtype": "",
 					"hot": "0",
-					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg"
+					"avatar": "http://58.215.187.8:8081/center/data/avatar/000/00/00/15_avatar_small.jpg"
+				},
+				{
+					"icon": "quiz",
+					"uid": "6",
+					"username": "fat___lin",
+					"dateline": "1344838782",
+					"friend": "0",
+					"title_template": "{actor} 发表了新打赌",
+					"title_data": [],
+					"body_template": "<b>{subject}</b><br>{option}{totalcost}",
+					"body_data": {
+						"subject": "wp8是否会让诺基亚走出困境",
+						"option": [
+							{
+								"oid": "67",
+								"option": "会",
+								"relatedtime": "1344838782",
+								"votenum": "2"
+							},
+							{
+								"oid": "68",
+								"option": "不会",
+								"relatedtime": "1344838782",
+								"votenum": "0"
+							}
+						],
+						"totalcost": "40",
+						"endtime": "1345436753",
+						"resulttime": "1345440353"
+					},
+					"id": "35",
+					"idtype": "quizid",
+					"hot": "2",
+					"commentnum": "4",
+					"comments": [
+						{
+							"cid": "43",
+							"uid": "6",
+							"id": "35",
+							"idtype": "quizid",
+							"authorid": "14",
+							"author": "lin",
+							"ip": "113.111.133.241",
+							"dateline": "1345428187",
+							"message": "无条件支持老牌诺基亚！",
+							"magicflicker": "0"
+						},
+						{
+							"cid": "44",
+							"uid": "6",
+							"id": "35",
+							"idtype": "quizid",
+							"authorid": "14",
+							"author": "lin",
+							"ip": "113.111.133.241",
+							"dateline": "1345428234",
+							"message": "期待wp8啊！！！",
+							"magicflicker": "0"
+						}
+					],
+					"avatar": "http://58.215.187.8:8081/center/data/avatar/000/00/00/06_avatar_small.jpg"
+				},
+				{
+					"icon": "quiz",
+					"uid": "6",
+					"username": "fat___lin",
+					"dateline": "1344831840",
+					"friend": "0",
+					"title_template": "{actor} 发表了新打赌",
+					"title_data": [],
+					"body_template": "<b>{subject}</b><br>{option}{totalcost}",
+					"body_data": {
+						"subject": "中国好声音里面，杨坤和哈林的学员谁会先满了",
+						"option": [
+							{
+								"oid": "65",
+								"option": "杨坤",
+								"relatedtime": "1344831840",
+								"votenum": "1"
+							},
+							{
+								"oid": "66",
+								"option": "哈林",
+								"relatedtime": "1344831840",
+								"votenum": "0"
+							}
+						],
+						"totalcost": "20",
+						"endtime": "1345436561",
+						"resulttime": "1345440161"
+					},
+					"id": "34",
+					"idtype": "quizid",
+					"hot": "1",
+					"commentnum": "1",
+					"comments": [
+						{
+							"cid": "46",
+							"uid": "6",
+							"id": "34",
+							"idtype": "quizid",
+							"authorid": "14",
+							"author": "lin",
+							"ip": "113.111.133.241",
+							"dateline": "1345428299",
+							"message": "肯定是杨坤，他饥不择食啊。。",
+							"magicflicker": "0"
+						}
+					],
+					"avatar": "http://58.215.187.8:8081/center/data/avatar/000/00/00/06_avatar_small.jpg"
+				},
+				{
+					"icon": "quiz",
+					"uid": "6",
+					"username": "fat___lin",
+					"dateline": "1344831670",
+					"friend": "0",
+					"title_template": "{actor} 发表了新打赌",
+					"title_data": [],
+					"body_template": "<b>{subject}</b><br>{option}{totalcost}",
+					"body_data": {
+						"subject": "广州明晚会不会下雨（8月13号）",
+						"option": [
+							{
+								"oid": "63",
+								"option": "会",
+								"relatedtime": "1344831670",
+								"votenum": "0",
+								"pic": "201208/13/6_1344831563P0d8.jpg"
+							},
+							{
+								"oid": "64",
+								"option": "不会",
+								"relatedtime": "1344831670",
+								"votenum": "0"
+							}
+						],
+						"totalcost": "0",
+						"endtime": "1345436233",
+						"resulttime": "1345439833"
+					},
+					"id": "33",
+					"idtype": "quizid",
+					"hot": "0",
+					"commentnum": "0",
+					"avatar": "http://58.215.187.8:8081/center/data/avatar/000/00/00/06_avatar_small.jpg"
+				},
+				{
+					"icon": "quiz",
+					"uid": "6",
+					"username": "fat___lin",
+					"dateline": "1343961427",
+					"friend": "0",
+					"title_template": "{actor} 发表了新打赌",
+					"title_data": [],
+					"body_template": "<b>{subject}</b><br>{option}{totalcost}",
+					"body_data": {
+						"subject": "伦敦奥运会刘翔能否成功夺冠？",
+						"option": [
+							{
+								"oid": "59",
+								"option": "肯定能的啦",
+								"relatedtime": "1343961427",
+								"votenum": "2",
+								"pic": "201208/3/6_1343961421UuUs.png"
+							},
+							{
+								"oid": "60",
+								"option": "对手太强，夺冠无望",
+								"relatedtime": "1343961427",
+								"votenum": "1",
+								"pic": "201208/3/6_1343961413OiIi.jpg"
+							}
+						],
+						"totalcost": "300",
+						"endtime": "1344838912",
+						"resulttime": "1344569296"
+					},
+					"id": "31",
+					"idtype": "quizid",
+					"hot": "1",
+					"commentnum": "0",
+					"avatar": "http://58.215.187.8:8081/center/data/avatar/000/00/00/06_avatar_small.jpg"
+				},
+				{
+					"icon": "quiz",
+					"uid": "6",
+					"username": "fat___lin",
+					"dateline": "1343960800",
+					"friend": "0",
+					"title_template": "{actor} 发表了新打赌",
+					"title_data": [],
+					"body_template": "<b>{subject}</b><br>{option}{totalcost}",
+					"body_data": {
+						"subject": "易建联脚裸受伤，下场比赛是否出赛？",
+						"option": [
+							{
+								"oid": "57",
+								"option": "会硬撑参赛的",
+								"relatedtime": "1343960800",
+								"votenum": "0",
+								"pic": "201208/3/6_1343960641jmNj.png"
+							},
+							{
+								"oid": "58",
+								"option": "不会出场",
+								"relatedtime": "1343960800",
+								"votenum": "3",
+								"pic": "201208/3/6_1343960712yJpT.gif"
+							}
+						],
+						"totalcost": "300",
+						"endtime": "1344838887",
+						"resulttime": "1344567636"
+					},
+					"id": "30",
+					"idtype": "quizid",
+					"hot": "1",
+					"commentnum": "0",
+					"avatar": "http://58.215.187.8:8081/center/data/avatar/000/00/00/06_avatar_small.jpg"
+				},
+				{
+					"icon": "quiz",
+					"uid": "1",
+					"username": "admin",
+					"dateline": "1343817352",
+					"friend": "0",
+					"title_template": "{actor} 发表了新竞猜",
+					"title_data": [],
+					"body_template": "<b>{subject}</b><br>{option}",
+					"body_data": {
+						"subject": "下图哪个是本届金牌？",
+						"option": [
+							{
+								"oid": "49",
+								"option": "这个",
+								"relatedtime": "1343817352",
+								"votenum": "2",
+								"pic": "201208/1/1_1343817334pZ1p.jpg"
+							},
+							{
+								"oid": "50",
+								"option": "应该是这个",
+								"relatedtime": "1343817352",
+								"votenum": "2",
+								"pic": "201208/1/1_1343817348B2v5.jpg"
+							}
+						],
+						"totalcost": "200",
+						"endtime": "1343817501",
+						"resulttime": "1344425641"
+					},
+					"id": "26",
+					"idtype": "quizid",
+					"hot": "1",
+					"commentnum": "0",
+					"avatar": "http://58.215.187.8:8081/center/data/avatar/000/00/00/01_avatar_small.jpg"
 				}
 			],
-			"count": 2
+			"count": 10
 		},
 		"msg": "数据获取成功",
 		"action": "rest_success"
