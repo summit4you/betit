@@ -39,12 +39,13 @@ betit
 	*	[更改昵称](#更改昵称)
 	*	[编写心情](#编写心情)
 	*	[邀请好友](#邀请好友)
+	*	[退出](#退出)
 
 接口说明
 --------
 
 <h2>好友动态列表接口</h2>
-/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=friend&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+域名/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=friend&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- page
@@ -446,7 +447,7 @@ betit
 [↑返回顶部](#betit)
 
 <h2>全站动态列表接口</h2>
-/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=quiz&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+域名/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=quiz&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- page
@@ -569,7 +570,7 @@ betit
 [↑返回顶部](#betit)
 
 <h2>通知列表接口</h2>
-/capi/space.php?do=notice&page=0&prepage=2&uid=1&type=quizinvalid&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+域名/capi/space.php?do=notice&page=0&prepage=2&uid=1&type=quizinvalid&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- page
@@ -641,7 +642,7 @@ betit
 [↑返回顶部](#betit)
 
 <h2>私信列表接口</h2>
-capi/space.php?do=pm&page=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+域名/capi/space.php?do=pm&page=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- page
@@ -705,7 +706,7 @@ capi/space.php?do=pm&page=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6
 [↑返回顶部](#betit)
 
 <h2>私信详情</h2>
-capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+域名/capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 消息送至的用户id -- touid
 	* 检索消息的区间（几天之内的） -- daterange
@@ -800,7 +801,7 @@ capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&m_auth=55dalDuJytwH
 [↑返回顶部](#betit)
 
 <h2>好友排行榜接口</h2>
-capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj
+域名/capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj
 #### 请求参数
 	* 当前用户id -- uid
 	* API密钥 -- m_auth, 由登录后返回
@@ -906,7 +907,7 @@ capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upU
 [↑返回顶部](#betit)
 
 <h2>热门打赌排行榜接口</h2>
-capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
+域名/capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
 #### 请求参数
 	* 用户id -- uid
 	* 第几页 -- page
@@ -1024,7 +1025,7 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWom
 [↑返回顶部](#betit)
 
 <h2>我的个人信息</h2>
-capi/cp.php?ac=profile&m_auth=65e8JkX8RscU2y2pYZEVdcZrja2YOr2QXuhbPBCHzLAw
+域名/capi/cp.php?ac=profile&m_auth=65e8JkX8RscU2y2pYZEVdcZrja2YOr2QXuhbPBCHzLAw
 #### 请求参数
 	* API密钥 -- m_auth, 由登录后返回
 #### 返回字段
@@ -1203,7 +1204,7 @@ capi/cp.php?ac=profile&m_auth=65e8JkX8RscU2y2pYZEVdcZrja2YOr2QXuhbPBCHzLAw
 [↑返回顶部](#betit)
 
 <h2>打赌详情</h2>
-capi/space.php?do=quiz&id=54&uid=5&m_auth=af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2ibMM1tNHXaHYweU%2B8hsBHobKzgHFJs
+域名/capi/space.php?do=quiz&id=54&uid=5&m_auth=af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2ibMM1tNHXaHYweU%2B8hsBHobKzgHFJs
 
 #### 请求参数
 	* 打赌id -- id
@@ -1325,7 +1326,7 @@ capi/space.php?do=quiz&id=54&uid=5&m_auth=af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor
 [↑返回顶部](#betit)
 
 <h2>获取投注好友</h2>
-capi/do.php?ac=ajax&op=getjoinuser&oid=33&page=0&prepage=10&m_auth=7c44hpLskh17xPRklyu
+域名/capi/do.php?ac=ajax&op=getjoinuser&oid=33&page=0&prepage=10&m_auth=7c44hpLskh17xPRklyu
 #### 请求参数
 	* 操作类型(固定搭配) -- op:getjoinuser
 	* 投注的选项id -- oid
@@ -1356,7 +1357,7 @@ capi/do.php?ac=ajax&op=getjoinuser&oid=33&page=0&prepage=10&m_auth=7c44hpLskh17x
 [↑返回顶部](#betit)
 
 <h2>评论列表</h2>
-capi/do.php?ac=ajax&op=getcomment&id=24&idtype=quizid&page=0&prepage=1&m_auth=af9cCEMpQlfFTifZltugadwhG
+域名/capi/do.php?ac=ajax&op=getcomment&id=24&idtype=quizid&page=0&prepage=1&m_auth=af9cCEMpQlfFTifZltugadwhG
 
 #### 请求参数
 	* 操作类型 -- op, 必须为getcomment
@@ -1411,7 +1412,7 @@ capi/do.php?ac=ajax&op=getcomment&id=24&idtype=quizid&page=0&prepage=1&m_auth=af
 }
 
 <h2>搜索打赌</h2>
-capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=测试&m_auth=af9cCEMpQ
+域名/capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=测试&m_auth=af9cCEMpQ
 #### 请求参数
 	* 用户id -- uid
 	* 第几页 -- page
@@ -1576,7 +1577,7 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=new&searchkey=测试&m_auth=a
 [↑返回顶部](#betit)
 
 <h2>搜索好友</h2>
-capi/cp.php?ac=friend&op=search&page=0&perpage=1&searchkey=admin&searchsubmit=true&searchmode=1&m_auth=af9cCEMpQ
+域名/capi/cp.php?ac=friend&op=search&page=0&perpage=1&searchkey=admin&searchsubmit=true&searchmode=1&m_auth=af9cCEMpQ
 #### 请求参数
 	* 用户id -- uid
 	* 第几页 -- page
@@ -1679,7 +1680,7 @@ capi/cp.php?ac=friend&op=search&page=0&perpage=1&searchkey=admin&searchsubmit=tr
 
 <h2>推荐打赌列表</h2>
 #### 注意：同 [热门打赌排行榜接口](#热门打赌排行榜接口)
-capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
+域名/capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
 #### 请求参数
 	* 用户id -- uid
 	* 第几页 -- page
@@ -1840,7 +1841,7 @@ capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWom
 
 ******************************
 <h2>获取注册验证码</h2>
-capi/do.php?ac=register&op=seccode
+域名/capi/do.php?ac=register&op=seccode
 #### 请求参数
 	* 操作类型 -- op, 必须为seccode
 
@@ -1918,7 +1919,7 @@ capi/do.php?ac=register&op=seccode
 [↑返回顶部](#betit)
 	
 <h2>登录</h2>
-capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
+域名/capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
 #### 请求参数
 	* 用户名 -- username
 	* 密码 -- password
@@ -2064,7 +2065,7 @@ capi/do.php?ac=login&username=summit&password=likeyou&loginsubmit=true
 [↑返回顶部](#betit)
 
 <h2>发布打赌</h2>
-capi/cp.php?ac=quiz&quizsubmit=true&subject=我的打赌&options[1]=A赢&options[2]=B输&pics[1]=81&pics[2]=79&joincost=20&portion=3
+域名/capi/cp.php?ac=quiz&quizsubmit=true&subject=我的打赌&options[1]=A赢&options[2]=B输&pics[1]=81&pics[2]=79&joincost=20&portion=3
 &endtime=2012-08-15 17:12:12&resulttime=2012-08-16 17:12:12&friend=0&m_auth=af9cCEMpQlfFT
 
 #### 请求参数
@@ -2134,7 +2135,7 @@ capi/cp.php?ac=quiz&quizsubmit=true&subject=我的打赌&options[1]=A赢&options
 
 
 <h2>参与打赌</h2>
-capi/cp.php?ac=quiz&op=vote&votesubmit=true&quizid=55&option[]=108&m_auth=af9cCEMpQlfFTifZlt
+域名/capi/cp.php?ac=quiz&op=vote&votesubmit=true&quizid=55&option[]=108&m_auth=af9cCEMpQlfFTifZlt
 #### 请求参数
 	* 操作类型(固定搭配) -- op:vote, votesubmit: true
 	* 打赌id --  quizid
@@ -2258,7 +2259,7 @@ capi/cp.php?ac=quiz&op=vote&votesubmit=true&quizid=55&option[]=108&m_auth=af9cCE
 [↑返回顶部](#betit)
 
 <h2>公布答案</h2>
-capi/cp.php?ac=quiz&op=publickey&quizid=55&keysubmit=true&keyid=107&m_auth=7c44hpLskh17xPRklyuRE%2FK0fAcYbTThZ
+域名/capi/cp.php?ac=quiz&op=publickey&quizid=55&keysubmit=true&keyid=107&m_auth=7c44hpLskh17xPRklyuRE%2FK0fAcYbTThZ
 
 #### 请求参数
 	* 操作类型(固定搭配) -- op:publickey, keysubmit: true
@@ -2308,7 +2309,7 @@ capi/cp.php?ac=quiz&op=publickey&quizid=55&keysubmit=true&keyid=107&m_auth=7c44h
 [↑返回顶部](#betit)
 
 <h2>分享打赌</h2>
-capi/cp.php?ac=share&type=quiz&id=54&sharesubmit=true&general=好打赌&m_auth=7c44hpLskh17xPRklyuRE%2FK0fAcYbT
+域名/capi/cp.php?ac=share&type=quiz&id=54&sharesubmit=true&general=好打赌&m_auth=7c44hpLskh17xPRklyuRE%2FK0fAcYbT
 #### 请求参数
 	* 操作类型(固定搭配) -- type:quiz, sharesubmit: true
 	* 打赌id --  id
@@ -2335,7 +2336,7 @@ capi/cp.php?ac=share&type=quiz&id=54&sharesubmit=true&general=好打赌&m_auth=7
 [↑返回顶部](#betit)
 
 <h2>邀请好友参与打赌</h2>
-capi/cp.php?ac=quiz&op=invite&quizid=54&uid=5&group=-1&ids[]=7&invitesubmit=true&m_auth=7c44hpLskh17xPRkly
+域名/capi/cp.php?ac=quiz&op=invite&quizid=54&uid=5&group=-1&ids[]=7&invitesubmit=true&m_auth=7c44hpLskh17xPRkly
 
 #### 请求参数
 	* 操作类型(固定搭配) -- op:invite, sharesubmit: true, group=-1
@@ -2354,7 +2355,7 @@ capi/cp.php?ac=quiz&op=invite&quizid=54&uid=5&group=-1&ids[]=7&invitesubmit=true
 [↑返回顶部](#betit)
 
 <h2>撰写评论</h2>
-capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=quizid&id=55&m_auth=af9cCEMpQlfFT
+域名/capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=quizid&id=55&m_auth=af9cCEMpQlfFT
 
 #### 请求参数
 	* 操作类型(固定搭配) -- commentsubmit: true
@@ -2383,7 +2384,7 @@ capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=qu
 [↑返回顶部](#betit)
 
 <h2>发布私信</h2>
-capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=你好!summit&pmsubmit=true&m_auth=af9cCEMpQlfFTifZltugadwh
+域名/capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=你好!summit&pmsubmit=true&m_auth=af9cCEMpQlfFTifZltugadwh
 
 #### 请求参数
 	* 操作类型(固定搭配) -- op: send, touid: 0, pmid: 0, pmsubmit: true
@@ -2440,7 +2441,7 @@ capi/cp.php?ac=pm&op=send&touid=0&pmid=0&username=test6&message=你好!summit&pm
 [↑返回顶部](#betit)
 
 <h2>更改昵称</h2>
-cp.php?ac=profile&op=name&name=summit&m_auth=af9cCEMpQlfFTifZltu
+域名/capi/cp.php?ac=profile&op=name&name=summit&m_auth=af9cCEMpQlfFTifZltu
 
 #### 请求参数
 	* 操作类型(固定搭配) -- op: name
@@ -2467,7 +2468,7 @@ cp.php?ac=profile&op=name&name=summit&m_auth=af9cCEMpQlfFTifZltu
 [↑返回顶部](#betit)
 
 <h2>编写心情</h2>
-capi/cp.php?ac=doing&addsubmit=true&spacenote=true&message=你好!summit&m_auth=af9cCEMpQlfFTifZ
+域名/capi/cp.php?ac=doing&addsubmit=true&spacenote=true&message=你好!summit&m_auth=af9cCEMpQlfFTifZ
 
 #### 请求参数
 	* 操作类型(固定搭配) -- addsubmit: true, spacenote:true
@@ -2494,7 +2495,7 @@ capi/cp.php?ac=doing&addsubmit=true&spacenote=true&message=你好!summit&m_auth=
 [↑返回顶部](#betit)
 
 <h2>邀请好友</h2>
-capi/cp.php?ac=invite&emailinvite=true&email=summit_mail@qq.com&saymsg=来betit包赚没赔&m_auth=7c44hpLskh17xPRklyu
+域名/capi/cp.php?ac=invite&emailinvite=true&email=summit_mail@qq.com&saymsg=来betit包赚没赔&m_auth=7c44hpLskh17xPRklyu
 
 #### 请求参数
 	* 操作类型(固定搭配) --emailinvite: true
@@ -2519,4 +2520,26 @@ capi/cp.php?ac=invite&emailinvite=true&email=summit_mail@qq.com&saymsg=来betit�
 		"msg": "邮件已经送出，您的好友可能需要几分钟后才能收到邮件",
 		"action": "send_result_1"
 	}
+[↑返回顶部](#betit)
+
+<h2>退出</h2>
+域名/capi/cp.php?ac=common&op=logout&m_auth=7c44hpLskh17xPRklyu
+
+#### 请求参数
+	* 操作类型（固定搭配） -- ac:common , op:logout
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+
+#### 返回参数
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+
+#### 样例
+	{
+  	  "code": 0,
+	    "data": [],
+	    "msg": "你已经安全退出了\\1",
+	    "action": "security_exit"
+	}
+	
 [↑返回顶部](#betit)
