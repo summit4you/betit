@@ -802,7 +802,7 @@ betit
 	}
 [↑返回顶部](#betit)
 
-<h2>好友排行榜接口</h2>
+<h2>好友排行榜接口</h2> 
 域名/capi/space.php?uid=5&do=friend&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj
 #### 请求参数
 	* 当前用户id -- uid
@@ -837,6 +837,8 @@ betit
 			* winnum -- 赢的次数
 			* lostnum -- 输的次数
 			* voternum -- 参加打赌的次数
+			* creditrank -- 金币排行
+			* experiencerank -- 经验排行
 		* data[count], 返回列表条目数, 便用遍历
 
 #### 样例
@@ -895,6 +897,8 @@ betit
 					"sex": "0",
 					"gid": "0",
 					"num": "5",
+					"creditrank": "4",
+					"experiencerank": "3",
 					"p": "",
 					"c": "",
 					"group": "其他",
@@ -951,6 +955,8 @@ betit
 					"sex": "0",
 					"gid": "0",
 					"num": "1",
+					"creditrank": "4",
+					"experiencerank": "3",
 					"p": "",
 					"c": "",
 					"group": "其他",
@@ -1007,6 +1013,8 @@ betit
 					"sex": "0",
 					"gid": "0",
 					"num": "0",
+					"creditrank": "4",
+					"experiencerank": "3",
 					"p": "",
 					"c": "",
 					"group": "其他",
