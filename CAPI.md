@@ -1029,37 +1029,43 @@ betit
 [↑返回顶部](#betit)
 
 <h2>热门打赌排行榜接口</h2>
-域名/capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
+域名/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=quizhot&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZU
 #### 请求参数
 	* 用户id -- uid
 	* 第几页 -- page
 	* 每页显示数量  -- perpage
-	* 查询参数 -- view, 必须为hot
+	* 查询参数 -- view, 必须为quizhot, do, 必须为feed
 	* API密钥 -- m_auth, 由登录后返回
 
-#### 返回字段
+#### 返回结果
 	* 错误码 -- code, 0:代表成功， 1:代表失败
-	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
-	* 错误信息 -- msg, 详细参见附录
+		* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+		* 错误信息 -- msg, 详细参见附录
 	* 结果 -- data, json数组, 本操作返回两个数据
-		* data[quizs]，打赌列表， 条目字段如下
-			* 打赌id : quizid
-			* 发布打赌的用户id : uid
-			* 发布打赌的用户名 : username
-			* 打赌标题: subject
-			* 浏览次数: viewnum
-			* 回复次数：replynum
-			* 热度: hot
-			* 时间: dateline
-			* 参与所需金币: joincost
-			* 允许最大投注次数: portion
-			* 截止时间: endtime
-			* 预计公布结果时间: resulttime
-			* 最近一次投票时间: lastvote
-			* 参与打赌的人数: voternum
-			* 答案id: keyoid
-			* 答案: keyoption
-			* 奖金池: totalcost
+		* data[feeds]，feed列表， 条目字段如下
+			* title_template -- feed的标题
+			* body_template -- feed的内容
+			* dateline -- feed的时间
+			* uid -- 发布feed的用户id
+			* username -- 发布feed用户
+			* body_data -- feed的内容，当前仅有打赌有意义
+				* subject -- 打赌标题
+				* option -- 打赌A, B选择
+					* oid -- 选项id
+					* option -- 选项描述
+					* relatedtime -- 最新投票的时间
+					* votenum -- 投票人数
+					* pic -- 选项图片
+				* totalcost -- 奖池总额
+				* endtime -- 截止时间
+				* resulttime -- 预计公布答案时间
+			* icon -- feed类型
+				* quiz -- 打赌
+				* do -- 心情
+				* pic -- 图片
+				* profile -- 更新资料
+			* comments: 若是打赌动态，则会返回两条最新评论
+			* commentnum: 若是打赌动态，则会返回打赌当前的评论总数
 		* data[count], 返回列表条目数, 便用遍历
 #### 样例
 	{
