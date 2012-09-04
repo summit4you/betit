@@ -1475,12 +1475,13 @@ betit
 			* 投注时间 -- dateline(请忽略)
 			* 选项id -- oid
 			* 投注份数 -- joinnum
+			* 用户组别 -- grouptitle
 		* data[count], 返回列表条目数, 便用遍历
 
 #### 样例
 	{"code":0,"data":{"joinusers":[{"jid":"29","uid":"4","username":"summit2","quizid":"18","option":"\"\u80fd\"","dateline":"1343787281","oid":"33","joinnum":"3",
-	"avatar":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/04_avatar_middle.jpg"},{"jid":"34","uid":"5","username":"summit","quizid":"18",
-	"option":"\"\u80fd\"","dateline":"1343792803","oid":"33","joinnum":"1","avatar":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/05_avatar_middle.jpg"}],
+	"avatar":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/04_avatar_middle.jpg"， "grouptitle":"赌霸"},{"jid":"34","uid":"5","username":"summit","quizid":"18",
+	"option":"\"\u80fd\"","dateline":"1343792803","oid":"33","joinnum":"1","avatar":"http:\/\/localhost:8080\/betit\/center\/data\/avatar\/000\/00\/00\/05_avatar_middle.jpg", "grouptitle":"赌霸"}],
 	"count":2},"msg":"\u6570\u636e\u83b7\u53d6\u6210\u529f","action":"rest_success"}
 [↑返回顶部](#betit)
 
