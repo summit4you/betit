@@ -45,13 +45,17 @@ betit
 --------
 
 <h2>好友动态列表接口</h2>
-域名/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=friend&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+域名/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=friend&dateline=1343793316&queryop=down&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- page
 	* 每页显示数量  -- perpage
 	* 查询参数 -- view, 值为we代表好友动态列表
 	* API密钥 -- m_auth, 由登录后返回
+	* 时间点 -- dateline
+	* 查询方式 -- queryop, 取值可以是up, down
+		* up 代表上拉，取比dateline新的动态
+		* down 代表到底，取紧接着dateline之后的动态
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
@@ -449,13 +453,17 @@ betit
 [↑返回顶部](#betit)
 
 <h2>全站动态列表接口</h2>
-域名/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=quiz&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+域名/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=quiz&queryop=down&dateline=13234834&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- page
 	* 每页显示数量  -- perpage
 	* 查询参数 -- view, 值为quiz代表全站打赌动态列表
 	* API密钥 -- m_auth, 由登录后返回
+	* 时间点 -- dateline
+	* 查询方式 -- queryop, 取值可以是up, down
+		* up 代表上拉，取比dateline新的动态
+		* down 代表到底，取紧接着dateline之后的动态
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
