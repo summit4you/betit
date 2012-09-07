@@ -580,7 +580,7 @@ betit
 [↑返回顶部](#betit)
 
 <h2>通知列表接口</h2>
-域名/capi/space.php?do=notice&page=0&prepage=2&uid=1&type=quizinvalid&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+域名/capi/space.php?do=notice&page=0&prepage=2&uid=1&type=quizinvalid&dateline=324234&queryop=up&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- page
@@ -596,6 +596,10 @@ betit
 		* credit -- 金币
 		* 空 -- 代表全部通知
 	* API密钥 -- m_auth, 由登录后返回
+	* 时间点 -- dateline
+	* 查询方式 -- queryop, 取值可以是up, down
+		* up 代表上拉，取比dateline新的动态
+		* down 代表到底，取紧接着dateline之后的动态
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
@@ -652,7 +656,7 @@ betit
 [↑返回顶部](#betit)
 
 <h2>私信列表接口</h2>
-域名/capi/space.php?do=pm&page=0&prepage=2&uid=1&filter=newpm&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+域名/capi/space.php?do=pm&page=0&prepage=2&uid=1&filter=newpm&dateline=0&queryop=up&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 当前用户id -- uid
 	* 第几页 -- page
@@ -664,6 +668,10 @@ betit
 		* announcepm -- 公共消息
 		* 空 -- 私人消息
 	* API密钥 -- m_auth, 由登录后返回
+	* 时间点 -- dateline
+	* 查询方式 -- queryop, 取值可以是up, down
+		* up 代表上拉，取比dateline新的动态
+		* down 代表到底，取紧接着dateline之后的动态
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
@@ -1037,14 +1045,17 @@ betit
 [↑返回顶部](#betit)
 
 <h2>热门打赌排行榜接口</h2>
-域名/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=quizhot&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZU
+域名/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=quizhot&dateline=234324&queryop=up&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZU
 #### 请求参数
 	* 用户id -- uid
 	* 第几页 -- page
 	* 每页显示数量  -- perpage
 	* 查询参数 -- view, 必须为quizhot, do, 必须为feed
 	* API密钥 -- m_auth, 由登录后返回
-
+	* 时间点 -- dateline
+	* 查询方式 -- queryop, 取值可以是up, down
+		* up 代表上拉，取比dateline新的动态
+		* down 代表到底，取紧接着dateline之后的动态
 #### 返回结果
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 		* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
@@ -1494,7 +1505,7 @@ betit
 [↑返回顶部](#betit)
 
 <h2>评论列表</h2>
-域名/capi/do.php?ac=ajax&op=getcomment&id=24&idtype=quizid&page=0&prepage=1&m_auth=af9cCEMpQlfFTifZltugadwhG
+域名/capi/do.php?ac=ajax&op=getcomment&id=24&idtype=quizid&page=0&prepage=1&dateline=234234&queryop=up&m_auth=af9cCEMpQlfFTifZltugadwhG
 
 #### 请求参数
 	* 操作类型 -- op, 必须为getcomment
@@ -1503,7 +1514,10 @@ betit
 	* 第几页 -- page
 	* 每页显示数量  -- perpage
 	* API密钥 -- m_auth, 由登录后返回
-
+	* 时间点 -- dateline
+	* 查询方式 -- queryop, 取值可以是up, down
+		* up 代表上拉，取比dateline新的评论
+		* down 代表到底，取紧接着dateline之后的评论
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
@@ -1939,14 +1953,17 @@ betit
 
 <h2>推荐打赌列表</h2>
 #### 注意：同 [热门打赌排行榜接口](#热门打赌排行榜接口)
-域名/capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
+域名/capi/space.php?uid=5&do=quiz&page=0&perpage=2&view=hot&dateline=234234&queryop=up&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj17Dt8R%252B652pTEKjHTOgNjgJ80RzLSsp7vbN
 #### 请求参数
 	* 用户id -- uid
 	* 第几页 -- page
 	* 每页显示数量  -- perpage
 	* 查询参数 -- view, 必须为hot
 	* API密钥 -- m_auth, 由登录后返回
-
+	* 时间点 -- dateline
+	* 查询方式 -- queryop, 取值可以是up, down
+		* up 代表上拉，取比dateline新的打赌
+		* down 代表到底，取紧接着dateline之后的打赌
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
