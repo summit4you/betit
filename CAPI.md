@@ -22,6 +22,9 @@ betit
 	*	[搜索打赌](#搜索打赌)
 	*	[搜索好友](#搜索好友)
 	*	[推荐打赌列表](#推荐打赌列表)
+	*   [我发起的打赌](#我发起的打赌)
+	*   [我参与的打赌](#我参与的打赌)
+	*   [已揭晓的打赌](#我揭晓的打赌)
 
 * 上行接口
 	*	[获取注册验证码](#获取注册验证码)
@@ -2115,12 +2118,514 @@ betit
 	}
 [↑返回顶部](#betit)
 
+<h2>我发起的打赌</h2>
+域名/capi/space.php?uid=1&do=quiz&view=me&page=0&perpage=10&dateline=234234324&queryop=up&m_auth=8324dfhg37246dsf
+#### 请求参数
+	* 固定参数 -- do, 必须为quiz; view, 必须为me
+	* 用户id -- uid
+	* 第几页 -- page
+	* 每页显示数量  -- perpage
+	* 查询参数 -- view, 必须为hot
+	* API密钥 -- m_auth, 由登录后返回
+	* 时间点 -- dateline
+	* 查询方式 -- queryop, 取值可以是up, down
+		* up 代表上拉，取比dateline新的打赌
+		* down 代表到底，取紧接着dateline之后的打赌
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[quizs]，打赌列表， 条目字段如下
+			* 打赌id : quizid
+			* 发布打赌的用户id : uid
+			* 发布打赌的用户名 : username
+			* 打赌标题: subject
+			* 浏览次数: viewnum
+			* 回复次数：replynum
+			* 热度: hot
+			* 时间: dateline
+			* 参与所需金币: joincost
+			* 允许最大投注次数: portion
+			* 截止时间: endtime
+			* 预计公布结果时间: resulttime
+			* 最近一次投票时间: lastvote
+			* 参与打赌的人数: voternum
+			* 答案id: keyoid
+			* 答案: keyoption
+			* 奖金池: totalcost
+		* data[count], 返回列表条目数, 便用遍历
+#### 样例
+	{
+		"code": 0,
+		"data": {
+			"quizs": [
+				{
+					"quizid": "54",
+					"topicid": "0",
+					"uid": "5",
+					"username": "summit",
+					"subject": "测试优惠券",
+					"classid": "0",
+					"viewnum": "6",
+					"replynum": "0",
+					"hot": "0",
+					"dateline": "1344237052",
+					"pic": "",
+					"picflag": "0",
+					"noreply": "0",
+					"friend": "0",
+					"password": "",
+					"click_1": "0",
+					"click_2": "0",
+					"click_3": "0",
+					"click_4": "0",
+					"click_5": "0",
+					"joincost": "20",
+					"portion": "3",
+					"endtime": "1344237071",
+					"resulttime": "1344845443",
+					"lastvote": "1344237066",
+					"voternum": "1",
+					"maxchoice": "0",
+					"sex": "0",
+					"keyoid": "106",
+					"keyoption": "3",
+					"totalcost": "60",
+					"hasremind": "1",
+					"hasexceed": "0",
+					"tag": "",
+					"message": "",
+					"postip": "127.0.0.1",
+					"related": "",
+					"relatedtime": "0",
+					"target_ids": "",
+					"hotuser": "",
+					"magiccolor": "0",
+					"magicpaper": "0",
+					"magiccall": "0",
+					"option": [
+						"12",
+						"3"
+					],
+					"invite": ",7",
+					"optioncount": [
+						"2",
+						"1"
+					],
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				},
+				{
+					"quizid": "52",
+					"topicid": "0",
+					"uid": "5",
+					"username": "summit",
+					"subject": "测试优惠券",
+					"classid": "0",
+					"viewnum": "2",
+					"replynum": "0",
+					"hot": "0",
+					"dateline": "1344236417",
+					"pic": "",
+					"picflag": "0",
+					"noreply": "0",
+					"friend": "0",
+					"password": "",
+					"click_1": "0",
+					"click_2": "0",
+					"click_3": "0",
+					"click_4": "0",
+					"click_5": "0",
+					"joincost": "20",
+					"portion": "3",
+					"endtime": "1344236757",
+					"resulttime": "1344844795",
+					"lastvote": "1344236423",
+					"voternum": "1",
+					"maxchoice": "0",
+					"sex": "0",
+					"keyoid": "102",
+					"keyoption": "不能",
+					"totalcost": "20",
+					"hasremind": "1",
+					"hasexceed": "0",
+					"tag": "",
+					"message": "",
+					"postip": "127.0.0.1",
+					"related": "",
+					"relatedtime": "0",
+					"target_ids": "",
+					"hotuser": "",
+					"magiccolor": "0",
+					"magicpaper": "0",
+					"magiccall": "0",
+					"option": [
+						"能",
+						"不能"
+					],
+					"invite": "",
+					"optioncount": [
+						"1",
+						"0"
+					],
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				}
+			],
+			"count": 2,
+			"reward": {
+				"credit": 1,
+				"experience": 0
+			}
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
+[↑返回顶部](#betit)
+
+<h2>我参与的打赌</h2>
+域名/capi/space.php?uid=1&do=quiz&view=me&page=0&perpage=10&filtrate=join&dateline=234234324&queryop=up&m_auth=8324dfhg37246dsf
+#### 攻略
+	实际上和我发起的打赌类似，只是增加filtrate=join
+
+#### 请求参数
+	* 固定参数 -- do, 必须为quiz; view, 必须为me， filtrate,必须为join
+	* 用户id -- uid
+	* 第几页 -- page
+	* 每页显示数量  -- perpage
+	* 查询参数 -- view, 必须为hot
+	* API密钥 -- m_auth, 由登录后返回
+	* 时间点 -- dateline
+	* 查询方式 -- queryop, 取值可以是up, down
+		* up 代表上拉，取比dateline新的打赌
+		* down 代表到底，取紧接着dateline之后的打赌
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[quizs]，打赌列表， 条目字段如下
+			* 打赌id : quizid
+			* 发布打赌的用户id : uid
+			* 发布打赌的用户名 : username
+			* 打赌标题: subject
+			* 浏览次数: viewnum
+			* 回复次数：replynum
+			* 热度: hot
+			* 时间: dateline
+			* 参与所需金币: joincost
+			* 允许最大投注次数: portion
+			* 截止时间: endtime
+			* 预计公布结果时间: resulttime
+			* 最近一次投票时间: lastvote
+			* 参与打赌的人数: voternum
+			* 答案id: keyoid
+			* 答案: keyoption
+			* 奖金池: totalcost
+		* data[count], 返回列表条目数, 便用遍历
+#### 样例
+	{
+		"code": 0,
+		"data": {
+			"quizs": [
+				{
+					"quizid": "54",
+					"topicid": "0",
+					"uid": "5",
+					"username": "summit",
+					"subject": "测试优惠券",
+					"classid": "0",
+					"viewnum": "6",
+					"replynum": "0",
+					"hot": "0",
+					"dateline": "1344237052",
+					"pic": "",
+					"picflag": "0",
+					"noreply": "0",
+					"friend": "0",
+					"password": "",
+					"click_1": "0",
+					"click_2": "0",
+					"click_3": "0",
+					"click_4": "0",
+					"click_5": "0",
+					"joincost": "20",
+					"portion": "3",
+					"endtime": "1344237071",
+					"resulttime": "1344845443",
+					"lastvote": "1344237066",
+					"voternum": "1",
+					"maxchoice": "0",
+					"sex": "0",
+					"keyoid": "106",
+					"keyoption": "3",
+					"totalcost": "60",
+					"hasremind": "1",
+					"hasexceed": "0",
+					"tag": "",
+					"message": "",
+					"postip": "127.0.0.1",
+					"related": "",
+					"relatedtime": "0",
+					"target_ids": "",
+					"hotuser": "",
+					"magiccolor": "0",
+					"magicpaper": "0",
+					"magiccall": "0",
+					"option": [
+						"12",
+						"3"
+					],
+					"invite": ",7",
+					"optioncount": [
+						"2",
+						"1"
+					],
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				},
+				{
+					"quizid": "52",
+					"topicid": "0",
+					"uid": "5",
+					"username": "summit",
+					"subject": "测试优惠券",
+					"classid": "0",
+					"viewnum": "2",
+					"replynum": "0",
+					"hot": "0",
+					"dateline": "1344236417",
+					"pic": "",
+					"picflag": "0",
+					"noreply": "0",
+					"friend": "0",
+					"password": "",
+					"click_1": "0",
+					"click_2": "0",
+					"click_3": "0",
+					"click_4": "0",
+					"click_5": "0",
+					"joincost": "20",
+					"portion": "3",
+					"endtime": "1344236757",
+					"resulttime": "1344844795",
+					"lastvote": "1344236423",
+					"voternum": "1",
+					"maxchoice": "0",
+					"sex": "0",
+					"keyoid": "102",
+					"keyoption": "不能",
+					"totalcost": "20",
+					"hasremind": "1",
+					"hasexceed": "0",
+					"tag": "",
+					"message": "",
+					"postip": "127.0.0.1",
+					"related": "",
+					"relatedtime": "0",
+					"target_ids": "",
+					"hotuser": "",
+					"magiccolor": "0",
+					"magicpaper": "0",
+					"magiccall": "0",
+					"option": [
+						"能",
+						"不能"
+					],
+					"invite": "",
+					"optioncount": [
+						"1",
+						"0"
+					],
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				}
+			],
+			"count": 2,
+			"reward": {
+				"credit": 1,
+				"experience": 0
+			}
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
+[↑返回顶部](#betit)
+
+
+<h2>已揭晓的打赌</h2>
+域名/capi/space.php?uid=1&do=quiz&view=me&page=0&perpage=10&filtrate=expiration&dateline=234234324&queryop=up&m_auth=8324dfhg37246dsf
+#### 攻略
+	实际上和我发起的打赌类似，只是增加filtrate=expiration
+
+#### 请求参数
+	* 固定参数 -- do, 必须为quiz; view, 必须为me， filtrate,必须为join
+	* 用户id -- uid
+	* 第几页 -- page
+	* 每页显示数量  -- perpage
+	* 查询参数 -- view, 必须为hot
+	* API密钥 -- m_auth, 由登录后返回
+	* 时间点 -- dateline
+	* 查询方式 -- queryop, 取值可以是up, down
+		* up 代表上拉，取比dateline新的打赌
+		* down 代表到底，取紧接着dateline之后的打赌
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[quizs]，打赌列表， 条目字段如下
+			* 打赌id : quizid
+			* 发布打赌的用户id : uid
+			* 发布打赌的用户名 : username
+			* 打赌标题: subject
+			* 浏览次数: viewnum
+			* 回复次数：replynum
+			* 热度: hot
+			* 时间: dateline
+			* 参与所需金币: joincost
+			* 允许最大投注次数: portion
+			* 截止时间: endtime
+			* 预计公布结果时间: resulttime
+			* 最近一次投票时间: lastvote
+			* 参与打赌的人数: voternum
+			* 答案id: keyoid
+			* 答案: keyoption
+			* 奖金池: totalcost
+		* data[count], 返回列表条目数, 便用遍历
+#### 样例
+	{
+		"code": 0,
+		"data": {
+			"quizs": [
+				{
+					"quizid": "54",
+					"topicid": "0",
+					"uid": "5",
+					"username": "summit",
+					"subject": "测试优惠券",
+					"classid": "0",
+					"viewnum": "6",
+					"replynum": "0",
+					"hot": "0",
+					"dateline": "1344237052",
+					"pic": "",
+					"picflag": "0",
+					"noreply": "0",
+					"friend": "0",
+					"password": "",
+					"click_1": "0",
+					"click_2": "0",
+					"click_3": "0",
+					"click_4": "0",
+					"click_5": "0",
+					"joincost": "20",
+					"portion": "3",
+					"endtime": "1344237071",
+					"resulttime": "1344845443",
+					"lastvote": "1344237066",
+					"voternum": "1",
+					"maxchoice": "0",
+					"sex": "0",
+					"keyoid": "106",
+					"keyoption": "3",
+					"totalcost": "60",
+					"hasremind": "1",
+					"hasexceed": "0",
+					"tag": "",
+					"message": "",
+					"postip": "127.0.0.1",
+					"related": "",
+					"relatedtime": "0",
+					"target_ids": "",
+					"hotuser": "",
+					"magiccolor": "0",
+					"magicpaper": "0",
+					"magiccall": "0",
+					"option": [
+						"12",
+						"3"
+					],
+					"invite": ",7",
+					"optioncount": [
+						"2",
+						"1"
+					],
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				},
+				{
+					"quizid": "52",
+					"topicid": "0",
+					"uid": "5",
+					"username": "summit",
+					"subject": "测试优惠券",
+					"classid": "0",
+					"viewnum": "2",
+					"replynum": "0",
+					"hot": "0",
+					"dateline": "1344236417",
+					"pic": "",
+					"picflag": "0",
+					"noreply": "0",
+					"friend": "0",
+					"password": "",
+					"click_1": "0",
+					"click_2": "0",
+					"click_3": "0",
+					"click_4": "0",
+					"click_5": "0",
+					"joincost": "20",
+					"portion": "3",
+					"endtime": "1344236757",
+					"resulttime": "1344844795",
+					"lastvote": "1344236423",
+					"voternum": "1",
+					"maxchoice": "0",
+					"sex": "0",
+					"keyoid": "102",
+					"keyoption": "不能",
+					"totalcost": "20",
+					"hasremind": "1",
+					"hasexceed": "0",
+					"tag": "",
+					"message": "",
+					"postip": "127.0.0.1",
+					"related": "",
+					"relatedtime": "0",
+					"target_ids": "",
+					"hotuser": "",
+					"magiccolor": "0",
+					"magicpaper": "0",
+					"magiccall": "0",
+					"option": [
+						"能",
+						"不能"
+					],
+					"invite": "",
+					"optioncount": [
+						"1",
+						"0"
+					],
+					"avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/05_avatar_small.jpg"
+				}
+			],
+			"count": 2,
+			"reward": {
+				"credit": 1,
+				"experience": 0
+			}
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
+[↑返回顶部](#betit)
+
 ******************************
 <h2>获取注册验证码</h2>
 域名/capi/do.php?ac=register&op=seccode
 #### 请求参数
 	* 操作类型 -- op, 必须为seccode
-
+	
 #### 返回字段
 	* 错误码 -- code, 0:代表成功， 1:代表失败
 	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
