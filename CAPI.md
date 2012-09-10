@@ -2849,7 +2849,7 @@ betit
 
 <h2>发布打赌</h2>
 域名/capi/cp.php?ac=quiz&quizsubmit=true&subject=我的打赌&options[1]=A赢&options[2]=B输&pics[1]=81&pics[2]=79&joincost=20&portion=3
-&endtime=2012-08-15 17:12:12&resulttime=2012-08-16 17:12:12&friend=0&m_auth=af9cCEMpQlfFT
+&endtime=12324324235&resulttime=4343234&friend=0&m_auth=af9cCEMpQlfFT
 
 #### 请求参数
 	* 操作类型(固定搭配) -- quizsubmit: true
@@ -2861,8 +2861,8 @@ betit
 	* B选项的图片id -- pics[2]
 	* 每一份投注需要的金币数 -- joincost
 	* 每个用户可允许的最大投注次数 -- portion
-	* 打赌投注截止时间 -- endtime(传送时要urlencode)
-	* 打赌预计公布答案时间 -- resulttime(传送时要urlencode)
+	* 打赌投注截止时间 -- endtime
+	* 打赌预计公布答案时间 -- resulttime
 	* 是否全站公开 -- frined , 默认0全站公开
 
 #### 返回参数
