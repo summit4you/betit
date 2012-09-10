@@ -43,6 +43,8 @@ betit
 	*	[编写心情](#编写心情)
 	*	[邀请好友](#邀请好友)
 	*	[退出](#退出)
+	*	[单向加好友](#单向加好友)
+	*	[通过好友验证](#通过好友验证)
 
 接口说明
 --------
@@ -2799,7 +2801,7 @@ betit
 <h2>上传图片</h2>
 #### 注意:采用POST上传
 #### POST样例：
-	<!DOCTYPE HTML>
+	`<!DOCTYPE HTML>
 	<html>
 	<head>
 	<meta charset="utf-8">
@@ -2815,7 +2817,7 @@ betit
 	<input type="submit"  name="submit"  value="提交"/>
 	</form>
 	</body>
-	</html>
+	</html>`
 #### 请求参数
 	* 上传文件 -- attach
 	* 操作类型(固定搭配) -- op: uploadphoto2, uploadsubmit2:true, topicid:0. albumid:0, ac:upload
@@ -3185,17 +3187,17 @@ betit
 <h2>更改头像</h2>
 #### 注意:采用POST上传
 #### POST样例：
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
-<title>上传头像</title></head><body>
-<form action="capi/cp.php?ac=avatar" method="post" enctype="multipart/form-data">
-<input type="file" name="Filedata"/><input type="submit"  name="submit"  value="提交"/>
-<input type="hidden" name="m_auth" value="af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2ibMM1tNHXaHYweU%2B8hsBHobKzgHFJs" />
-<input type="hidden" name="ac" value="avatar" />
-<input type="hidden" name="avatarsubmit" id="avatarsubmit" value="true" />
-</form></body>
+	`<!DOCTYPE HTML>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<title>上传头像</title></head><body>
+	<form action="capi/cp.php?ac=avatar" method="post" enctype="multipart/form-data">
+	<input type="file" name="Filedata"/><input type="submit"  name="submit"  value="提交"/>
+	<input type="hidden" name="m_auth" value="af9cCEMpQlfFTifZltugadwhGAXL%2Ba%2BCor8voR9jZyBh60v4xFryq2ibMM1tNHXaHYweU%2B8hsBHobKzgHFJs" />
+	<input type="hidden" name="ac" value="avatar" />
+	<input type="hidden" name="avatarsubmit" id="avatarsubmit" value="true" />
+	</form></body>`
 
 #### 请求参数
 	* 上传头像 -- Filedata
@@ -3323,4 +3325,69 @@ betit
 	    "action": "security_exit"
 	}
 	
+[↑返回顶部](#betit)
+
+<h2>单向加好友</h2>
+域名/capi/cp.php?ac=friend&op=add&uid=7&gid=0&addsubmit=true&note=想认识你&m_auth=c8202FOb80TMCC8F
+
+#### 请求参数
+	* 操作类型（固定搭配） -- ac:friend , op:add, addsubmit=true
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+	* 加为好友的用户id -- uid
+	* 发送请求的消息 -- note
+	* 好友组别 -- gid
+		* 0 -- 其他
+		* 1 -- 通过本站认识
+		* 2 -- 通过活动认识
+		* 3 -- 通过朋友认识
+		* 4 -- 亲人
+		* 5 -- 同事
+		* 6 -- 同学
+		* 7 -- 不认识
+
+#### 返回参数
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, request_has_been_sent:代表成功
+	* 错误信息 -- msg, 详细参见附录
+
+#### 样例
+	{
+		"code": 0,
+		"data": [],
+		"msg": "好友请求已经发送，请等待对方验证中",
+		"action": "request_has_been_sent"
+	}
+[↑返回顶部](#betit)
+
+<h2>通过好友验证</h2>
+域名/capi/cp.php?ac=friend&op=add&uid=13&gid=0&add2submit=true&m_auth=c8202FOb80TMCC8F
+
+#### 请求参数
+	* 操作类型（固定搭配） -- ac:friend , op:add, add2submit=true
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+	* 加为好友的用户id -- uid
+	* 好友组别 -- gid
+		* 0 -- 其他
+		* 1 -- 通过本站认识
+		* 2 -- 通过活动认识
+		* 3 -- 通过朋友认识
+		* 4 -- 亲人
+		* 5 -- 同事
+		* 6 -- 同学
+		* 7 -- 不认识
+
+#### 返回参数
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, request_has_been_sent:代表成功
+	* 错误信息 -- msg, 详细参见附录
+
+#### 样例
+	{
+		"code": 0,
+		"data": [
+			"test8"
+		],
+		"msg": "您和 晓林 成为好友了",
+		"action": "friends_add"
+	}
 [↑返回顶部](#betit)
