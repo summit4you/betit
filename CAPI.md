@@ -45,6 +45,7 @@ betit
 	*	[退出](#退出)
 	*	[单向加好友](#单向加好友)
 	*	[通过好友验证](#通过好友验证)
+	*   [微博登陆](#微博登陆)
 
 接口说明
 --------
@@ -3389,5 +3390,154 @@ betit
 		],
 		"msg": "您和 晓林 成为好友了",
 		"action": "friends_add"
+	}
+[↑返回顶部](#betit)
+
+<h2>微博登陆</h2>
+域名/capi/connect.php?sinauid=2343336&username=2236&name=you&oauth_token=23432432&oauth_token_secret=32423423&avatar=http://www.baidu.com/img/baidu_sylogo1.gif
+
+#### 请求参数
+	* sinauid - 新浪用户id
+	* username - 对应新浪API：[http://open.weibo.com/wiki/2/users/show](http://open.weibo.com/wiki/2/users/show) users/show 返回结果的idstr
+	* name  - 对应新浪API：[http://open.weibo.com/wiki/2/users/show](http://open.weibo.com/wiki/2/users/show) users/show 返回结果的name
+	* oauth_token - 对应新浪OAuth2.0调用后返回的$_SESSION[last_key][oauth_token]
+	* oauth_token_secret - 对应新浪OAuth2.0调用后返回的$_SESSION[last_key][oauth_token_secret]
+	* avatar - 对应新浪API：[http://open.weibo.com/wiki/2/users/show](http://open.weibo.com/wiki/2/users/show) users/show 返回结果的avatar_large
+
+### 返回结果
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 结果 -- data, json数组, 返回操作完成增加的金币和经验
+		* space -- 用户信息
+		* m_auth -- 每次调用接口，需要提供此key以验证用户
+
+#### 样例
+	{
+    	"code": 0,
+	    "data": {
+	        "space": {
+	            "uid": "27",
+	            "sex": "0",
+	            "email": "sina_2236@betit.cn",
+	            "newemail": "",
+	            "emailcheck": "0",
+	            "mobile": "",
+	            "qq": "",
+	            "msn": "",
+	            "msnrobot": "",
+	            "msncstatus": "0",
+	            "videopic": "",
+	            "birthyear": "0",
+	            "birthmonth": "0",
+	            "birthday": "0",
+	            "blood": "",
+	            "marry": "0",
+	            "birthprovince": "",
+	            "birthcity": "",
+	            "resideprovince": "",
+	            "residecity": "",
+	            "note": "",
+	            "spacenote": "",
+	            "authstr": "",
+	            "theme": "",
+	            "nocss": "0",
+	            "menunum": "0",
+	            "css": "",
+	            "privacy": {
+	                "view": {
+	                    "index": "0",
+	                    "friend": "0",
+	                    "wall": "0",
+	                    "feed": "0",
+	                    "mtag": "0",
+	                    "event": "0",
+	                    "doing": "0",
+	                    "blog": "0",
+	                    "quiz": "0",
+	                    "album": "0",
+	                    "share": "0",
+	                    "poll": "0"
+	                },
+	                "feed": {
+	                    "doing": 1,
+	                    "blog": 1,
+	                    "quiz": 1,
+	                    "joinquiz": 1,
+	                    "upload": 1,
+	                    "share": 1,
+	                    "poll": 1,
+	                    "joinpoll": 1,
+	                    "thread": 1,
+	                    "post": 1,
+	                    "mtag": 1,
+	                    "event": 1,
+	                    "join": 1,
+	                    "friend": 1,
+	                    "comment": 1,
+	                    "show": 1,
+	                    "credit": 1,
+	                    "spaceopen": 1,
+	                    "invite": 1,
+	                    "task": 1,
+	                    "profile": 1,
+	                    "click": 1
+	                }
+	            },
+	            "friend": "",
+	            "feedfriend": "",
+	            "sendmail": "",
+	            "magicstar": "0",
+	            "magicexpire": "0",
+	            "timeoffset": "",
+	            "weibo": "",
+	            "groupid": "5",
+	            "credit": "40",
+	            "experience": "30",
+	            "username": "sina_2236",
+	            "name": "you",
+	            "namestatus": "1",
+	            "videostatus": "0",
+	            "domain": "",
+	            "friendnum": "0",
+	            "viewnum": "0",
+	            "notenum": "0",
+	            "addfriendnum": "0",
+	            "mtaginvitenum": "0",
+	            "eventinvitenum": "0",
+	            "myinvitenum": "0",
+	            "pokenum": "0",
+	            "doingnum": "0",
+	            "blognum": "0",
+	            "albumnum": "0",
+	            "threadnum": "0",
+	            "pollnum": "0",
+	            "eventnum": "0",
+	            "sharenum": "0",
+	            "dateline": "1348924152",
+	            "updatetime": "1348924152",
+	            "lastsearch": "0",
+	            "lastpost": "0",
+	            "lastlogin": "1348924919",
+	            "lastsend": "0",
+	            "attachsize": "0",
+	            "addsize": "0",
+	            "addfriend": "0",
+	            "flag": "0",
+	            "newpm": "0",
+	            "avatar": "1",
+	            "regip": "127.0.0.1",
+	            "ip": "127000000",
+	            "mood": "0",
+	            "quiznum": "0",
+	            "winnum": "0",
+	            "lostnum": "0",
+	            "voternum": "0",
+	            "self": 1,
+	            "friends": [],
+	            "allnotenum": 0
+	        },
+	        "m_auth": "8756EDCHNPM%2FY3vbGc1QPbbi40FclNI%2FbXA99nxOW3bw5AQukNz7jmnQ4PctneOU2Tucv0rJr%2FMn4adzc6Hp%2Fg"
+	    },
+	    "msg": "登录成功了，现在引导您进入登录前页面 \\1",
+	    "action": "login_success"
 	}
 [↑返回顶部](#betit)
