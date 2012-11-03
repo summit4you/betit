@@ -26,6 +26,7 @@ betit
 	*   [我参与的打赌](#我参与的打赌)
 	*   [已揭晓的打赌](#已揭晓的打赌)
 	*   [系统未读信息计数器](#系统未读信息计数器)
+	*	[用户登陆状态](#用户登陆状态)
 
 * 上行接口
 	*	[获取注册验证码](#获取注册验证码)
@@ -2653,6 +2654,37 @@ betit
 			"allnotenum": 25,
 			"newpm": "0",
 			"addfriendnum": "0"
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
+
+
+[↑返回顶部](#betit)
+
+<h2>用户登陆状态</h2>
+
+域名/capi/space.php?do=isonline&uid=186
+
+#### 请求参数
+	* 固定参数 -- do, 必须为isonline
+	* uid -- 查询的用户id
+
+#### 返回字段
+
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组,
+		* isonline: 0代表不在线, 1代表新浪微博在线, 2代表腾讯微博在线
+
+
+#### 样例
+
+	{
+		"code": 0,
+		"data": {
+			"isonline": "2"
 		},
 		"msg": "数据获取成功",
 		"action": "rest_success"
