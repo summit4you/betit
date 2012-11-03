@@ -112,6 +112,7 @@ betit
 				* friend -- 成为好友
 			* comments: 若是打赌动态，则会返回两条最新评论
 			* commentnum: 若是打赌动态，则会返回打赌当前的评论总数
+			* isonline: 返回是否在线， 0-不在线, 1-新浪微博在线, 2-腾讯微博在线
 		* data[count], 返回列表条目数, 便用遍历
 #### 样例
 	{
@@ -461,13 +462,11 @@ betit
 [↑返回顶部](#betit)
 
 <h2>全站动态列表接口</h2>
-域名/capi/space.php?do=feed&uid=1&page=0&perpage=10&view=quiz&queryop=down&dateline=13234834&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+域名/capi/space.php?do=feed&page=0&perpage=10&view=quiz&queryop=down&dateline=13234834
 #### 请求参数
-	* 当前用户id -- uid
 	* 第几页 -- page
 	* 每页显示数量  -- perpage
 	* 查询参数 -- view, 值为quiz代表全站打赌动态列表
-	* API密钥 -- m_auth, 由登录后返回
 	* 时间点 -- dateline
 	* 查询方式 -- queryop, 取值可以是up, down
 		* up 代表上拉，取比dateline新的动态
@@ -501,6 +500,7 @@ betit
 				* profile -- 更新资料
 			* comments: 若是打赌动态，则会返回两条最新评论
 			* commentnum: 若是打赌动态，则会返回打赌当前的评论总数
+			* isonline: 返回是否在线， 0-不在线, 1-新浪微博在线, 2-腾讯微博在线
 		* data[count], 返回列表条目数, 便用遍历
 #### 样例
 	{
