@@ -25,6 +25,7 @@ betit
 	*   [我发起的打赌](#我发起的打赌)
 	*   [我参与的打赌](#我参与的打赌)
 	*   [已揭晓的打赌](#我揭晓的打赌)
+	*   [系统未读信息计数器](#系统未读信息计数器接口)
 
 * 上行接口
 	*	[获取注册验证码](#获取注册验证码)
@@ -2621,6 +2622,39 @@ betit
 		"msg": "数据获取成功",
 		"action": "rest_success"
 	}
+[↑返回顶部](#betit)
+
+<h2>系统未读信息计数器</h2>
+域名/capi/space.php?do=stat&m_auth=e8b7zu%2BuRuir9hvAgj%2BLxbZtCgUKnFTojhHKjm9zc%2ByGzcuj2cUL
+
+#### 请求参数
+	* 固定参数 -- do, 必须为stat
+	* API密钥 -- m_auth, 由登录后返回
+
+#### 返回字段
+
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组,
+		* allnotenum: 未读通知数
+		* newpn: 新短消息
+		* addfriendnum: 好友请求
+
+#### 样例
+
+	{
+		"code": 0,
+		"data": {
+			"allnotenum": 25,
+			"newpm": "0",
+			"addfriendnum": "0"
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
+
+
 [↑返回顶部](#betit)
 
 ******************************
