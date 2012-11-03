@@ -2457,7 +2457,9 @@ betit
 
 
 <h2>已揭晓的打赌</h2>
+
 域名/capi/space.php?uid=1&do=quiz&view=me&page=0&perpage=10&filtrate=expiration&dateline=234234324&queryop=up&m_auth=8324dfhg37246dsf
+
 #### 攻略
 	实际上和我发起的打赌类似，只是增加filtrate=expiration
 
@@ -2625,6 +2627,7 @@ betit
 [↑返回顶部](#betit)
 
 <h2>系统未读信息计数器</h2>
+
 域名/capi/space.php?do=stat&m_auth=e8b7zu%2BuRuir9hvAgj%2BLxbZtCgUKnFTojhHKjm9zc%2ByGzcuj2cUL
 
 #### 请求参数
