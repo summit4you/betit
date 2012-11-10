@@ -29,6 +29,7 @@ betit
 	*	[用户登陆状态](#用户登陆状态)
 	*	[好友申请列表](#好友申请列表)
 	*	[我的好友列表](#我的好友列表)
+	*	[我的留言](#我的留言)
 
 * 上行接口
 	*	[获取注册验证码](#获取注册验证码)
@@ -54,6 +55,7 @@ betit
 	*	[删除私信对话](#删除私信对话)
 	*	[同意好友](#同意好友)
 	*	[忽略好友](#忽略好友)
+	*	[留言](#留言)
 
 接口说明
 --------
@@ -3041,6 +3043,64 @@ betit
 	}
 [↑返回顶部](#betit)
 
+<h2>我的留言</h2>
+域名/capi/do.php?ac=ajax&op=getcomment&id=24&idtype=uid&page=0&prepage=1&dateline=234234&queryop=up&m_auth=af9cCEMpQlfFTifZltugadwhG
+
+#### 请求参数
+	* 操作类型 -- op, 必须为getcomment
+	* 查询评论关联的id -- id, 若为打赌，则为打赌id值，若为空间则为用户id值，若为分享则为分享id值
+	* 指示id代表的类型 -- idtype, uid代表空间
+	* 第几页 -- page
+	* 每页显示数量  -- perpage
+	* API密钥 -- m_auth, 由登录后返回
+	* 时间点 -- dateline
+	* 查询方式 -- queryop, 取值可以是up, down
+		* up 代表上拉，取比dateline新的评论
+		* down 代表到底，取紧接着dateline之后的评论
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[comments],评论列表，具体内容如下
+			* 评论id -- cid
+			* 评论对象，用户id -- uid
+			* 评论对象头像 -- avatar
+			* 评论关联的id -- id
+			* 评论类型 -- idtype
+			* 发表评论的用户id -- authorid
+			* 发表评论的用户头像 -- authoravatar
+			* 发表评论的用户名 -- author
+			* 发表的时间 -- dateline
+			* 发表的ip -- ip
+			* 评论的内容 -- message
+		* data[count], 返回列表条目数, 便用遍历
+
+#### 样例
+	{
+    "code": 0,
+    "data": {
+        "comments": [
+            {
+                "cid": "31",
+                "uid": "1",
+                "id": "24",
+                "idtype": "quizid",
+                "authorid": "1",
+                "author": "admin",
+                "ip": "127.0.0.1",
+                "dateline": "1344407149",
+                "message": "234234",
+                "magicflicker": "0",
+                "avatar": "http://localhost:8080/betit/center/data/avatar/000/00/00/01_avatar_small.jpg"
+            }
+        ],
+        "count": 1
+    },
+    "msg": "数据获取成功",
+    "action": "rest_success"
+}
+[↑返回顶部](#betit)
 
 ******************************
 <h2>获取注册验证码</h2>
@@ -4183,5 +4243,34 @@ betit
 		"data": [],
 		"msg": "进行的操作完成了",
 		"action": "do_success"
+	}
+[↑返回顶部](#betit)
+
+<h2>留言</h2>
+域名/capi/cp.php?ac=comment&commentsubmit=true&message=i like you -- summit&idtype=uid&id=55&m_auth=af9cCEMpQlfFT
+
+#### 请求参数
+	* 操作类型(固定搭配) -- commentsubmit: true
+	* 指示id代表的类型 -- idtype, uid代表空间
+	* 评论关联的id -- id
+	* 评论内容 -- message
+	* API密钥 -- m_auth, 每次调用接口，需要提供此key以验证用户
+
+#### 返回参数
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, login_success:代表登录成功
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 返回操作完成增加的金币和经验
+		* credit -- 金币
+		* experience -- 经验
+#### 样例
+	{
+		"code": 0,
+		"data": {
+			"credit": 1,
+			"experience": 1
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
 	}
 [↑返回顶部](#betit)
