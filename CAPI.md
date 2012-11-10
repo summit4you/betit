@@ -30,7 +30,8 @@ betit
 	*	[好友申请列表](#好友申请列表)
 	*	[我的好友列表](#我的好友列表)
 	*	[我的留言](#我的留言)
-	*	[有奖任务列表](#有奖任务例表)
+	*	[有奖任务列表](#有奖任务列表)
+	*	[随机有奖任务提醒](#随机有奖任务提醒)
 
 * 上行接口
 	*	[获取注册验证码](#获取注册验证码)
@@ -57,6 +58,7 @@ betit
 	*	[同意好友](#同意好友)
 	*	[忽略好友](#忽略好友)
 	*	[留言](#留言)
+	*	[参与有奖任务](#参与有奖任务)
 
 接口说明
 --------
@@ -3269,6 +3271,58 @@ betit
 
 [↑返回顶部](#betit)
 
+<h2>随机有奖任务提醒</h2>
+域名/capi/space.php?do=task&m_auth=8616qvbrwntFdXONEB4DnzmNpOGgu%2ByUsAPkcDTJW1JP6iiZv33GnxQBwxeXp
+
+#### 请求参数
+	* 操作类型 -- do, 必须为task
+	* API密钥 -- m_auth, 由登录后返回
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, 随机一条任务,具体内容如下
+		* 任务id -- taskid
+		* 是否完成 -- done, 0代表未完成, 1代表完成
+		* 任务名称 -- name
+		* 任务描述 -- note
+		* 任务图片 -- image
+		* 任务完成次数 -- num
+		* 最大完成次数 -- maxnum
+		* 任务开始时间 -- starttime
+		* 任务结束时间 -- endtime
+		* 下次开始时间 -- nexttime
+		* 开始类型 -- nexttype
+		* 任务完成增加金币 -- credit
+		* 是否进行中 -- available, 1代表进行中, 0代表过期
+		* 优先级 -- displayorder
+
+#### 样例
+	{
+		"code": 0,
+		"data": {
+			"taskid": 7,
+			"available": 1,
+			"name": "领取每日访问大礼包",
+			"note": "每天登录访问自己的主页，就可领取大礼包。",
+			"num": "0",
+			"maxnum": "0",
+			"image": "image/task/gift.gif",
+			"filename": "gift.php",
+			"starttime": "0",
+			"endtime": "0",
+			"nexttime": "0",
+			"nexttype": "day",
+			"credit": 5,
+			"displayorder": 99
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
+
+[↑返回顶部](#betit)
+
 ******************************
 <h2>获取注册验证码</h2>
 域名/capi/do.php?ac=register&op=seccode
@@ -4425,7 +4479,7 @@ betit
 
 #### 返回参数
 	* 错误码 -- code, 0:代表成功， 1:代表失败
-	* 错误类型 -- action, login_success:代表登录成功
+	* 错误类型 -- action, do_success:代表执行成功
 	* 错误信息 -- msg, 详细参见附录
 	* 结果 -- data, json数组, 返回操作完成增加的金币和经验
 		* credit -- 金币
@@ -4442,3 +4496,45 @@ betit
 	}
 [↑返回顶部](#betit)
 
+<h2>参与有奖任务</h2>
+域名/capi/cp.php?ac=task&taskid=1&op=do&m_auth=8616qvbrwntFdXONEB4DnzmNpOGgu%2ByUsAPkcDTJ
+
+#### 请求参数
+	* 操作类型 -- ac, 必须为task, op必须为do
+	* 任务id -- taskid
+	* API密钥 -- m_auth, 由登录后返回
+
+
+#### 返回参数
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, do_success:代表执行成功
+	* data -- 返回任务完成情况
+		* uid -- 用户id
+		* username -- 用户名
+		* taskid -- 任务id
+		* credit -- 任务完成增加的金币
+		* dateline -- 完成时间
+		* isignore -- 是否忽略
+		* note -- 描述
+
+#### 样例
+	{
+		"code": 0,
+		"data": {
+			"task": [
+				{
+					"uid": "27",
+					"username": "sina_2236",
+					"taskid": "1",
+					"credit": "20",
+					"dateline": "1352527844",
+					"isignore": "0",
+					"note": ""
+				}
+			],
+			"count": 1
+		},
+		"msg": "进行的操作完成了",
+		"action": "do_success"
+	}
+[↑返回顶部](#betit)
