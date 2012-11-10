@@ -49,6 +49,7 @@ betit
 	*	[通过好友验证](#通过好友验证)
 	*   [新浪微博登陆](#新浪微博登陆)
 	*   [腾讯微博登陆](#腾讯微博登陆)
+	*	[删除私信对话](#删除私信对话)
 
 接口说明
 --------
@@ -3758,4 +3759,31 @@ betit
 	    "msg": "登录成功了，现在引导您进入登录前页面 \\1",
 	    "action": "login_success"
 	}
+[↑返回顶部](#betit)
+
+<h2>删除私信对话</h2>
+域名/capi/cp.php?ac=pm&op=delete&deletesubmit=true&folder=inbox&pmid=11&m_auth=e06fpS7BlyzRW4L8RbMx4zHLS1nyP5n5tdX0tBKQvVVWG5J
+
+#### 请求参数
+	* ac - 固定搭配pm
+	* op - 固定搭配delete
+	* deletesubmit - 固定搭配true
+	* folder - 固定搭配inbox
+	* pmid - 私信对话id
+	* m_auth - 每次调用接口，需要提供此key以验证用户
+
+### 返回结果
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 结果 -- data, 无
+
+
+#### 样例
+	
+	{
+		"code": 0,
+		"data": [],
+		"msg": "进行的操作完成了",
+		"action": "do_success"
+	}
+
 [↑返回顶部](#betit)
