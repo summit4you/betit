@@ -734,11 +734,13 @@ betit
 [↑返回顶部](#betit)
 
 <h2>私信详情</h2>
-域名/capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
+域名/capi/space.php?do=pm&subop=view&pmid=2&touid=12&daterange=10&page=1&perpage=10&m_auth=55dalDuJytwHteL6s5qlKwHLmhIhpGZ4fZUXHu0
 #### 请求参数
 	* 消息送至的用户id -- touid
 	* 检索消息的区间（几天之内的） -- daterange
 	* 消息id -- pmid
+	* 当前页 -- page, 默认为1
+	* 分页数 -- perpage, 默认为10
 	* 操作参数 -- subop, 必须为view
 	* API密钥 -- m_auth, 由登录后返回
 
