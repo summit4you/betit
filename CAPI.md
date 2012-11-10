@@ -3934,4 +3934,24 @@ betit
 [↑返回顶部](#betit)
 
 <h2>忽略好友</h2>
+域名/capi/cp.php?ac=friend&friendsubmit=true&op=ignore&comfirm=1&uid=1&m_auth=8616qvbrwntFdXONEB4Dnzm
+
+#### 请求参数
+	* ac -- 固定搭配friend
+	* op -- 固定搭配ignore
+	* uid -- 同意的好友id
+	* friendsubmit -- 固定搭配true
+	* m_auth -- 每次调用接口，需要提供此key以验证用户
+
+### 返回结果
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 结果 -- data, 无
+
+#### 样例
+	{
+		"code": 0,
+		"data": [],
+		"msg": "进行的操作完成了",
+		"action": "do_success"
+	}
 [↑返回顶部](#betit)
