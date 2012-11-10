@@ -28,6 +28,7 @@ betit
 	*   [系统未读信息计数器](#系统未读信息计数器)
 	*	[用户登陆状态](#用户登陆状态)
 	*	[好友申请列表](#好友申请列表)
+	*	[我的好友列表](#我的好友列表)
 
 * 上行接口
 	*	[获取注册验证码](#获取注册验证码)
@@ -870,6 +871,7 @@ betit
 			* voternum -- 参加打赌的次数
 			* creditrank -- 金币排行
 			* experiencerank -- 经验排行
+			* online -- 0,代表不在线 , 1代表新浪微博在线, 2代表腾讯微博在线
 		* data[count], 返回列表条目数, 便用遍历
 
 #### 样例
@@ -2811,6 +2813,234 @@ betit
 	}
 
 [↑返回顶部](#betit)
+
+<h2>我的好友列表</h2> 
+域名/capi/space.php?uid=5&do=friend&isinsert=true&m_auth=54f8qnt8HxbRz8NWomy0e4k2gKvVvc6oil8qDY9upUERswmzj
+#### 请求参数
+	* 当前用户id -- uid
+	* API密钥 -- m_auth, 由登录后返回
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, rest_success:代表成功, rest_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* data[friends]，好友列表， 条目字段如下(类似于[登录](#登录)返回的空间信息
+			* groupid -- 所在用户组（级别）
+			* credit -- 金币
+			* experience -- 经验
+			* username -- 用户名
+			* name -- 实名
+			* namestatus -- 是否实名
+			* videostatus -- 是否视频认证
+			* friendnum -- 好友数
+			* viewnum -- 浏览次数
+			* notenum -- 通知数
+			* addfriendnum -- 关注数
+			* doingnum -- 心情数
+			* spacenote -- 心情
+			* lastpost -- 最新提交时间
+			* lastlogin -- 最新登录时间
+			* attachsize -- 空间大小
+			* flag -- 是否被禁
+			* newpm -- 是否有新通知
+			* avatar -- 个人头像
+			* quiznum -- 发布的打赌数
+			* winnum -- 赢的次数
+			* lostnum -- 输的次数
+			* voternum -- 参加打赌的次数
+			* creditrank -- 金币排行
+			* experiencerank -- 经验排行
+			* online -- 0,代表不在线 , 1代表新浪微博在线, 2代表腾讯微博在线
+		* data[count], 返回列表条目数, 便用遍历
+
+#### 样例
+	{
+		"code": 0,
+		"data": {
+			"friends": [
+				{
+					"uid": "5",
+					"groupid": "11",
+					"credit": "1040",
+					"experience": "1004",
+					"username": "summit",
+					"name": "",
+					"namestatus": "0",
+					"videostatus": "0",
+					"domain": "",
+					"friendnum": "10",
+					"viewnum": "20",
+					"notenum": "22",
+					"addfriendnum": "0",
+					"mtaginvitenum": "0",
+					"eventinvitenum": "0",
+					"myinvitenum": "0",
+					"pokenum": "0",
+					"doingnum": "0",
+					"blognum": "0",
+					"albumnum": "0",
+					"threadnum": "0",
+					"pollnum": "0",
+					"eventnum": "0",
+					"sharenum": "0",
+					"dateline": "1343726668",
+					"updatetime": "1343726701",
+					"lastsearch": "0",
+					"lastpost": "1343726701",
+					"lastlogin": "1344936333",
+					"lastsend": "0",
+					"attachsize": "0",
+					"addsize": "0",
+					"addfriend": "0",
+					"flag": "0",
+					"newpm": "0",
+					"avatar": "http://58.215.187.8:8081/center/images/noavatar_small.gif",
+					"regip": "113.111.115.181",
+					"ip": "74125184",
+					"mood": "0",
+					"quiznum": "0",
+					"winnum": "1",
+					"lostnum": "0",
+					"voternum": "1",
+					"resideprovince": "",
+					"residecity": "",
+					"note": "",
+					"spacenote": "",
+					"sex": "0",
+					"gid": "0",
+					"num": "5",
+					"creditrank": "4",
+					"experiencerank": "3",
+					"p": "",
+					"c": "",
+					"group": "其他",
+					"isfriend": 1
+				},
+				{
+					"uid": "1",
+					"groupid": "5",
+					"credit": "152",
+					"experience": "45",
+					"username": "admin",
+					"name": "",
+					"namestatus": "0",
+					"videostatus": "0",
+					"domain": "",
+					"friendnum": "8",
+					"viewnum": "7",
+					"notenum": "1",
+					"addfriendnum": "0",
+					"mtaginvitenum": "0",
+					"eventinvitenum": "0",
+					"myinvitenum": "0",
+					"pokenum": "1",
+					"doingnum": "0",
+					"blognum": "1",
+					"albumnum": "0",
+					"threadnum": "0",
+					"pollnum": "0",
+					"eventnum": "0",
+					"sharenum": "0",
+					"dateline": "1343725030",
+					"updatetime": "1343873852",
+					"lastsearch": "0",
+					"lastpost": "1343873852",
+					"lastlogin": "1346209918",
+					"lastsend": "0",
+					"attachsize": "2155640",
+					"addsize": "0",
+					"addfriend": "0",
+					"flag": "0",
+					"newpm": "0",
+					"avatar": "http://58.215.187.8:8081/center/images/noavatar_small.gif",
+					"regip": "127.0.0.1",
+					"ip": "113111119",
+					"mood": "0",
+					"quiznum": "2",
+					"winnum": "0",
+					"lostnum": "1",
+					"voternum": "2",
+					"resideprovince": "",
+					"residecity": "",
+					"note": "",
+					"spacenote": "",
+					"sex": "0",
+					"gid": "0",
+					"num": "1",
+					"creditrank": "4",
+					"experiencerank": "3",
+					"p": "",
+					"c": "",
+					"group": "其他",
+					"isfriend": 1
+				},
+				{
+					"uid": "14",
+					"groupid": "5",
+					"credit": "79",
+					"experience": "14",
+					"username": "lin",
+					"name": "",
+					"namestatus": "0",
+					"videostatus": "0",
+					"domain": "",
+					"friendnum": "5",
+					"viewnum": "3",
+					"notenum": "0",
+					"addfriendnum": "0",
+					"mtaginvitenum": "0",
+					"eventinvitenum": "0",
+					"myinvitenum": "0",
+					"pokenum": "2",
+					"doingnum": "0",
+					"blognum": "0",
+					"albumnum": "0",
+					"threadnum": "0",
+					"pollnum": "0",
+					"eventnum": "0",
+					"sharenum": "0",
+					"dateline": "1344825403",
+					"updatetime": "0",
+					"lastsearch": "0",
+					"lastpost": "0",
+					"lastlogin": "1345707145",
+					"lastsend": "0",
+					"attachsize": "0",
+					"addsize": "0",
+					"addfriend": "0",
+					"flag": "0",
+					"newpm": "0",
+					"avatar": "http://58.215.187.8:8081/center/images/noavatar_small.gif",
+					"regip": "113.111.133.144",
+					"ip": "113111117",
+					"mood": "0",
+					"quiznum": "0",
+					"winnum": "0",
+					"lostnum": "0",
+					"voternum": "2",
+					"resideprovince": "",
+					"residecity": "",
+					"note": "",
+					"spacenote": "",
+					"sex": "0",
+					"gid": "0",
+					"num": "0",
+					"creditrank": "4",
+					"experiencerank": "3",
+					"p": "",
+					"c": "",
+					"group": "其他",
+					"isfriend": 1
+				}
+			],
+			"count": 3
+		},
+		"msg": "数据获取成功",
+		"action": "rest_success"
+	}
+[↑返回顶部](#betit)
+
 
 ******************************
 <h2>获取注册验证码</h2>
