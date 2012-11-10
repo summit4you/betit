@@ -51,6 +51,8 @@ betit
 	*   [新浪微博登陆](#新浪微博登陆)
 	*   [腾讯微博登陆](#腾讯微博登陆)
 	*	[删除私信对话](#删除私信对话)
+	*	[同意好友](#同意好友)
+	*	[忽略好友](#忽略好友)
 
 接口说明
 --------
@@ -3902,4 +3904,34 @@ betit
 		"action": "do_success"
 	}
 
+[↑返回顶部](#betit)
+
+<h2>同意好友</h2>
+域名/capi/cp.php?ac=friend&op=add&uid=1&gid=1&add2submit=truem_auth=8616qvbrwntFdXONEB4DnzmNpOGgu%2ByUsAPkcDTJW1JP6iiZv33GnxQBwxeXpzC5EaOQcbkr75loElfQx9j6uw
+
+#### 请求参数
+	* ac -- 固定搭配friend
+	* op -- 固定搭配add
+	* uid -- 同意的好友id
+	* gid -- 好友组，这里默认是1代表通过本站认识
+	* add2submit -- 固定搭配true
+	* m_auth -- 每次调用接口，需要提供此key以验证用户
+
+### 返回结果
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 结果 -- data, 用户名
+
+#### 样例
+	{
+		"code": 0,
+		"data": [
+			"admin"
+		],
+		"msg": "您和 admin 成为好友了",
+		"action": "friends_add"
+	}
+
+[↑返回顶部](#betit)
+
+<h2>忽略好友</h2>
 [↑返回顶部](#betit)
