@@ -31,6 +31,7 @@ betit
 	*	[我的好友列表](#我的好友列表)
 	*	[我的留言](#我的留言)
 	*	[有奖任务列表](#有奖任务列表)
+	*   [查询是否完成任务](#查询是否完成任务)
 	*	[随机有奖任务提醒](#随机有奖任务提醒)
 
 * 上行接口
@@ -3268,6 +3269,36 @@ betit
 		"msg": "进行的操作完成了",
 		"action": "do_success"
 	}
+
+[↑返回顶部](#betit)
+
+
+<h2>查询是否完成任务</h2>
+域名/capi/cp.php?ac=task&taskid=6&op=check&m_auth=8616qvbrwntFdXONEB4DnzmNpOGgu%2ByUsAPkcDTJW1JP6iiZv33GnxQBwxeXp
+
+#### 请求参数
+	* 操作类型 -- ac, 必须为task
+	* 查询参数 -- op, 必须为check
+	* API密钥 -- m_auth, 由登录后返回
+
+#### 返回字段
+	* 错误码 -- code, 0:代表成功， 1:代表失败
+	* 错误类型 -- action, do_success:代表成功, do_fail:代表失败
+	* 错误信息 -- msg, 详细参见附录
+	* 结果 -- data, json数组, 本操作返回两个数据
+		* done -- 0代表可以领取奖励，1代表不可以领取奖励
+
+
+#### 样例
+
+	{
+    "code": 0,
+    "data": {
+        "done": 0
+    },
+    "msg": "进行的操作完成了",
+    "action": "do_success"
+}
 
 [↑返回顶部](#betit)
 
